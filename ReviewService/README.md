@@ -29,7 +29,7 @@ Incluye contenido escrito, calificación, relación con el juego y sistema de li
 |-------------|-------------------|-------------|
 | `_id`       | UUID (string)     | ID único generado por la base de datos |
 | `userId`    | UUID (string)     | ID del autor de la reseña (referencia al `AuthService`) |
-| `gameId`    | string            | ID del juego reseñado (ej: `steam_620`) |
+| `gameId`    | string            | ID del juego reseñado. Hace referencia al servicio `GameService` donde se almacena la información detallada del juego |
 | `content`   | string            | Texto de la reseña |
 | `rating`    | number (0.0–5.0)  | Calificación numérica dada al juego |
 | `createdAt` | datetime (ISO)    | Fecha de publicación de la reseña |
@@ -40,11 +40,11 @@ Incluye contenido escrito, calificación, relación con el juego y sistema de li
 
 ## ❤️ Sistema de Likes
 
-- El campo `likes` representa el total de likes recibidos
-- El campo `likedBy` contiene una lista con los IDs de usuarios que han dado like
+- El campo `likes` representa el total de likes recibidos.
+- El campo `likedBy` contiene una lista con los IDs de usuarios que han dado like.
 - Para evitar que un usuario repita su like:
-  - Solo se puede hacer `like` si `userId` **no está en** `likedBy`
-  - Solo se puede hacer `unlike` si `userId` **sí está en** `likedBy`
+  - Solo se puede hacer `like` si `userId` **no está en** `likedBy`.
+  - Solo se puede hacer `unlike` si `userId` **sí está en** `likedBy`.
 
 ### Dar like
 
@@ -74,9 +74,23 @@ await Review.updateOne(
 
 ## 🔐 Consideraciones
 
-- Se recomienda indexar `userId` y `gameId` para optimizar búsquedas
-- Se puede mostrar `likes` públicamente, pero `likedBy` puede mantenerse interno
-- Validar que `likes` no sea menor a 0
+- Se recomienda indexar `userId` y `gameId` para optimizar búsquedas.
+- Se puede mostrar `likes` públicamente, pero `likedBy` debe mantenerse interno para evitar exponer IDs de usuarios.
+- Es importante validar que el campo `likes` no sea menor a 0.
 
 ---
 
+
+## 🔗 Relación con otros servicios
+
+- **`userId`**: Este campo hace referencia al **usuario que escribió la reseña**. El valor de `userId` corresponde a un documento en el **`AuthService`**.  
+
+- **`gameId`**: Este campo hace referencia al **juego sobre el cual se ha escrito la reseña**. El valor de `gameId` corresponde a un documento en el **`GameService`**.  
+
+### ¿Cómo se gestionan estas relaciones?
+
+1. Cuando un usuario escribe una reseña, solo se guarda su `userId` (referencia a `AuthService`) y el `gameId` (referencia a `GameService`).
+2. Cuando mostramos una reseña, usamos esas referencias para hacer consultas a **`AuthService`** y **`GameService`** para obtener los detalles de usuario y juego.
+
+
+---
