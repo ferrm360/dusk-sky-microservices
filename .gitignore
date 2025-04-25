@@ -1,0 +1,112 @@
+# ========================
+# GLOBAL IGNORE
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.env
+.env.*
+.envrc
+!.env.example
+!.env.template
+
+# IDEs & Configs
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# ========================
+# DOTNET / C#
+# ========================
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.sln.iml
+*.vs/
+secrets.json
+wwwroot/
+
+# User secrets & config
+*.userprefs
+*.launchSettings.json
+
+# ========================
+# NODE.JS / JAVASCRIPT
+# ========================
+**/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+.vite/
+dist/
+.build/
+
+# ========================
+# PYTHON
+# ========================
+*.py[cod]
+*.pyo
+__pycache__/
+env/
+venv/
+.venv/
+*.egg
+*.egg-info/
+Pipfile.lock
+pip-log.txt
+
+# ========================
+# JAVA / MAVEN / GRADLE
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+.settings/
+
+# ========================
+# DOCKER
+# ========================
+*.tar
+docker-compose.override.yml
+
+# ========================
+# DATABASE / BACKUPS
+# ========================
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# ========================
+# ARCHIVES
+# ========================
+*.zip
+*.rar
+*.7z
+*.tgz
+*.gz
+
+# ========================
+# TEST / COVERAGE / TOOLS
+# ========================
+coverage/
+.nyc_output/
+*.lcov
+test-output/
+.nunit/
+test-results.xml
