@@ -1,0 +1,68 @@
+[{
+  "_id": "8f153852-ee29-49f5-8472-80896718f774",
+  "name": "Action"
+},
+{
+  "_id": "ce70cd06-8da2-407d-8008-2cdbd6ddb0f5",
+  "name": "Strategy"
+},
+{
+  "_id": "51c46bde-5f5b-4d2e-97d5-3c05a972a819",
+  "name": "Free To Play"
+},
+{
+  "_id": "2c2339f5-c438-480f-97f7-497595b2a237",
+  "name": "Adventure"
+},
+{
+  "_id": "9e314058-a47f-4a64-b484-a5db1669c8a9",
+  "name": "Massively Multiplayer"
+},
+{
+  "_id": "a92e79a6-b3dc-4cd2-8ffa-4e37566773b7",
+  "name": "Indie"
+},
+{
+  "_id": "0495fd57-1606-4af2-957c-aa9356083c66",
+  "name": "RPG"
+},
+{
+  "_id": "c1ebda42-e2b2-47d0-ad1e-03295a90fd57",
+  "name": "Early Access"
+},
+{
+  "_id": "251d794d-1f5d-4f0b-a5ff-216b2aa77d98",
+  "name": "Ação"
+},
+{
+  "_id": "e11033d0-b707-41ad-a5be-d573ad6c2f9f",
+  "name": "Casual"
+},
+{
+  "_id": "6d619be5-7bc6-4cbc-bccf-b3d5c71464b1",
+  "name": "Simulation"
+},
+{
+  "_id": "a6bd2ce1-0b3f-4a4e-8042-96bf53b27423",
+  "name": "Animation & Modeling"
+},
+{
+  "_id": "1512cab8-f898-49e8-ada0-c2884b83b0d8",
+  "name": "Design & Illustration"
+},
+{
+  "_id": "8aec3071-df87-4472-a99d-7610b4b8cc2f",
+  "name": "Photo Editing"
+},
+{
+  "_id": "5dac296a-1562-443a-919c-9049bcae1e07",
+  "name": "Utilities"
+},
+{
+  "_id": "5af434ed-da41-42c8-8418-abe628292c38",
+  "name": "Sports"
+},
+{
+  "_id": "8543d9eb-00d5-48cc-b6ea-18ed34bbf7b1",
+  "name": "Racing"
+}]
