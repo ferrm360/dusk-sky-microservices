@@ -12,3 +12,16 @@
 | `ModerationService`       | 🟣 **C#** | Reportes, sanciones y moderación. |
 | `GameListService`         | 🟣 **C# (.NET)** | Listas personalizadas de videojuegos (tipo Letterboxd). |
 
+## 🗄️ Microservicios con SQL
+
+Los siguientes servicios utilizan bases de datos **relacionales (SQL)** por sus necesidades de integridad, relaciones entre entidades y validaciones estrictas:
+
+| Microservicio         | Base de datos | Razón principal |
+|------------------------|----------------|------------------|
+| `FriendshipService`    | MySQL / MariaDB | Relación única entre pares de usuarios (A-B = B-A), fácil de validar con índices |
+| `ModerationService`    | MySQL / MariaDB | Control estructurado de reportes y sanciones, con enums y relaciones 1:1 |
+
+🧠 Ambos servicios se benefician de:
+- Enums para estados (`pending`, `accepted`, `resolved`, etc.)
+- Índices únicos y claves foráneas
+- Mejor control de duplicados e integridad referencial
