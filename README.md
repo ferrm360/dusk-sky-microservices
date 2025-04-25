@@ -1,1 +1,1 @@
-# dusk0-sky-microservices
+# dusk-sky-microservices
