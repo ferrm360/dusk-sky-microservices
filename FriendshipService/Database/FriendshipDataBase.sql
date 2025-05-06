@@ -11,8 +11,6 @@ CREATE TABLE Friendship (
   requested_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE UNIQUE INDEX idx_friendship_unique_pair
-ON Friendship (
-  LEAST(sender_id, receiver_id),
-  GREATEST(sender_id, receiver_id)
-);
+-- Índice único solo por orden directa, sin usar funciones
+CREATE UNIQUE INDEX idx_sender_receiver_unique
+ON Friendship (sender_id, receiver_id);
