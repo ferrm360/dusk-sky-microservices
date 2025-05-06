@@ -1,11 +1,25 @@
-fastapi==0.90.0
-sqlalchemy==2.0.0
-sqlalchemy[asyncio]==2.0.0
-asyncmy==0.2.10
-pytest==8.2.0
-pytest-asyncio==0.19.0
-httpx==0.23.0  # Si estás haciendo pruebas HTTP con TestClient de FastAPI
-uvicorn==0.18.0  # Si estás ejecutando FastAPI con Uvicorn
-pymysql==1.1.1
-pydantic==1.10.13
-python-dotenv==1.0.1
+# FastAPI y el servidor ASGI para ejecutar la app
+fastapi==0.95.1  # Última versión estable de FastAPI
+uvicorn==0.18.0  # Servidor ASGI recomendado para FastAPI
+
+# SQLAlchemy para manejar la base de datos (asíncrona)
+sqlalchemy==2.0.9  # Última versión estable de SQLAlchemy (sincrónica y asincrónica)
+asyncmy==0.2.10  # Conexión asíncrona a MySQL compatible con SQLAlchemy 2.x (se recomienda sobre aiomysql)
+# No es necesario aiomysql si usas asyncmy, ya que asyncmy está diseñado para SQLAlchemy 2.x
+
+# Controlador para hacer pruebas asíncronas
+httpx==0.23.0  # Para pruebas HTTP asíncronas con TestClient de FastAPI
+
+# Pydantic para la validación de datos en FastAPI
+pydantic==1.10.13  # Última versión estable de Pydantic compatible con FastAPI
+
+# pytest y pytest-asyncio para pruebas asíncronas
+pytest==8.2.0  # Para realizar pruebas con pytest
+pytest-asyncio==0.19.0  # Para soportar pruebas asíncronas en pytest
+
+# Variables de entorno
+python-dotenv==1.0.1  # Para cargar variables de entorno desde un archivo .env
+
+# Si estás usando bases de datos relacionales y necesitas un ORM completo
+# Si en algún momento decides migrar a PostgreSQL puedes usar asyncpg, de momento no es necesario
+# asyncpg==0.26.0  # Para conexiones asíncronas a PostgreSQL (opcional)
