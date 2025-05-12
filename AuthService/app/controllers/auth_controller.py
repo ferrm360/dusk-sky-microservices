@@ -19,11 +19,13 @@ async def register_user(user_in: user.UserCreate, db: AsyncIOMotorDatabase) -> u
         raise ValueError("Username or email already taken")
 
     hashed_password, password_salt = security.hash_password(user_in.password)
-    user_data = user_in.dict()
-    del user_data["password"]
-    user_data["created_at"] = datetime.utcnow()
+    new_user_data = user.User(
+        username=user_in.username,
+        email=user_in.email,
+        created_at=datetime.utcnow()
+    ).dict()
 
-    result = await users_collection.insert_one(user_data)
+    result = await users_collection.insert_one(new_user_data)
     new_user_id = result.inserted_id
 
     await user_secrets_collection.insert_one({
@@ -52,8 +54,20 @@ async def login_for_access_token(login_request: LoginRequest.LoginRequest, db: A
         raise ValueError("Incorrect username or password")
 
     access_token_expires = timedelta(minutes=settings.settings.JWT_ACCESS_TOKEN_EXPIRE_MINUTES)
+
+    user_data_for_token = {
+        "_id": str(user["_id"]),
+        "username": user["username"],
+        "email": user["email"],
+        "role": user.get("role", "player"),
+        "status": user.get("status", "active"),
+        "created_at": user["created_at"].isoformat()
+    }
+
     access_token = security.create_access_token(
-        subject=str(user["_id"]), expires_delta=access_token_expires
+        subject=str(user["_id"]),
+        user_data=user_data_for_token,
+        expires_delta=access_token_expires
     )
 
     return {"access_token": access_token, "token_type": "bearer"}
