@@ -35,7 +35,7 @@ async def register_user(user_in: user.UserCreate, db: AsyncIOMotorDatabase) -> u
     })
 
     new_user = await users_collection.find_one({"_id": new_user_id})
-    new_user["_id"] = str(new_user["_id"])  # Convertir ObjectId a string
+    new_user["_id"] = str(new_user["_id"])  # TODO Convertir ObjectId a string
     return user.UserInDB(**new_user)
 
 async def login_for_access_token(login_request: LoginRequest.LoginRequest, db: AsyncIOMotorDatabase) -> token.Token:

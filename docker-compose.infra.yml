@@ -1,0 +1,22 @@
+# DUSK-SKY-MICROSERVICES/docker-compose.infra.yml
+version: '3.8'
+
+services:
+  rabbitmq_server:
+    image: rabbitmq:3-management
+    container_name: shared_rabbitmq_server # Un nombre claro para el contenedor
+    ports:
+      - "5672:5672"   # Puerto AMQP para que los servicios se conecten
+      - "15672:15672" # Puerto para el panel de administración web
+    volumes:
+      - rabbitmq_shared_data:/var/lib/rabbitmq # Volumen para persistir datos de RabbitMQ
+    networks: # Es buena práctica definir explícitamente la red
+      - microservices_shared_net
+
+volumes:
+  rabbitmq_shared_data:
+
+networks:
+  microservices_shared_net: # Nombre de la red compartida
+    driver: bridge          # Tipo de red más común para Docker Compose
+    name: dusk_sky_shared_network # Nombre explícito para la red Docker (opcional, pero ayuda a identificarla)

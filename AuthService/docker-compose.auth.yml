@@ -1,0 +1,60 @@
+# DUSK-SKY-MICROSERVICES/AuthService/docker-compose.auth.yml
+version: '3.8'
+
+services:
+  auth_service:
+    build:
+      context: . # El contexto es el directorio actual (AuthService/), donde está este yml y el Dockerfile
+      dockerfile: Dockerfile
+    container_name: auth_service_app_isolated # Nombre único para este contenedor de la app
+    ports:
+      - "8001:8000" # Puerto para la API de AuthService en tu máquina (ej. localhost:8001)
+    volumes:
+      # Monta tu código local 'app' (que está en AuthService/app)
+      # La ruta DENTRO del contenedor debe coincidir con tu WORKDIR en el Dockerfile
+      - ./app:/app/auth_service/app # Asumiendo WORKDIR /app/auth_service en tu Dockerfile
+    environment:
+      # AuthService se conecta a SU PROPIA instancia de MongoDB definida ABAJO en este mismo archivo
+      MONGODB_URI: "mongodb://mongo_for_auth:27017/" # 'mongo_for_auth' es el nombre del servicio Mongo aquí
+      MONGODB_NAME: "auth_service_db"              # Nombre de la base de datos lógica para este servicio
+      
+      # Conexión al RabbitMQ que corre en el HOST (levantado por DUSK-SKY-MICROSERVICES/docker-compose.infra.yml)
+      # 'host.docker.internal' es una DNS especial en Docker Desktop (Win/Mac) 
+      # que resuelve a la IP de tu máquina host desde DENTRO de un contenedor.
+      RABBITMQ_URL: "amqp://guest:guest@host.docker.internal:5672/"
+      
+      PYTHONUNBUFFERED: 1
+      # Asegúrate de que tus variables JWT estén definidas aquí o en un .env que se copie al Dockerfile
+      JWT_SECRET_KEY: "${JWT_SECRET_KEY_AUTH}" # Ejemplo de cómo podrías leerla de un .env en AuthService/
+      JWT_ACCESS_TOKEN_EXPIRE_MINUTES: "${JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH:-30}" # Con valor por defecto
+      JWT_ALGORITHM: "${JWT_ALGORITHM_AUTH:-HS256}"
+    depends_on:
+      - mongo_for_auth # Depende de su propia instancia de Mongo definida en este archivo
+    networks:
+      # Opcional: una red para este pequeño stack si no usas host.docker.internal para RabbitMQ
+      # y necesitas conectarte a una red externa compartida.
+      # Por ahora, con host.docker.internal, la red por defecto de este compose es suficiente.
+      - auth_internal_net
+
+  # Instancia de MongoDB DEDICADA para AuthService
+  mongo_for_auth: # Nombre del servicio para este MongoDB
+    image: mongo:latest
+    container_name: mongo_for_auth_container_isolated # Nombre único para este contenedor Mongo
+    ports:
+      # Mapea el puerto interno 27017 de ESTE Mongo a un puerto ÚNICO en TU MÁQUINA.
+      # Como otros servicios también tendrán su propio Mongo, cada uno debe usar un puerto de host diferente.
+      # Ejemplo: AuthService usa 27017, UserManagerService usará 27018, etc.
+      - "27017:27017" 
+    volumes:
+      - mongo_auth_data:/data/db # Volumen de datos separado para este Mongo
+    networks:
+      - auth_internal_net
+
+# Volúmenes Nombrados (específicos para este stack de AuthService)
+volumes:
+  mongo_auth_data:
+
+# Red interna para este stack de AuthService (opcional si todo se resuelve bien sin ella)
+networks:
+  auth_internal_net:
+    driver: bridge
