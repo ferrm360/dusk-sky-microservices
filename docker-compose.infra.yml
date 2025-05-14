@@ -13,8 +13,23 @@ services:
     networks: 
       - microservices_shared_net
 
+  comment_mongodb:
+    image: mongo:latest
+    container_name: comment_mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${COMMENT_MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${COMMENT_MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${COMMENT_MONGO_DATABASE}
+    ports:
+      - "27023:27017"
+    volumes:
+      - comment_mongo_data:/data/db
+    networks:
+      - microservices_shared_net
+
 volumes:
   rabbitmq_shared_data:
+  comment_mongo_data:
 
 networks:
   microservices_shared_net: 
