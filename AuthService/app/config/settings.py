@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     MONGODB_URI: str
     MONGODB_NAME: str = "auth_db"
-    RABBITMQ_URL: str # <--- ¡AÑADE ESTA LÍNEA!
+    RABBITMQ_URL: str
 
     
     JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
