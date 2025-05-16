@@ -1,0 +1,39 @@
+services:
+  app:
+    build:
+      context: .  
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_USER=${COMMENT_MONGO_USER}
+      - MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD}
+      - MONGO_INITDB_ROOT_USERNAME=${COMMENT_MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${COMMENT_MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${COMMENT_MONGO_DATABASE}
+      - MONGO_HOST=comment_mongodb         
+    ports:
+      - "8008:8008"
+    depends_on:
+      - comment_mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  comment_mongodb:
+    image: mongo:latest
+    container_name: comment_mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${COMMENT_MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${COMMENT_MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${COMMENT_MONGO_DATABASE}
+    ports:
+      - "27023:27017"
+    volumes:
+      - comment_mongo_data:/data/db
+    networks:
+      - dusk_sky_shared_network
+
+volumes:
+  comment_mongo_data:
+
+networks:
+  dusk_sky_shared_network:
+    external: true

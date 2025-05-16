@@ -3,11 +3,13 @@ WORKDIR /app
 EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-WORKDIR /src
-COPY ["CommentService.Api/CommentService.Api.csproj", "CommentService.Api/"]
-RUN dotnet restore "CommentService.Api/CommentService.Api.csproj"
+WORKDIR /app
+
+
+COPY ["CommentService.Api.csproj", "./"]
+RUN dotnet restore "./CommentService.Api.csproj"
+
 COPY . .
-WORKDIR "/src/CommentService.Api"
 RUN dotnet build "CommentService.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
