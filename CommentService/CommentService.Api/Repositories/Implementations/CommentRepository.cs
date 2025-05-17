@@ -2,6 +2,7 @@ using MongoDB.Driver;
 using CommentService.Api.Models;
 using CommentService.Api.Repositories.Interfaces;
 using CommentService.Api.Enums;
+using MongoDB.Bson;
 
 namespace CommentService.Api.Repositories.Implementations
 {
@@ -14,26 +15,41 @@ namespace CommentService.Api.Repositories.Implementations
             _comments = database.GetCollection<Comment>("comments");
         }
 
-        public async Task<Comment?> GetCommentByIdAsync(string id)
-        {
-            return await _comments.Find(c => c.Id == id).FirstOrDefaultAsync();
-        }
-
+        /// <summary>
+        /// Obtiene todos los comentarios asociados a una reseña.
+        /// </summary>
+        /// <param name="reviewId">ID de la reseña.</param>
+        /// <returns>Lista de comentarios.</returns>
         public async Task<IEnumerable<Comment>> GetCommentsByReviewIdAsync(string reviewId)
         {
             return await _comments.Find(c => c.ReviewId == reviewId).ToListAsync();
         }
 
+        /// <summary>
+        /// Obtiene todos los comentarios asociados a un autor.
+        /// </summary>
+        /// <param name="authorId">ID del autor.</param>
+        /// <returns>Lista de comentarios.</returns>
         public async Task<IEnumerable<Comment>> GetCommentsByAuthorIdAsync(string authorId)
         {
             return await _comments.Find(c => c.AuthorId == authorId).ToListAsync();
         }
 
+        /// <summary>
+        /// Crea un nuevo comentario.
+        /// </summary>
+        /// <param name="comment">Comentario a crear.</param>
         public async Task CreateCommentAsync(Comment comment)
         {
             await _comments.InsertOneAsync(comment);
         }
 
+        /// <summary>
+        /// Actualiza el estado de un comentario.
+        /// </summary>
+        /// <param name="id">ID del comentario.</param>
+        /// <param name="status">Nuevo estado del comentario.</param>
+        /// <returns>True si se actualizó correctamente, false en caso contrario.</returns>
         public async Task<bool> UpdateCommentStatusAsync(string id, CommentStatus status)
         {
             var filter = Builders<Comment>.Filter.Eq(c => c.Id, id);
@@ -42,16 +58,43 @@ namespace CommentService.Api.Repositories.Implementations
             return result.ModifiedCount > 0;
         }
 
+        /// <summary>
+        /// Elimina un comentario por su ID.
+        /// </summary>
+        /// <param name="id">ID del comentario a eliminar.</param>
+        /// <returns>True si se eliminó correctamente, false en caso contrario.</returns>
         public async Task<bool> DeleteCommentAsync(string id)
         {
-            var filter = Builders<Comment>.Filter.Eq(c => c.Id, id);
-            var result = await _comments.DeleteOneAsync(filter);
-            return result.DeletedCount > 0;
+            try
+            {
+                var filter = Builders<Comment>.Filter.Eq("_id", ObjectId.Parse(id));
+                var result = await _comments.DeleteOneAsync(filter);
+                return result.DeletedCount > 0;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
         }
 
+        /// <summary>
+        /// Obtiene todos los comentarios.
+        /// </summary>
+        /// <returns>Lista de todos los comentarios.</returns>
         public async Task<IEnumerable<Comment>> GetAllCommentsAsync()
         {
-            return await _comments.Find(FilterDefinition<Comment>.Empty).ToListAsync(); 
+            return await _comments.Find(FilterDefinition<Comment>.Empty).ToListAsync();
+        }
+
+        /// <summary>
+        /// Obtiene un comentario por su ID.
+        /// </summary>
+        /// <param name="id">ID del comentario.</param>
+        /// <returns>El comentario encontrado o null si no existe.</returns>
+        public async Task<Comment?> GetCommentByIdAsync(string id)
+        {
+            var filter = Builders<Comment>.Filter.Eq("_id", ObjectId.Parse(id));
+            return await _comments.Find(filter).FirstOrDefaultAsync();
         }
     }
 }

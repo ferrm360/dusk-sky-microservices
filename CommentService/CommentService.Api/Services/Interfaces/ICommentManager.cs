@@ -23,6 +23,19 @@ namespace CommentService.Api.Services.Interfaces
         Task<IEnumerable<Comment>> GetCommentsByReviewIdAsync(string reviewId);
 
         /// <summary>
+        /// Obtiene un comentario por su ID.
+        /// </summary>
+        /// <param name="id">ID del comentario.</param>
+        /// <returns>El comentario encontrado o null si no existe.</returns>
+        Task<Comment?> GetCommentByIdAsync(string id);
+
+        /// <summary>
+        /// Obtiene todos los comentarios.
+        /// </summary>
+        /// <returns>Una lista de todos los comentarios.</returns>
+        Task<IEnumerable<Comment>> GetAllCommentsAsync();
+
+        /// <summary>
         /// Actualiza el estado de un comentario.
         /// </summary>
         /// <param name="id">ID del comentario.</param>
