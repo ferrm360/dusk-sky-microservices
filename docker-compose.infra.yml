@@ -1,4 +1,3 @@
-# DUSK-SKY-MICROSERVICES/docker-compose.infra.yml
 version: '3.8'
 
 services:
@@ -13,10 +12,26 @@ services:
     networks: 
       - microservices_shared_net
 
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    ports:
+      - "27023:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+    networks:
+      - microservices_shared_net
+
 volumes:
   rabbitmq_shared_data:
+  mongo_data:
 
 networks:
   microservices_shared_net: 
     driver: bridge         
-    name: dusk_sky_shared_network 
+    name: dusk_sky_shared_network

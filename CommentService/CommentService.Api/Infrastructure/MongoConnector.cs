@@ -1,7 +1,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace CommentService.Api.Services
+namespace CommentService.Api.Infraestructure
 {
     /// <summary>
     /// Gestiona la conexión a MongoDB con reintentos para asegurar la disponibilidad.
@@ -28,7 +28,7 @@ namespace CommentService.Api.Services
         public async Task<IMongoDatabase> ConnectWithRetriesAsync(string connectionString, string databaseName, CancellationToken cancellationToken = default)
         {
             var client = new MongoClient(connectionString);
-            IMongoDatabase database = null;
+            IMongoDatabase database;
 
             for (int attempt = 1; attempt <= _maxRetries; attempt++)
             {

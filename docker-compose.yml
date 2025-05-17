@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    ports:
+      - "27023:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+    networks:
+      - dusk_sky_shared_network
+
+  rabbitmq_server:
+    image: rabbitmq:3-management
+    container_name: shared_rabbitmq_server 
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_shared_data:/var/lib/rabbitmq 
+    networks: 
+      - dusk_sky_shared_network
+
+  commentservice:
+    build:
+      context: ./CommentService/CommentService.Api
+      dockerfile: Dockerfile
+    environment:
+      - COMMENT_MONGO_DATABASE=${COMMENT_MONGO_DATABASE}
+      - COMMENT_MONGO_USER=${COMMENT_MONGO_USER}
+      - COMMENT_MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD}
+      - MONGO_HOST=mongodb
+    ports:
+      - "8008:80"
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  nginx_gateway:
+    image: nginx:latest
+    container_name: nginx_gateway
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - commentservice
+    networks:
+      - dusk_sky_shared_network
+
+volumes:
+  mongo_data:
+  rabbitmq_shared_data:
+
+networks:
+  dusk_sky_shared_network:
+    driver: bridge
