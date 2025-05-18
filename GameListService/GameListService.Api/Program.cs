@@ -26,6 +26,12 @@ string? host = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb";
 
 string connectionString = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource={dbName}";
 
+if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(dbName))
+{
+    throw new InvalidOperationException("Faltan variables de entorno para conectar con MongoDB.");
+}
+
+
 var connector = new MongoConnector();
 var database = await connector.ConnectWithRetriesAsync(connectionString, dbName);
 builder.Services.AddSingleton<IMongoDatabase>(database);

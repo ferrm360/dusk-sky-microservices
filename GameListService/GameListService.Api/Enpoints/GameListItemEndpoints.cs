@@ -1,3 +1,4 @@
+using GameListService.Api.Controllers;
 using GameListService.Api.Models;
 using GameListService.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -11,42 +12,39 @@ namespace GameListService.Api.Endpoints
         {
             app.MapGet("/lists/{listId}/items", async (IGameListManager manager, string listId) =>
             {
-                var items = await manager.GetItemsByListIdAsync(listId);
-                return Results.Ok(items);
+                var controller = new GameListItemController(manager);
+                return await controller.GetItemsByListIdAsync(listId);
             })
-            .WithName("GetItemsByListId")
+            .WithName("GetGameListItems")
             .Produces<IEnumerable<GameListItem>>(StatusCodes.Status200OK)
             .WithOpenApi();
 
-            app.MapPost("/lists/{listId}/items", async (IGameListManager manager, string listId, GameListItem item) =>
+            app.MapPost("/lists/items", async (IGameListManager manager, GameListItem item) =>
             {
-                item.ListId = listId;
-                await manager.AddItemToListAsync(item);
-                return Results.Created($"/lists/{listId}/items/{item.Id}", item);
+                var controller = new GameListItemController(manager);
+                return await controller.AddItemAsync(item);
             })
-            .WithName("AddItemToList")
+            .WithName("AddGameListItem")
             .Produces<GameListItem>(StatusCodes.Status201Created)
             .WithOpenApi();
 
-            app.MapPut("/lists/{listId}/items/{itemId}", async (IGameListManager manager, string listId, string itemId, GameListItem item) =>
+            app.MapPut("/lists/items", async (IGameListManager manager, GameListItem item) =>
             {
-                item.Id = itemId;
-                item.ListId = listId;
-                var result = await manager.UpdateItemAsync(item);
-                return result ? Results.Ok() : Results.NotFound();
+                var controller = new GameListItemController(manager);
+                return await controller.UpdateItemAsync(item);
             })
-            .WithName("UpdateItem")
-            .Produces(StatusCodes.Status200OK)
+            .WithName("UpdateGameListItem")
+            .Produces(StatusCodes.Status204NoContent)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
 
-            app.MapDelete("/lists/{listId}/items/{itemId}", async (IGameListManager manager, string itemId) =>
+            app.MapDelete("/lists/items/{itemId}", async (IGameListManager manager, string itemId) =>
             {
-                var result = await manager.DeleteItemAsync(itemId);
-                return result ? Results.Ok() : Results.NotFound();
+                var controller = new GameListItemController(manager);
+                return await controller.DeleteItemAsync(itemId);
             })
-            .WithName("DeleteItem")
-            .Produces(StatusCodes.Status200OK)
+            .WithName("DeleteGameListItem")
+            .Produces(StatusCodes.Status204NoContent)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
         }

@@ -1,4 +1,9 @@
-namespace GameListService.Repositories.Interfaces
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using GameListService.Api.Models;
+using System.Threading.Tasks;
+
+namespace GameListService.Api.Repositories.Interfaces
 {
     public interface IGameListItemRepository
     {

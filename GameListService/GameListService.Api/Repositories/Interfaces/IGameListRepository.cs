@@ -1,3 +1,5 @@
+using GameListService.Api.Models;
+
 namespace GameListService.Api.Repositories.Interfaces
 {
     public interface IGameListRepository
