@@ -5,16 +5,16 @@ from app.config.settings import settings
 
 _mongo_client_user_manager: Optional[AsyncIOMotorClient] = None
 
-async def get_user_manager_database() -> AsyncIOMotorDatabase:
+async def get_database() -> AsyncIOMotorDatabase:
     global _mongo_client_user_manager
 
     if _mongo_client_user_manager is None:
-        print(f"INFO: [UserManagerDB] Conectando a {settings.MONGODB_URI}")
-        _mongo_client_user_manager = AsyncIOMotorClient(settings.MONGODB_URI)
+        print(f"INFO: [UserManagerDB] Conectando a {settings.MONGODB_URI_USER}")
+        _mongo_client_user_manager = AsyncIOMotorClient(settings.MONGODB_URI_USER)
     else:
         print(f"INFO: [UserManagerDB] Reutilizando conexión Mongo existente.")
 
-    return _mongo_client_user_manager[settings.MONGODB_NAME]
+    return _mongo_client_user_manager[settings.MONGODB_NAME_USER]
 
 async def close_user_manager_mongo_connection():
     global _mongo_client_user_manager

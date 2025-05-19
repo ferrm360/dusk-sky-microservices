@@ -30,13 +30,13 @@ class UserProfileCreate(UserProfileBase):
     @validator("avatar_url", pre=True, always=True)
     def default_avatar(cls, v):
         if v is None:
-            return f"{settings.STATIC_CONTENT_BASE_URL}/avatars/default_avatar.jpg"
+            return f"{settings.STATIC_CONTENT_BASE_URL_USER}/avatars/default_avatar.jpg"
         return v
 
     @validator("banner_url", pre=True, always=True)
     def default_banner(cls, v):
         if v is None:
-            return f"{settings.STATIC_CONTENT_BASE_URL}/banners/default_banner.jpg"
+            return f"{settings.STATIC_CONTENT_BASE_URL_USER}/banners/default_banner.jpg"
         return v
 
     class Config:
@@ -67,13 +67,13 @@ class UserProfileInDB(UserProfileBase):
     @validator("avatar_url", pre=False, always=True)
     def default_avatar_if_missing(cls, v):
         if not v:
-            return f"{settings.STATIC_CONTENT_BASE_URL}/avatars/default_avatar.jpg"
+            return f"{settings.STATIC_CONTENT_BASE_URL_USER}/avatars/default_avatar.jpg"
         return v
 
     @validator("banner_url", pre=False, always=True)
     def default_banner_if_missing(cls, v):
         if not v:
-            return f"{settings.STATIC_CONTENT_BASE_URL}/banners/default_banner.jpg"
+            return f"{settings.STATIC_CONTENT_BASE_URL_USER}/banners/default_banner.jpg"
         return v
 
     class Config:

@@ -2,7 +2,7 @@ import aio_pika
 import json
 from app.config.settings import settings
 
-RABBITMQ_URL = settings.RABBITMQ_URL
+RABBITMQ_URL = settings.RABBITMQ_URL_USER
 EXCHANGE_NAME = "user_events_exchange"
 
 async def publish_user_event(event_type: str, routing_key: str, payload: dict):
