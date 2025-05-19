@@ -13,6 +13,7 @@ services:
     volumes:
       - mongo_data:/data/db
       - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+      - ./ScriptsMongo/init-gamelist-db.js:/docker-entrypoint-initdb.d/init-gamelist-db.js:ro
     networks:
       - dusk_sky_shared_network
 
@@ -43,6 +44,22 @@ services:
     networks:
       - dusk_sky_shared_network
 
+  gamelistservice:
+    build:
+      context: ./GameListService/GameListService.Api
+      dockerfile: Dockerfile
+    environment:
+      - GAMELIST_MONGO_DATABASE=${GAMELIST_MONGO_DATABASE}
+      - GAMELIST_MONGO_USER=${GAMELIST_MONGO_USER}
+      - GAMELIST_MONGO_PASSWORD=${GAMELIST_MONGO_PASSWORD}
+      - MONGO_HOST=mongodb
+    ports:
+      - "8010:80"
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
   nginx_gateway:
     image: nginx:latest
     container_name: nginx_gateway
@@ -54,6 +71,7 @@ services:
       - ./nginx/certs:/etc/nginx/certs:ro
     depends_on:
       - commentservice
+      - gamelistservice
     networks:
       - dusk_sky_shared_network
 
