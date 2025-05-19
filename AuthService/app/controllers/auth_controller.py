@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorDatabase
-
+from ..publishers.user_event_publisher import UserEventPublisher
 from app.config import settings
 from app.models import LoginRequest
 from ..models import user, token
@@ -34,8 +34,16 @@ async def register_user(user_in: user.UserCreate, db: AsyncIOMotorDatabase) -> u
         "password_salt": password_salt,
     })
 
+    publisher = UserEventPublisher()
+    await publisher.publish(
+        event_type="USER_CREATED",
+        routing_key="user.created",  # <- lo escucha UserManagerService
+        payload={"user_id": str(new_user_id)}
+    )
+
+
     new_user = await users_collection.find_one({"_id": new_user_id})
-    new_user["_id"] = str(new_user["_id"])  # TODO Convertir ObjectId a string
+    new_user["_id"] = str(new_user["_id"])
     return user.UserInDB(**new_user)
 
 async def login_for_access_token(login_request: LoginRequest.LoginRequest, db: AsyncIOMotorDatabase) -> token.Token:
@@ -53,7 +61,7 @@ async def login_for_access_token(login_request: LoginRequest.LoginRequest, db: A
     if not user_secret or not security.verify_password(login_request.password, user_secret["password_hash"]):
         raise ValueError("Incorrect username or password")
 
-    access_token_expires = timedelta(minutes=settings.settings.JWT_ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token_expires = timedelta(minutes=settings.settings.JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH)
 
     user_data_for_token = {
         "_id": str(user["_id"]),

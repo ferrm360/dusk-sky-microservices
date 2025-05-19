@@ -11,7 +11,6 @@ from app.models.user_profile_model import (
 
 COLLECTION_NAME = "user_profiles"
 
-# 🔍 Obtener perfil por user_id
 async def get_profile_by_user_id(user_id: str, db: AsyncIOMotorDatabase) -> UserProfileInDB | None:
     doc = await db[COLLECTION_NAME].find_one({"user_id": user_id})
     if doc:
@@ -19,7 +18,6 @@ async def get_profile_by_user_id(user_id: str, db: AsyncIOMotorDatabase) -> User
         return UserProfileInDB(**doc)
     return None
 
-# 🆕 Crear perfil
 async def create_profile(profile_data: UserProfileCreate, db: AsyncIOMotorDatabase) -> UserProfileInDB:
     document = jsonable_encoder(profile_data, by_alias=True)  # Convierte HttpUrl, datetime, etc.
     insert_result = await db[COLLECTION_NAME].insert_one(document)
@@ -28,7 +26,6 @@ async def create_profile(profile_data: UserProfileCreate, db: AsyncIOMotorDataba
     new_doc["_id"] = str(new_doc["_id"])
     return UserProfileInDB(**new_doc)
 
-# ✏️ Actualizar perfil
 async def update_profile(user_id: str, update_data: UserProfileUpdate, db: AsyncIOMotorDatabase) -> UserProfileInDB | None:
     update_doc = jsonable_encoder(update_data, exclude_unset=True)  # Solo campos enviados
     update_doc["updated_at"] = datetime.utcnow()
@@ -45,7 +42,24 @@ async def update_profile(user_id: str, update_data: UserProfileUpdate, db: Async
     updated_doc["_id"] = str(updated_doc["_id"])
     return UserProfileInDB(**updated_doc)
 
-# ❌ Eliminar perfil
 async def delete_profile_by_user_id(user_id: str, db: AsyncIOMotorDatabase) -> bool:
     result = await db[COLLECTION_NAME].delete_one({"user_id": user_id})
     return result.deleted_count > 0
+
+async def create_profile_with_custom_id(user_id: str, db: AsyncIOMotorDatabase) -> UserProfileInDB:
+    try:
+        # Crear instancia con valores por defecto
+        profile_data = UserProfileCreate(user_id=user_id)
+        document = jsonable_encoder(profile_data, by_alias=True)
+        document["_id"] = user_id  # 👈 Mongo usará esto como _id
+
+        await db[COLLECTION_NAME].insert_one(document)
+
+        saved_doc = await db[COLLECTION_NAME].find_one({"_id": user_id})
+        saved_doc["_id"] = str(saved_doc["_id"])
+        return UserProfileInDB(**saved_doc)
+
+    except Exception as e:
+        print(f"[ERROR] No se pudo crear perfil con user_id='{user_id}': {e}")
+        raise
+
