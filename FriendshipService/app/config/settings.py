@@ -1,6 +1,6 @@
 from pydantic_settings import BaseSettings
 from pydantic import Field
-from pathlib import Path
+
 
 class Settings(BaseSettings):
     mysql_user: str = Field(..., env="MYSQL_USER")
@@ -10,8 +10,7 @@ class Settings(BaseSettings):
     mysql_db: str = Field(..., env="MYSQL_DB")
 
     class Config:
-        # Ruta global del archivo .env (ej: desde el root del proyecto)
-        env_file = Path(__file__).resolve().parents[2] / ".env"
+        env_file = ".env"
         env_file_encoding = "utf-8"
 
     @property

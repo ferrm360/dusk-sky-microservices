@@ -16,6 +16,8 @@ def normalize_ids(user1: str, user2: str) -> tuple[str, str]:
     return tuple(sorted([user1, user2]))
 
 async def send_request(sender_id: str, receiver_id: str):
+    if sender_id == receiver_id:
+        raise HTTPException(status_code=400, detail="Cannot send request to yourself")
     user1, user2 = normalize_ids(sender_id, receiver_id)
 
     async with async_session() as session:

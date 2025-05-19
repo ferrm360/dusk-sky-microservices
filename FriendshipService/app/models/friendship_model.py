@@ -1,5 +1,8 @@
 import uuid
 import datetime 
+from pydantic import BaseModel
+from uuid import UUID
+
 from sqlalchemy import (
     Column,
     String,
@@ -30,12 +33,5 @@ class Friendship(Base):
 
     def __repr__(self):
         return f"<Friendship(id='{self.id}', sender_id='{self.sender_id}', receiver_id='{self.receiver_id}', status='{self.status}', requested_at='{self.requested_at}')>"
-
-from pydantic import BaseModel
-
-class FriendshipRequest(BaseModel):
-    sender_id: str
-    receiver_id: str
-
 
 
