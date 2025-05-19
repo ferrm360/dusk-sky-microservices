@@ -1,16 +1,21 @@
 ### 📦 Microservicios y Lenguajes Utilizados
 
-| Microservicio             | Lenguaje        | Descripción breve |
-|---------------------------|-----------------|--------------------|
-| `AuthService`             | 🟢 **Node.js**   | Autenticación, login, registro, JWT. Express + Passport.js. |
-| `UserManagerService`      | 🟢 **Node.js**   | Perfil público, avatar, multimedia. Express + Multer. |
-| `GameService`             | 🟣 **C# (.NET)** | Catálogo de juegos, integración con API de Steam. |
-| `UserGameTrackingService` | 🟣 **C# (.NET)** | Seguimiento personal de juegos: jugando, completado, abandonado. |
-| `ReviewService`           | 🟢 **Phyton**      | Publicación de reseñas, puntuación numérica. |
-| `FriendshipService`       | 🟢 **Node.js** / 🟣 **C#** | Relaciones sociales (amigos, bloqueos). |
-| `CommentService`          | 🟣 **C# (.NET)** | Comentarios en reseñas o perfiles. CRUD sencillo. |
-| `ModerationService`       | 🟣 **C#** | Reportes, sanciones y moderación. |
-| `GameListService`         | 🟣 **C# (.NET)** | Listas personalizadas de videojuegos (tipo Letterboxd). |
+| Microservicio             | Lenguaje                  | API (Puerto Host) | MongoDB/SQL (Puerto Host) | Descripción breve                                        |
+| ------------------------- | ------------------------- | ----------------- | --------------------- | -------------------------------------------------------- |
+| `AuthService`             | 🟢 **Python**             | `8001`            | `27017`               | Autenticación, login, registro, JWT.                     |
+| `UserManagerService`      | 🟢 **Python**             | `8003`            | `27018`               | Perfil público, avatar, multimedia.                      |
+| `GameService`             | 🟣 **C# (.NET)**          | `8004`            | `27019`               | Catálogo de juegos, integración con API de Steam.        |
+| `UserGameTrackingService` | 🟣 **C# (.NET)**          | `8005`            | `27020`               | Seguimiento de juegos (jugando, completado, abandonado). |
+| `ReviewService`           | 🟢 **Python**             | `8006`            | `27021`               | Publicación de reseñas, puntuación numérica.             |
+| `FriendshipService`       | 🟢 **Python** / 🟣 **C#** | `8007`            | `27022`               | Relaciones sociales (amigos, bloqueos).                  |
+| `CommentService`          | 🟣 **C# (.NET)**          | `8008`            | `27023`               | Comentarios en reseñas o perfiles.                       |
+| `ModerationService`       | 🟣 **C# (.NET)**          | `8009`            | `27024`               | Reportes, sanciones y moderación.                        |
+| `GameListService`         | 🟣 **C# (.NET)**          | `8010`            | `27025`               | Listas personalizadas tipo Letterboxd.                   |
+
+
+| Recurso                     | Servicio Docker             | Puerto(s) Host   | Descripción                                                                    |
+| --------------------------- | --------------------------- | ---------------- | ------------------------------------------------------------------------------ |
+| `RabbitMQ`                  | `shared_rabbit`             | `5672`, `15672`  | Sistema de mensajería (pub/sub). `5672` para apps, `15672` para UI de gestión. |
 
 ## 🗄️ Microservicios con SQL
 
