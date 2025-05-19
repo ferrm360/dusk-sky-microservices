@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from controllers import friendship_controller
+from app.controllers import friendship_controller
 
 router = APIRouter(prefix="/friendships")
 

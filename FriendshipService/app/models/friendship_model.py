@@ -7,7 +7,7 @@ from sqlalchemy import (
     DateTime,  
 )
 from sqlalchemy.schema import UniqueConstraint 
-from database import Base 
+from app.Database.database import Base 
 
 class Friendship(Base):
     __tablename__ = "Friendship" 

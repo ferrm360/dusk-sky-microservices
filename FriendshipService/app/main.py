@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.friendship_routes import router as friendship_router
+from app.routes.friendship_routes import router as friendship_router
 
 app = FastAPI()
 

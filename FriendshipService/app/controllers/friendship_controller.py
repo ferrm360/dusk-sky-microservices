@@ -3,8 +3,8 @@ from sqlalchemy.future import select
 from sqlalchemy.orm import sessionmaker
 from fastapi import HTTPException
 import uuid
-from database import engine
-from models.friendship_model import Friendship
+from app.Database.database import engine
+from app.models.friendship_model import Friendship
 
 async_session = sessionmaker(
     engine,
