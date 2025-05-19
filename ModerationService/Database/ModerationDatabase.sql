@@ -1,6 +1,10 @@
 CREATE DATABASE IF NOT EXISTS ModerationDataBase;
 USE ModerationDataBase;
 
+CREATE USER IF NOT EXISTS 'moderationUser'@'%' IDENTIFIED BY 'moderationPassword';
+GRANT ALL PRIVILEGES ON ModerationDataBase.* TO 'moderationUser'@'%';
+FLUSH PRIVILEGES;
+
 DROP TABLE IF EXISTS Sanction;
 DROP TABLE IF EXISTS Report;
 

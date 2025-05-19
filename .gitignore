@@ -114,3 +114,4 @@ test-results.xml
 
 # Archivos de inicialización de Mongo que contienen secretos
 ScriptsMongo/init-*.js
+ScriptsMySQL/init-*.sql

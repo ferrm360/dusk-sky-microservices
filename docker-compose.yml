@@ -17,6 +17,21 @@ services:
     networks:
       - dusk_sky_shared_network
 
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_USERNAME=${MYSQL_ROOT_USERNAME}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MODERATION_MYSQL_DATABASE}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./ScriptsMySQL/init-moderation-db.sql:/docker-entrypoint-initdb.d/init-moderation-db.sql:ro
+    networks:
+      - dusk_sky_shared_network
+
   rabbitmq_server:
     image: rabbitmq:3-management
     container_name: shared_rabbitmq_server 
@@ -59,6 +74,23 @@ services:
       - mongodb
     networks:
       - dusk_sky_shared_network
+    
+  moderationservice:
+    build:
+      context: ./ModerationService/ModerationService.Api
+      dockerfile: Dockerfile
+    environment:
+      - MODERATION_DB_HOST=mysql
+      - MODERATION_DB_PORT=3306
+      - MODERATION_DB_NAME=${MODERATION_MYSQL_DATABASE}
+      - MODERATION_DB_USER=${MODERATION_MYSQL_USER}
+      - MODERATION_DB_PASSWORD=${MODERATION_MYSQL_PASSWORD}
+    ports:
+      - "8009:80"
+    depends_on:
+      - mysql
+    networks:
+      - dusk_sky_shared_network
 
   nginx_gateway:
     image: nginx:latest
@@ -72,13 +104,14 @@ services:
     depends_on:
       - commentservice
       - gamelistservice
+      - moderationservice
     networks:
       - dusk_sky_shared_network
 
 volumes:
   mongo_data:
   rabbitmq_shared_data:
-
+  mysql_data:
 networks:
   dusk_sky_shared_network:
     driver: bridge
