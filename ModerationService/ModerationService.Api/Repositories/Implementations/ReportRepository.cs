@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ModerationService.Api.Models;
 using ModerationService.Api.Repositories.Interfaces;
+using ModerationService.Api.Infrastructure;
 
 namespace ModerationService.Api.Repositories.Implementations
 {
