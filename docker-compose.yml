@@ -103,10 +103,27 @@ services:
     env_file:
       - .env
     ports:
-      - "8002:8000"
+      - "8006:8006"
     environment:
       MONGO_URI: ${MONGO_URI}
       MONGO_DB: ${MONGO_DB}
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  review_service:
+    build:
+      context: ./ReviewService
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8007:8007"
+    environment:
+      MONGO_URI: ${MONGO_REVIEW_URI}
+      MONGO_DB: ${MONGO_REVIEW_DB}
       PYTHONUNBUFFERED: 1
     depends_on:
       - mongodb
