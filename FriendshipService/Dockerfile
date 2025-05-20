@@ -1,14 +1,12 @@
-# Imagen base liviana de Python
 FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /app/friendship_service
 
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./app ./app
-COPY .env .env  
 
 EXPOSE 8000
 
