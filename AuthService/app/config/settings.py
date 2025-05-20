@@ -3,11 +3,13 @@ from pydantic import Field
 from pathlib import Path
 
 class Settings(BaseSettings):
-    mysql_user: str = Field(..., env="MYSQL_USER")
-    mysql_password: str = Field(..., env="MYSQL_PASSWORD")
-    mysql_host: str = Field(..., env="MYSQL_HOST")
-    mysql_port: int = Field(..., env="MYSQL_PORT")
-    mysql_db: str = Field(..., env="MYSQL_DB")
+    MONGODB_URI_AUTH: str
+    MONGODB_NAME_AUTH: str = "auth_db"
+    RABBITMQ_URL_AUTH: str
+    
+    JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH: int = 30
+    JWT_SECRET_KEY_AUTH: str
+    JWT_ALGORITHM_AUTH: str = "HS256"
 
     class Config:
         # Ruta global del archivo .env (ej: desde el root del proyecto)

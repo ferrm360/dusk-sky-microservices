@@ -5,12 +5,12 @@ from pydantic import HttpUrl
 class Settings(BaseSettings):
     PROJECT_NAME: str = "UserManagerService"
 
-    MONGODB_URI: str
-    MONGODB_NAME: str
+    MONGODB_URI_USER: str
+    MONGODB_NAME_USER: str
 
-    RABBITMQ_URL: str
+    RABBITMQ_URL_USER: str
 
-    STATIC_CONTENT_BASE_URL: HttpUrl = "http://localhost:8003/static"
+    STATIC_CONTENT_BASE_URL_USER: HttpUrl = "http://localhost:8003/static"
 
     class Config:
         env_file = ".env",

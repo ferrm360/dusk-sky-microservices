@@ -22,16 +22,16 @@ def create_access_token(subject: str, user_data: dict[str, Any], expires_delta: 
     if expires_delta:
         expire = datetime.utcnow() + expires_delta
     else:
-        expire = datetime.utcnow() + timedelta(minutes=settings.JWT_ACCESS_TOKEN_EXPIRE_MINUTES)
+        expire = datetime.utcnow() + timedelta(minutes=settings.JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH)
     to_encode = {"exp": expire, "sub": str(subject)}
     to_encode.update(user_data)
 
-    encoded_jwt = jwt.encode(to_encode, settings.settings.JWT_SECRET_KEY, algorithm=settings.settings.JWT_ALGORITHM)
+    encoded_jwt = jwt.encode(to_encode, settings.settings.JWT_SECRET_KEY_AUTH, algorithm=settings.settings.JWT_ALGORITHM_AUTH)
     return encoded_jwt
 
 def decode_access_token(token: str) -> str | None:
     try:
-        payload = jwt.decode(token, settings.settings.JWT_SECRET_KEY, algorithms=[settings.settings.JWT_ALGORITHM])
+        payload = jwt.decode(token, settings.settings.JWT_SECRET_KEY, algorithms=[settings.settings.JWT_ALGORITHM_AUTH])
         return payload.get("sub")
     except jwt.PyJWTError:
         return None
@@ -40,7 +40,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 
 def verify_token(token: str = Depends(oauth2_scheme)) -> dict:
     try:
-        payload = jwt.decode(token, settings.settings.JWT_SECRET_KEY, algorithms=[settings.settings.JWT_ALGORITHM])
+        payload = jwt.decode(token, settings.settings.JWT_SECRET_KEY, algorithms=[settings.settings.JWT_ALGORITHM_AUTH])
         return payload  
     except jwt.ExpiredSignatureError:
         raise HTTPException(status_code=401, detail="Token expired")
