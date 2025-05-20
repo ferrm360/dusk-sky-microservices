@@ -1,0 +1,7000 @@
+[{
+  "_id": "f98e7c01-652b-4976-9b8c-51eddf6bc272",
+  "steam_appid": 570,
+  "name": "Dota 2",
+  "owners": "200,000,000 .. 500,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8eed9124-e5bc-4cc7-a8a2-8a795e2ec613",
+  "steam_appid": 730,
+  "name": "Counter-Strike: Global Offensive",
+  "owners": "100,000,000 .. 200,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f3f72e5e-8cb6-46ca-bf09-47d4f2676dcb",
+  "steam_appid": 578080,
+  "name": "PUBG: BATTLEGROUNDS",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bb03b3e5-9c31-44d0-8622-279efa70f9b0",
+  "steam_appid": 1623730,
+  "name": "Palworld",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ac792fb9-bf45-42b0-80f2-6ace17025171",
+  "steam_appid": 1172470,
+  "name": "Apex Legends",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2980469e-31d6-48b7-80eb-3635e0374ef9",
+  "steam_appid": 1063730,
+  "name": "New World: Aeternum",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "51d6fe5e-21b6-4f25-a44a-bb7c27857863",
+  "steam_appid": 2358720,
+  "name": "Black Myth: Wukong",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c5c48c56-b81f-4b7c-83a0-7f578f8bbdaa",
+  "steam_appid": 1938090,
+  "name": "Call of Duty: Modern Warfare II",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c7dca8b-d100-4210-9fa6-51fa0b1cce2a",
+  "steam_appid": 271590,
+  "name": "Grand Theft Auto V Legacy",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0c17d627-67e3-4ab5-88b7-99c6c73db96e",
+  "steam_appid": 550,
+  "name": "Left 4 Dead 2",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "87c355cb-cf2c-4e96-af48-bbe33df0af76",
+  "steam_appid": 553850,
+  "name": "HELLDIVERS 2",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dca7455e-b067-4617-bcb6-45465ad75c13",
+  "steam_appid": 1599340,
+  "name": "Lost Ark",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5a09a13b-f34d-4003-8c0a-824bfeb6e2a7",
+  "steam_appid": 304930,
+  "name": "Unturned",
+  "owners": "50,000,000 .. 100,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6af062a7-d355-4163-83e7-b22357c85aeb",
+  "steam_appid": 236390,
+  "name": "War Thunder",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "860112d7-0e4a-4224-8883-71e737680083",
+  "steam_appid": 1245620,
+  "name": "ELDEN RING",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f16e5a19-81bf-4e82-88e2-01cf5a0c5e79",
+  "steam_appid": 105600,
+  "name": "Terraria",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "01ef372f-6d72-4442-818b-b809d18a052c",
+  "steam_appid": 440,
+  "name": "Team Fortress 2",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2a0fabc7-8d21-4aed-bf88-ccf3bf38d55c",
+  "steam_appid": 291550,
+  "name": "Brawlhalla",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fe644472-e3a2-417b-ae2e-1ee688592a1e",
+  "steam_appid": 1086940,
+  "name": "Baldur's Gate 3",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c6ee3d15-44fb-4f9d-ab7a-3e8b59c769b8",
+  "steam_appid": 431960,
+  "name": "Wallpaper Engine",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6e7b6ecc-fa92-4f36-8812-d56fb996c800",
+  "steam_appid": 4000,
+  "name": "Garry's Mod",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "902c870f-c10c-4421-9d22-76a63f6806c1",
+  "steam_appid": 359550,
+  "name": "Tom Clancy's Rainbow Six Siege",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "60f3838b-6a3c-492f-bed4-6074e5b23880",
+  "steam_appid": 1085660,
+  "name": "Destiny 2",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "090d9ed5-5a94-4001-82af-eb4c811f8244",
+  "steam_appid": 252490,
+  "name": "Rust",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "97bf3ddd-be71-4c03-8e26-507977f1f7d6",
+  "steam_appid": 346110,
+  "name": "ARK: Survival Evolved",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9922e7e6-9d4f-48d4-977f-1c0e83664649",
+  "steam_appid": 892970,
+  "name": "Valheim",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2e4b5125-e94c-4bd2-94b3-6647ef705efa",
+  "steam_appid": 1091500,
+  "name": "Cyberpunk 2077",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4c7d377a-fbd5-4b80-9e26-c1cfa6934594",
+  "steam_appid": 218620,
+  "name": "PAYDAY 2",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7c6d5d88-6fd9-47a8-9c80-f20c52c39576",
+  "steam_appid": 901583,
+  "name": "Grand Theft Auto IV: Complete Edition",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a307e1a8-84e9-4f5c-9364-fe6bc8cecbfa",
+  "steam_appid": 238960,
+  "name": "Path of Exile",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d1708b5f-cd7a-4e3e-a9a4-cfa6b065dcca",
+  "steam_appid": 242760,
+  "name": "The Forest",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4531aceb-f149-49c0-ae18-28b8887a2dcc",
+  "steam_appid": 322330,
+  "name": "Don't Starve Together",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e18d8db1-2295-47b1-b935-19ae0a94bcfe",
+  "steam_appid": 1203220,
+  "name": "NARAKA: BLADEPOINT",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "53dfdec8-090c-4cc3-90b3-522147c5f176",
+  "steam_appid": 899770,
+  "name": "Last Epoch",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c090393-d029-4d37-9100-242c210d3600",
+  "steam_appid": 413150,
+  "name": "Stardew Valley",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "895eac58-5e88-4269-85b6-5881acf4cc79",
+  "steam_appid": 340,
+  "name": "Half-Life 2: Lost Coast",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f014961f-712b-4eb7-90da-962122764213",
+  "steam_appid": 381210,
+  "name": "Dead by Daylight",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b1f5a2b6-fe84-4c20-abc8-da366500fda9",
+  "steam_appid": 945360,
+  "name": "Among Us",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "51f361cb-6bbf-4d56-a89c-166eeb25ad55",
+  "steam_appid": 1097150,
+  "name": "Fall Guys: Ultimate Knockout",
+  "owners": "20,000,000 .. 50,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d191f091-48aa-474a-97d7-4bf6c695ba8f",
+  "steam_appid": 292030,
+  "name": "The Witcher 3: Wild Hunt",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "356c44e5-1f47-4a83-85c5-aa354ce7c7b4",
+  "steam_appid": 227300,
+  "name": "Euro Truck Simulator 2",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d808d561-aa76-44f6-be79-20e539d092b2",
+  "steam_appid": 444090,
+  "name": "Paladins",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "88b68766-f6a9-45f9-a1d7-0c34de301cca",
+  "steam_appid": 552990,
+  "name": "World of Warships",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "62aac9a3-0e0d-4cf5-b3a4-13d4a0f5e471",
+  "steam_appid": 438100,
+  "name": "VRChat",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d7dae004-637d-4d88-983e-4a670ade3c53",
+  "steam_appid": 320,
+  "name": "Half-Life 2: Deathmatch",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "77fa6191-10cc-43d4-889f-d996888e2f9e",
+  "steam_appid": 272060,
+  "name": "Serena",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "90e10c02-c738-4d6e-9164-93688861f4f6",
+  "steam_appid": 739630,
+  "name": "Phasmophobia",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3571e3f3-9a6d-4791-adbd-8a1048880b00",
+  "steam_appid": 990080,
+  "name": "Hogwarts Legacy",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "60b5635b-ea85-4025-a5ba-00e737fa9225",
+  "steam_appid": 620,
+  "name": "Portal 2",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "89ef7d8b-aa96-4b55-aea3-2e89cdfb2d92",
+  "steam_appid": 227940,
+  "name": "Heroes & Generals",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4e7ee453-38e7-42dc-ab32-7f7a1ed3dd26",
+  "steam_appid": 70,
+  "name": "Half-Life",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "77a2c2ea-bd54-4aac-8615-a82b016f5082",
+  "steam_appid": 252950,
+  "name": "Rocket League",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d35d5b59-ee60-4b8e-be3e-a604287caa26",
+  "steam_appid": 1966720,
+  "name": "Lethal Company",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d6ae54e-3f18-49ac-a260-7accda8ec4cc",
+  "steam_appid": 1517290,
+  "name": "Battlefield 2042",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e354cabf-72b0-495f-871f-6fe4e7291265",
+  "steam_appid": 1240440,
+  "name": "Halo Infinite",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b794e94f-026f-4e9a-a6b9-73988d7c3d46",
+  "steam_appid": 582010,
+  "name": "Monster Hunter: World",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3534ca90-eb42-43fc-b52d-84e33e83f60b",
+  "steam_appid": 240,
+  "name": "Counter-Strike: Source",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "be02836a-05e2-48e4-b1e0-8700ab61a853",
+  "steam_appid": 108600,
+  "name": "Project Zomboid",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4dbe6bd0-c002-4ecc-8f6d-76f4850e99a8",
+  "steam_appid": 386360,
+  "name": "SMITE",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "71508608-4165-4f5b-9e23-79e3de17bc8b",
+  "steam_appid": 10,
+  "name": "Counter-Strike",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ded3f13-da6e-4fe2-9b51-d1e06bf6a371",
+  "steam_appid": 648800,
+  "name": "Raft",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "08e4f989-9d76-4f76-a625-eaba24e68b88",
+  "steam_appid": 1468810,
+  "name": "鬼谷八荒 Tale of Immortal",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "63a0bc57-d7a9-4b72-b7a1-285f53231903",
+  "steam_appid": 444200,
+  "name": "World of Tanks Blitz",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f306c5fc-9476-4339-9ffe-3fe2c1d460e5",
+  "steam_appid": 755790,
+  "name": "Ring of Elysium",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9beaa015-6a45-4ba6-9f24-5e10dc48ba09",
+  "steam_appid": 1174180,
+  "name": "Red Dead Redemption 2",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b806a166-b383-49ec-87e3-0e5fb3dc0da7",
+  "steam_appid": 250900,
+  "name": "The Binding of Isaac: Rebirth",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5d1592b4-fff0-4806-ab75-441e1ea473b4",
+  "steam_appid": 550650,
+  "name": "Black Squad",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b0378dba-0432-4808-9038-697a4f3ee5a5",
+  "steam_appid": 367520,
+  "name": "Hollow Knight",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "45eb8dde-8072-49f4-98cf-98aa939aff75",
+  "steam_appid": 301520,
+  "name": "Robocraft",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f7492d7e-2f02-4ac9-8af1-d94e08c8131a",
+  "steam_appid": 239140,
+  "name": "Dying Light",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1fa19ed1-0bc0-4486-844e-55432b3447ab",
+  "steam_appid": 477160,
+  "name": "Human Fall Flat",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "935af2af-26a2-4ef4-84b7-276350d7050e",
+  "steam_appid": 251570,
+  "name": "7 Days to Die",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "31324bd1-953e-45e3-8fff-1c9826bb5371",
+  "steam_appid": 814380,
+  "name": "Sekiro: Shadows Die Twice - GOTY Edition",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c1e598b1-5676-475e-a020-66ed55e91eb5",
+  "steam_appid": 1222670,
+  "name": "The Sims 4",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f156ef42-7994-4941-9b1e-cd141522187d",
+  "steam_appid": 417910,
+  "name": "Street Warriors Online",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a5d588fb-8bc7-42f6-858d-06c171b5976c",
+  "steam_appid": 433850,
+  "name": "Z1 Battle Royale",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fafc3685-7bd7-4167-99f3-f025b58483cf",
+  "steam_appid": 594650,
+  "name": "Hunt: Showdown 1896",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d14d8fd0-55c5-4c06-be9a-9df94f65f9c6",
+  "steam_appid": 220,
+  "name": "Half-Life 2",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7f8de4d7-2a9f-4c64-b9b0-6ec8b4a3e294",
+  "steam_appid": 230410,
+  "name": "Warframe",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d1191c54-1d0a-46da-b6a9-2d2cdf85f1e3",
+  "steam_appid": 219990,
+  "name": "Grim Dawn",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "76540923-d515-4e55-be1a-27fca1096eb3",
+  "steam_appid": 261550,
+  "name": "Mount & Blade II: Bannerlord",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9e797c60-adbe-4348-bb42-45ef6b35bb9c",
+  "steam_appid": 8930,
+  "name": "Sid Meier's Civilization V",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d26b679c-ca46-47cc-8508-e8676442f9ef",
+  "steam_appid": 304050,
+  "name": "Trove",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6807135a-3bb2-4c58-b580-db32ccbcb656",
+  "steam_appid": 107410,
+  "name": "Arma 3",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dfea1600-2140-4846-b975-b82fb9efd933",
+  "steam_appid": 377160,
+  "name": "Fallout 4",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "607b2f31-660d-4450-b8bd-8734d063a383",
+  "steam_appid": 532210,
+  "name": "Life is Strange 2",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eb6e6471-9d35-4dcf-a090-63aa46cb9814",
+  "steam_appid": 255710,
+  "name": "Cities: Skylines",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "91cfb989-41fe-4e3d-9f91-1bfbd3ebcac2",
+  "steam_appid": 1326470,
+  "name": "Sons Of The Forest",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5288b3f0-1f36-4078-812b-b9d54f621c79",
+  "steam_appid": 289070,
+  "name": "Sid Meier’s Civilization VI",
+  "owners": "10,000,000 .. 20,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b2c22dbe-d58c-4f11-a0d2-6c3748af6e96",
+  "steam_appid": 526870,
+  "name": "Satisfactory",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "02162fab-893a-4a66-b9db-354d5734ce54",
+  "steam_appid": 1238810,
+  "name": "Battlefield V",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e1ab670d-a860-4930-8dfc-e9d01da92cf6",
+  "steam_appid": 60,
+  "name": "Ricochet",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3283aa09-2d85-42c4-97ea-32daf217b78e",
+  "steam_appid": 221100,
+  "name": "DayZ",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "09927e2b-1bcd-4069-9f34-62462826f72c",
+  "steam_appid": 1089350,
+  "name": "NBA 2K20",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4afc4689-a226-40a4-8418-d17d0b8452be",
+  "steam_appid": 204360,
+  "name": "Castle Crashers",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2e622bc1-db3e-4b95-983e-63d5dcee4fc0",
+  "steam_appid": 632360,
+  "name": "Risk of Rain 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fb0954d5-8274-4281-b433-f5dc589364bb",
+  "steam_appid": 96000,
+  "name": "The Tiny Bang Story",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "34c1a3ed-a535-4975-bd3f-4edfc862a4d8",
+  "steam_appid": 275850,
+  "name": "No Man's Sky",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1ec1ae34-3775-4ce1-8f51-6937f4e41280",
+  "steam_appid": 1811260,
+  "name": "EA SPORTS FIFA 23",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4585aab0-7cf1-406d-a2a6-8674d6823f5a",
+  "steam_appid": 322170,
+  "name": "Geometry Dash",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c4593b5b-8722-4828-b63e-9388523152ec",
+  "steam_appid": 1046930,
+  "name": "Dota Underlords",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e21c5e52-4807-4cd7-a2e4-1e161eb9be9f",
+  "steam_appid": 49520,
+  "name": "Borderlands 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c967644d-542b-4e8a-aafe-ded7a92717c1",
+  "steam_appid": 224260,
+  "name": "No More Room in Hell",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3a1a8c3e-e39e-46cc-8cef-c8c898bebf35",
+  "steam_appid": 489520,
+  "name": "Minion Masters",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "63d82a66-0f13-4fc9-af8e-dfba25fc6dd2",
+  "steam_appid": 80,
+  "name": "Counter-Strike: Condition Zero",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eab8889b-5ec2-4c3b-8b88-ca1c29338b1a",
+  "steam_appid": 394360,
+  "name": "Hearts of Iron IV",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9b516df4-d86a-4257-abd2-7c0fff0cbc00",
+  "steam_appid": 466240,
+  "name": "Deceit",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5ae7454a-2bb9-470b-a035-c9deaee0b3e0",
+  "steam_appid": 489830,
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c2724438-a5fa-4ad9-bdb4-10b99ab8192a",
+  "steam_appid": 370910,
+  "name": "Kathy Rain",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9a5c2182-2250-4594-a2f6-d4b00f19a75f",
+  "steam_appid": 278360,
+  "name": "A Story About My Uncle",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "deca24df-f323-4512-88bc-fc4a67ce491b",
+  "steam_appid": 300,
+  "name": "Day of Defeat: Source",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f427ca2e-a0b9-48d6-b536-22738d26d0f0",
+  "steam_appid": 275390,
+  "name": "Guacamelee! Super Turbo Championship Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "df007a04-66e8-4b55-8fe5-7b29401ffb66",
+  "steam_appid": 374320,
+  "name": "DARK SOULS III",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8ef1a1b3-d4fb-497a-8a75-410629a4602e",
+  "steam_appid": 284160,
+  "name": "BeamNG.drive",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a618b55a-86ea-4605-aa5a-d673dfb3041f",
+  "steam_appid": 700330,
+  "name": "SCP: Secret Laboratory",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "75aae391-79eb-4e9f-9e32-cd269fe1896c",
+  "steam_appid": 311210,
+  "name": "Call of Duty: Black Ops III",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f1364335-44e0-4094-8144-df6d9c8901b7",
+  "steam_appid": 1172620,
+  "name": "Sea of Thieves: 2025 Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e806e75-ab27-405d-a38e-2e63b6b51923",
+  "steam_appid": 1407200,
+  "name": "World of Tanks",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "798044d4-fc49-4e11-82c8-fdfd88a25c5f",
+  "steam_appid": 2050650,
+  "name": "Resident Evil 4",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7189b0a2-385f-446a-a1c6-52e6bd5b83f3",
+  "steam_appid": 976730,
+  "name": "Halo: The Master Chief Collection",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "14f27509-8cad-4725-bb0e-b3f34b6dd75a",
+  "steam_appid": 203160,
+  "name": "Tomb Raider",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "42a81a7f-b823-4101-8005-536425c2fd66",
+  "steam_appid": 72850,
+  "name": "The Elder Scrolls V: Skyrim",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3920d24a-9947-4a18-8b14-a387d318bc04",
+  "steam_appid": 10180,
+  "name": "Call of Duty: Modern Warfare 2 (2009)",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b8a9e00e-ff08-4588-942a-7f1246465cd7",
+  "steam_appid": 883710,
+  "name": "Resident Evil 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f8cfd737-e042-43f1-92c7-d36a8c5e3b17",
+  "steam_appid": 588430,
+  "name": "Fallout Shelter",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f12b4aa9-f368-46c9-aae3-722d1d1084c9",
+  "steam_appid": 218230,
+  "name": "PlanetSide 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "446218ea-188e-4d00-a0b1-02b7ee1af8b1",
+  "steam_appid": 333930,
+  "name": "Dirty Bomb",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b4bfe522-a711-408f-856d-40dd8b181b62",
+  "steam_appid": 22380,
+  "name": "Fallout: New Vegas",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "249ed732-8cf0-476d-b0a1-ba39d56c1f1d",
+  "steam_appid": 1426210,
+  "name": "It Takes Two",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "444bd00e-163c-47c5-98fb-145cca187257",
+  "steam_appid": 2881650,
+  "name": "Content Warning",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "44861475-4c0c-40c7-92e2-832b10c7f029",
+  "steam_appid": 1446780,
+  "name": "MONSTER HUNTER RISE",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b5bc9d4e-89d0-42d3-8dca-f41ca60acb9d",
+  "steam_appid": 387990,
+  "name": "Scrap Mechanic",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6b8aa924-de40-45e7-b6b6-98e352fe6f16",
+  "steam_appid": 582660,
+  "name": "Black Desert",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2edabb89-dc42-452a-b6ee-568155306890",
+  "steam_appid": 2694490,
+  "name": "Path of Exile 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8877f1b7-cf2e-49f9-8c34-61feb91360a3",
+  "steam_appid": 20,
+  "name": "Team Fortress Classic",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "48cbf1c6-6fc4-4e2b-bfbe-ea8c0516a21a",
+  "steam_appid": 219640,
+  "name": "Chivalry: Medieval Warfare",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f54bf3e9-376f-46d9-a157-c2d58537382b",
+  "steam_appid": 518790,
+  "name": "theHunter: Call of the Wild",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0b4df55b-31ca-48ea-b745-72bfd1107e54",
+  "steam_appid": 30,
+  "name": "Day of Defeat",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d30bfd2-a500-42fb-a251-189c66f44615",
+  "steam_appid": 244210,
+  "name": "Assetto Corsa",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "91e7581a-6485-4e51-85a2-3f0e5d530ecc",
+  "steam_appid": 1818750,
+  "name": "MultiVersus",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "379454f8-8191-4240-939a-3e2e76e26b77",
+  "steam_appid": 1794680,
+  "name": "Vampire Survivors",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ea8e967d-7af6-4ea8-a441-2bde2f921d82",
+  "steam_appid": 306130,
+  "name": "The Elder Scrolls Online",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "45abc0d5-c47a-4b2d-bad0-75c11dd50b75",
+  "steam_appid": 363970,
+  "name": "Clicker Heroes",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "67ca6a2d-8aee-4c8a-a720-79820748ae9e",
+  "steam_appid": 225840,
+  "name": "Sven Co-op",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "165a22ad-83a8-425a-b713-62be85661666",
+  "steam_appid": 844870,
+  "name": "KurtzPel",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d7616cc8-9890-4df9-a7f9-7a6754d0b34e",
+  "steam_appid": 1293830,
+  "name": "Forza Horizon 4",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ce1cb6b9-3261-4c1d-820f-87d640294c7b",
+  "steam_appid": 236850,
+  "name": "Europa Universalis IV",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "09100ced-b931-4ef0-b8bd-3727665edd26",
+  "steam_appid": 253710,
+  "name": "theHunter Classic",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c5a0445-93b8-4ec3-8dde-409f80b8ddb4",
+  "steam_appid": 12210,
+  "name": "Grand Theft Auto IV: The Complete Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "92b9b4a3-f0a7-41c5-b5be-e030152e5418",
+  "steam_appid": 273350,
+  "name": "Evolve Stage 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e5d1e671-a63f-42a1-957f-5a57fd3fb9db",
+  "steam_appid": 1145360,
+  "name": "Hades",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "22faa49c-4ea1-420d-a23f-4873c85b716f",
+  "steam_appid": 319630,
+  "name": "Life is Strange - Episode 1",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7a6809ee-73b7-41e0-81bc-f9e0ce36a774",
+  "steam_appid": 365590,
+  "name": "Tom Clancy’s The Division",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bf6e309a-65ab-4903-a5d4-7df6f5b9defb",
+  "steam_appid": 1229490,
+  "name": "ULTRAKILL",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8b68a7be-b9a2-4d98-beb7-2b7924c51d4c",
+  "steam_appid": 365670,
+  "name": "Blender",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1f65e735-2750-475a-a453-0fb166f8c7db",
+  "steam_appid": 813820,
+  "name": "Realm Royale",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "463445c5-ea98-4603-9fab-0db8c3d80844",
+  "steam_appid": 2183900,
+  "name": "Warhammer 40,000: Space Marine 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "20323353-9c08-4b4c-8586-efbf44b0aa5e",
+  "steam_appid": 238460,
+  "name": "BattleBlock Theater",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f39dd097-570d-4866-a2b0-400a524342e5",
+  "steam_appid": 308600,
+  "name": "Gene Shift Auto",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ba92ff4f-c93b-4cc4-b555-1f29a2417364",
+  "steam_appid": 594570,
+  "name": "Total War: WARHAMMER II",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e2ee3d37-8794-4e3f-92f7-080f505a7563",
+  "steam_appid": 231430,
+  "name": "Company of Heroes 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6b92bf4f-363f-45ef-a488-dcc700f5514d",
+  "steam_appid": 211500,
+  "name": "RaceRoom Racing Experience",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8c41c1ff-de13-49a9-8793-eff4e7c85722",
+  "steam_appid": 242050,
+  "name": "Assassin’s Creed IV Black Flag",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bc624321-a11b-4ac3-8e08-005cacb7be1b",
+  "steam_appid": 427520,
+  "name": "Factorio",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3d807083-faa0-4ba0-b2c0-dc955dc00a62",
+  "steam_appid": 601150,
+  "name": "Devil May Cry 5",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2866989e-fd51-4918-88fe-8258d374bde0",
+  "steam_appid": 12120,
+  "name": "Grand Theft Auto: San Andreas",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "961e8714-997f-4657-8459-76cdb1b4229c",
+  "steam_appid": 1286830,
+  "name": "STAR WARS: The Old Republic",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "07e57bc0-5855-4812-b1c0-8abccd308e1b",
+  "steam_appid": 268500,
+  "name": "XCOM 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "94919e78-2db0-4524-a0a6-596819accba4",
+  "steam_appid": 500,
+  "name": "Left 4 Dead",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7ad8fb68-d502-491e-9db2-92ac85fb8491",
+  "steam_appid": 8870,
+  "name": "BioShock Infinite",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8a700aff-14bd-4acd-80a8-3666da503b11",
+  "steam_appid": 629760,
+  "name": "MORDHAU",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "32dcc759-6ce2-43e6-b858-1661764ca204",
+  "steam_appid": 588650,
+  "name": "Dead Cells",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "065b9323-ee27-443d-bf35-dd4440bc8426",
+  "steam_appid": 646570,
+  "name": "Slay the Spire",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1a2ebcba-cfb4-4204-a587-71256c7c7b2b",
+  "steam_appid": 233450,
+  "name": "Prison Architect",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "365c49a9-421b-4692-b784-b6a0e1b594d5",
+  "steam_appid": 109600,
+  "name": "Neverwinter",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "06db6a87-5204-4314-be5f-f815734935f9",
+  "steam_appid": 380,
+  "name": "Half-Life 2: Episode One",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e20356d7-53c0-4d71-a2aa-00b4d0b97a31",
+  "steam_appid": 677620,
+  "name": "Splitgate: Arena Warfare",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f6c7b533-5a92-4028-b001-6ffd07e95b41",
+  "steam_appid": 1049590,
+  "name": "Eternal Return: Black Survival",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "987d6a39-5cb0-4268-a61c-3e531fc44afd",
+  "steam_appid": 1118200,
+  "name": "People Playground",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b928df92-ddb1-4abb-afd0-fd65b591e18e",
+  "steam_appid": 268910,
+  "name": "Cuphead",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "83f855ba-58aa-442f-b08e-15a387d4b3b5",
+  "steam_appid": 397900,
+  "name": "Business Tour - Board Game with Online Multiplayer",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3aaf21c6-9ad2-4ba9-b355-bc277ec6becb",
+  "steam_appid": 435150,
+  "name": "Divinity: Original Sin 2 - Definitive Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a1860046-119e-4168-a170-44ffe6c36097",
+  "steam_appid": 698780,
+  "name": "Doki Doki Literature Club!",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6190a766-ca20-4a99-add3-5c46ec39542d",
+  "steam_appid": 1237970,
+  "name": "Titanfall 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5432f1fd-1892-42a5-bd55-469b67f69d74",
+  "steam_appid": 863550,
+  "name": "HITMAN 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "65752742-3aca-4b59-998b-98ba403f9275",
+  "steam_appid": 273110,
+  "name": "Counter-Strike Nexon: Studio",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e9e4a4ef-4288-4986-a0ea-c755ee3c3c77",
+  "steam_appid": 555570,
+  "name": "Infestation: The New Z",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a1dd4470-9d10-461c-939b-9f7c4ed4aacf",
+  "steam_appid": 10190,
+  "name": "Call of Duty: Modern Warfare 2 (2009)",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "63251f8e-0e0d-4a54-84ac-e39db8fdc286",
+  "steam_appid": 868270,
+  "name": "The Cycle",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "501ee763-33cc-45ba-8313-ad52e0bc7b4b",
+  "steam_appid": 1593500,
+  "name": "God of War",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "36ac613e-1ab5-4ce9-8e54-47c26d7ad7a7",
+  "steam_appid": 782330,
+  "name": "DOOM Eternal",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f14a80e6-b645-41b1-aa66-de2374a1a995",
+  "steam_appid": 360,
+  "name": "Half-Life Deathmatch: Source",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "68d6435e-80ba-4482-9994-919825f95fa5",
+  "steam_appid": 2195250,
+  "name": "EA SPORTS FC 24",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b9ae8c28-e59a-4fe4-b429-4c300a90887e",
+  "steam_appid": 391540,
+  "name": "Undertale",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fb4d5537-95fd-4a50-b3b6-2f8f8665cfea",
+  "steam_appid": 294100,
+  "name": "RimWorld",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "69a34308-5a74-4f36-94dd-1bbb0802df6e",
+  "steam_appid": 548430,
+  "name": "Deep Rock Galactic",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1b9d98a6-bfbb-41cf-855b-1a99db70702e",
+  "steam_appid": 223470,
+  "name": "POSTAL 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5e5d4940-1f61-4cb1-8046-bb8ce49e1d92",
+  "steam_appid": 766570,
+  "name": "Russian Fishing 4",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e8891c4-8e91-4462-89e5-9a5982b98a8f",
+  "steam_appid": 241930,
+  "name": "Middle-earth: Shadow of Mordor",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c4b6f03-e1cd-4336-be36-bc35481a4361",
+  "steam_appid": 1332010,
+  "name": "Stray",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e3e4c6b8-5848-4683-9822-67c7a516947d",
+  "steam_appid": 1551360,
+  "name": "Forza Horizon 5",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "352f1bdc-53c8-48c3-b30a-cd161eed4cf1",
+  "steam_appid": 232770,
+  "name": "POSTAL",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "add01a42-5eae-4977-98b3-893ba9896af2",
+  "steam_appid": 2630,
+  "name": "Call of Duty 2",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eff2747f-d5b1-4d7c-b4fd-acacec4df999",
+  "steam_appid": 346900,
+  "name": "AdVenture Capitalist",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3beb7aa2-b58c-4bb5-b9ea-16f3ccf4ea49",
+  "steam_appid": 208090,
+  "name": "Loadout",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "36b555bb-c5d3-43a2-aeb6-670cd6a995d3",
+  "steam_appid": 534380,
+  "name": "Dying Light 2 Stay Human: Reloaded Edition",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8c1b7c6e-ad02-4f07-ad0c-09dd906730d2",
+  "steam_appid": 1151340,
+  "name": "Fallout 76",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1f8af9f0-01d1-4b65-ba4d-efe78fc0752a",
+  "steam_appid": 1100600,
+  "name": "Football Manager 2020",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cb158fd4-d4d4-4bd4-b51d-2be123d6b44d",
+  "steam_appid": 48700,
+  "name": "Mount & Blade: Warband",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e32bfc13-5e6e-4f92-ba4d-a152a6736238",
+  "steam_appid": 779340,
+  "name": "Total War: THREE KINGDOMS",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ca2f21cc-5962-408c-a0cc-48b1124c3e16",
+  "steam_appid": 113400,
+  "name": "APB Reloaded",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dd89508d-7c8e-440b-bdf3-c61c3a0706c9",
+  "steam_appid": 15700,
+  "name": "Oddworld: Abe's Oddysee",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "618c1078-2637-407d-ad53-4398a9cb5698",
+  "steam_appid": 6060,
+  "name": "STAR WARS Battlefront II (Classic, 2005)",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3e8f2a65-01d1-456a-b73e-44e53ab8054b",
+  "steam_appid": 391220,
+  "name": "Rise of the Tomb Raider",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "09097d7d-d84f-406a-8548-6fe358dbdbf2",
+  "steam_appid": 304390,
+  "name": "FOR HONOR",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fa0fa6a5-47aa-4385-b958-870277b74157",
+  "steam_appid": 285800,
+  "name": "Braveland",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "df0d3abc-4a4f-4dc3-adca-b2dd54dfbd00",
+  "steam_appid": 206420,
+  "name": "Saints Row IV: Re-Elected",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8f66d8b4-0311-4faf-89bf-7014a4b5f1b3",
+  "steam_appid": 466560,
+  "name": "Northgard",
+  "owners": "5,000,000 .. 10,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8a878bde-e7ee-470d-80d9-77ad1ba11bc9",
+  "steam_appid": 225540,
+  "name": "Just Cause 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "65a5b504-1ce2-48b7-966a-bb99e35fe379",
+  "steam_appid": 1868140,
+  "name": "DAVE THE DIVER",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8e621443-8d92-481d-9656-2858b43bf7fc",
+  "steam_appid": 386180,
+  "name": "Crossout",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "11901255-960b-4b4a-9bb8-fed9228a3f3e",
+  "steam_appid": 1116170,
+  "name": "CyberCorp",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f52b022d-23fb-4174-8880-fd49e9238f14",
+  "steam_appid": 264710,
+  "name": "Subnautica",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4223bbf3-78ca-4ea1-a8cd-29de21daf906",
+  "steam_appid": 812140,
+  "name": "Assassin's Creed Odyssey",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a09a09ec-fbf4-44e0-8c45-cded39aa11fa",
+  "steam_appid": 223750,
+  "name": "DCS World Steam Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "905819c9-3b05-4a73-ae53-9e14c560e961",
+  "steam_appid": 252130,
+  "name": "Divide By Sheep",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bd121c96-59b6-46db-9f40-019bcfe2abae",
+  "steam_appid": 262060,
+  "name": "Darkest Dungeon",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "57631580-de99-4832-b691-f07a7e3f6768",
+  "steam_appid": 211820,
+  "name": "Starbound",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fb7d70a6-95b4-46f9-99b7-f5ef7f6da29b",
+  "steam_appid": 960090,
+  "name": "Bloons TD 6",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8f8aaf04-98b9-4581-9234-f2fcacfd2418",
+  "steam_appid": 200210,
+  "name": "Realm of the Mad God Exalt",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a96d038e-e2b4-4068-ade1-0966159cbb7c",
+  "steam_appid": 424840,
+  "name": "Little Nightmares",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0944e835-a0be-4bc3-91e4-fcad0dffd515",
+  "steam_appid": 380600,
+  "name": "Fishing Planet",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f50ece01-7669-45ba-b163-8ef8c118dc2f",
+  "steam_appid": 1225330,
+  "name": "NBA 2K21",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ca7db39d-55d8-4941-baa1-203c2aa61862",
+  "steam_appid": 240720,
+  "name": "Getting Over It with Bennett Foddy",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5905e143-8ac8-46db-8b8a-3ac67de67a03",
+  "steam_appid": 8190,
+  "name": "Just Cause 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7af38fbc-8c7a-4917-836e-cb184dbd9faa",
+  "steam_appid": 1144200,
+  "name": "Ready or Not",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "06775d83-6db3-474b-bd1d-5c681c68ae6e",
+  "steam_appid": 42910,
+  "name": "Magicka",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e861de68-fecb-4828-a8bc-5bb13c886612",
+  "steam_appid": 39210,
+  "name": "FINAL FANTASY XIV Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0b4237cc-5404-4d9e-95e8-547f1c052306",
+  "steam_appid": 1677740,
+  "name": "Stumble Guys",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d6035648-650a-4a2d-afd8-9284039c25e1",
+  "steam_appid": 1238840,
+  "name": "Battlefield 1",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "137b8d3d-3da1-4ba5-aabb-211bfc59d9c0",
+  "steam_appid": 397540,
+  "name": "Borderlands 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0adb93ad-dadc-4fb5-8ad1-316cde3d0251",
+  "steam_appid": 1250,
+  "name": "Killing Floor",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2cfcbebf-3024-4f8f-9f49-6a45c7091d60",
+  "steam_appid": 238320,
+  "name": "Outlast",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d069b43f-458e-4d20-97f8-6e5cebc21dda",
+  "steam_appid": 508440,
+  "name": "Totally Accurate Battle Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8b934cd7-2a61-4332-af7d-9035296379f5",
+  "steam_appid": 222880,
+  "name": "Insurgency",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5ff76bcb-fdb6-4194-9da1-cf9e8de0253c",
+  "steam_appid": 221380,
+  "name": "Age of Empires II (Retired)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c4f233fe-9e0d-40f5-bcb4-33274b7f0460",
+  "steam_appid": 1716740,
+  "name": "Starfield",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ccd2034-c183-451b-9d5e-6e345fe97947",
+  "steam_appid": 115300,
+  "name": "Call of Duty: Modern Warfare 3 (2011)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f00b00ea-e57a-4158-9dc7-217cbfe6869c",
+  "steam_appid": 761890,
+  "name": "Albion Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c1a0a126-b6a5-4008-b398-b5b12ea18a90",
+  "steam_appid": 1604030,
+  "name": "V Rising",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "868f4e4d-96b0-42a1-8e74-903bfbb730f6",
+  "steam_appid": 630,
+  "name": "Alien Swarm",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "58128bf7-08b9-498d-b582-fa78d7d9e6f1",
+  "steam_appid": 513710,
+  "name": "SCUM",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "56c69147-4404-4303-b8de-05e3928c8c57",
+  "steam_appid": 744900,
+  "name": "Dead Frontier 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4449cc57-f418-4027-98c7-102f34695db4",
+  "steam_appid": 244850,
+  "name": "Space Engineers",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "18835ce4-c181-4844-82a7-6be66ced6c96",
+  "steam_appid": 351940,
+  "name": "The Descendant",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ebb7b065-4b89-4923-b9d8-29175832332c",
+  "steam_appid": 20920,
+  "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8ea256f0-f70b-407e-aaa8-d91edb21bc82",
+  "steam_appid": 355840,
+  "name": "Survarium",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "194f584e-0db4-47cc-b0d6-7ebf5578bfaf",
+  "steam_appid": 286160,
+  "name": "Tabletop Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "747f7fa0-58e2-4586-a207-6855dc979636",
+  "steam_appid": 212680,
+  "name": "FTL: Faster Than Light",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7b60e860-828a-4504-a6b0-71b6b9d3eb63",
+  "steam_appid": 281990,
+  "name": "Stellaris",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d6fbdea1-05bb-420e-8ffa-58c536450a03",
+  "steam_appid": 1222680,
+  "name": "Need for Speed Heat",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a08e32d7-2964-4805-b6f4-127f5f629b4c",
+  "steam_appid": 504370,
+  "name": "Battlerite",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0a97f097-ffeb-41e5-9043-b580e0d41f20",
+  "steam_appid": 1366540,
+  "name": "Dyson Sphere Program",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "21fac757-f5a7-442a-a149-5910d710e168",
+  "steam_appid": 220240,
+  "name": "Far Cry 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "13c6f9c7-91e6-49ad-a128-6a7214a1a6d8",
+  "steam_appid": 379720,
+  "name": "DOOM",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3cd60bb1-70bd-4664-9ae6-59f99229b9c9",
+  "steam_appid": 1817070,
+  "name": "Marvel’s Spider-Man Remastered",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ffc66b4-a2ad-4949-b15b-19147be2bd34",
+  "steam_appid": 323190,
+  "name": "Frostpunk",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "463a5d06-73c9-4cdb-9eb9-a209c1f8f3b5",
+  "steam_appid": 234140,
+  "name": "Mad Max",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6cf829dc-1c93-41da-be6d-e5deb62c486a",
+  "steam_appid": 33930,
+  "name": "Arma 2: Operation Arrowhead",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ec5236e-6f5f-47dd-8782-d0d3e2b3ec07",
+  "steam_appid": 202970,
+  "name": "Call of Duty: Black Ops II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "107414da-59a9-433b-b78e-d9f0b1e3009b",
+  "steam_appid": 1721470,
+  "name": "Poppy Playtime",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ae99feec-aac7-44f2-be2a-d6ad9da3cf68",
+  "steam_appid": 1506830,
+  "name": "FIFA 22",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8510997d-61a3-4d29-9fef-2485cf825bbe",
+  "steam_appid": 24240,
+  "name": "PAYDAY The Heist",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bab48039-3f4a-4416-ac14-239e9b2919eb",
+  "steam_appid": 871720,
+  "name": "Ultimate Custom Night",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "557ab47f-a6fe-4ff1-8a41-085c83843a8a",
+  "steam_appid": 212500,
+  "name": "The Lord of the Rings Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "79e5ba9a-7761-41ab-8824-6f5e894b79dd",
+  "steam_appid": 1180380,
+  "name": "Stay Out",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6d6f108a-ca5d-45ab-b262-aa0c59f1efe1",
+  "steam_appid": 304430,
+  "name": "INSIDE",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fe485c7e-4fd5-4e95-ac70-b3011d0f2bdc",
+  "steam_appid": 311690,
+  "name": "Enter the Gungeon",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6e38a82b-d0d7-4608-aad1-d71e13148137",
+  "steam_appid": 620980,
+  "name": "Beat Saber",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "20577a2f-6bf9-486b-8991-dc1ac4fdbf59",
+  "steam_appid": 671860,
+  "name": "BattleBit Remastered",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5901d67c-d09e-41ee-a324-150a75dc72fa",
+  "steam_appid": 674940,
+  "name": "Stick Fight: The Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e226b366-72e2-4ab2-959a-86694d2ec531",
+  "steam_appid": 205100,
+  "name": "Dishonored",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d6edbdb2-83e2-49fb-8017-cf875de69862",
+  "steam_appid": 1145350,
+  "name": "Hades II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "93c5739a-1ff6-47e2-92cc-45f432a81a9e",
+  "steam_appid": 1196590,
+  "name": "Resident Evil Village",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4c7c0bfb-9785-4b14-8a27-147837dc6f5c",
+  "steam_appid": 3590,
+  "name": "Plants vs. Zombies GOTY Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d2dba71d-72e0-407a-8e75-e59aa6f096a6",
+  "steam_appid": 552520,
+  "name": "Far Cry 5",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8d41bf55-22fc-4c5e-8ae6-a2c9d7cf58a6",
+  "steam_appid": 457140,
+  "name": "Oxygen Not Included",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d001749b-ebb9-4d89-b4ac-d62f43b82357",
+  "steam_appid": 504230,
+  "name": "Celeste",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "705ed96b-e643-472d-aaa5-b12e51352399",
+  "steam_appid": 546560,
+  "name": "Half-Life: Alyx",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "90dd0556-af35-4ca5-acc5-a673a3946aab",
+  "steam_appid": 813780,
+  "name": "Age of Empires II: Definitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "07dc1406-69c6-46ee-aaa7-e9ac9a8712c3",
+  "steam_appid": 63380,
+  "name": "Sniper Elite V2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "de8733fd-db15-4605-8594-685fc6b27ccd",
+  "steam_appid": 8500,
+  "name": "EVE Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1db4f790-4c07-40f9-9cbd-69521defeec5",
+  "steam_appid": 613100,
+  "name": "House Flipper",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3443b049-6b3c-4ea2-9e68-13b700c6963d",
+  "steam_appid": 7670,
+  "name": "BioShock",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6fee40b4-7719-4e36-b00b-5bcecd51ebe9",
+  "steam_appid": 962130,
+  "name": "Grounded",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "074583d6-3154-4509-ae56-2ca76aaa0784",
+  "steam_appid": 601510,
+  "name": "Yu-Gi-Oh! Duel Links",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "339bbd33-a9cb-4060-86e9-5b222480bfcf",
+  "steam_appid": 261640,
+  "name": "Borderlands: The Pre-Sequel",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3d3d02b8-0b6d-4ade-abfa-4ce479454ac3",
+  "steam_appid": 270880,
+  "name": "American Truck Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c7e8522-14db-445f-8b46-a66a74f6d1d3",
+  "steam_appid": 884660,
+  "name": "CRSED: F.O.A.D.",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "838c1d32-c75f-44cf-ad44-d533589386b1",
+  "steam_appid": 48000,
+  "name": "LIMBO",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "686f1f1f-916f-45b8-83a7-e1be10632f38",
+  "steam_appid": 1832640,
+  "name": "Mirror 2: Project X",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "51458948-78d5-4ed1-9578-c04291794922",
+  "steam_appid": 208650,
+  "name": "Batman: Arkham Knight",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8fc2f3ee-d3f0-4b79-ab57-add1c2f4d492",
+  "steam_appid": 55150,
+  "name": "Warhammer 40,000: Space Marine - Anniversary Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c9fceb4f-ba25-4ca3-951d-f1c572a53ea7",
+  "steam_appid": 201270,
+  "name": "Total War: SHOGUN 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4d4d4e51-e4b9-4566-97c0-e6a7b2a19b8e",
+  "steam_appid": 203770,
+  "name": "Crusader Kings II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a3945be5-88d9-4ae5-86e1-4064d26922ba",
+  "steam_appid": 302830,
+  "name": "BLOCKADE 3D",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f7a0f06d-9460-4866-992c-ecc10d650a18",
+  "steam_appid": 274190,
+  "name": "Broforce",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "630fd7f8-44e8-40fa-9843-a4dab717240c",
+  "steam_appid": 389730,
+  "name": "TEKKEN 7",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "aec8bacd-9362-4c3b-9a97-06934fb9f3ac",
+  "steam_appid": 440900,
+  "name": "Conan Exiles",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "77852798-36e2-4c60-85da-3085b1a89389",
+  "steam_appid": 312990,
+  "name": "The Expendabros",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d1ae5d02-6be9-4add-9b1a-8d97ddfe969b",
+  "steam_appid": 376210,
+  "name": "The Isle",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2196d409-c8c1-40fd-808a-ff8462cb4ca3",
+  "steam_appid": 10090,
+  "name": "Call of Duty: World at War",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ac1015b9-b059-4443-99ba-99996ff66cd5",
+  "steam_appid": 220200,
+  "name": "Kerbal Space Program",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e6d74780-d595-476c-8c9d-d4bf8a368b39",
+  "steam_appid": 20900,
+  "name": "The Witcher: Enhanced Edition Director's Cut",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "94a14c8b-87a5-4ef8-bf1c-7d166c919501",
+  "steam_appid": 1260320,
+  "name": "Party Animals",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "368b4c12-4e5c-4ffc-bfde-14224d180dd6",
+  "steam_appid": 265630,
+  "name": "Fistful of Frags",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4d8e80e6-3ac6-499d-b56a-3c5d0626dfa3",
+  "steam_appid": 1222140,
+  "name": "Detroit: Become Human",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f7bf123c-9fb5-4cd2-9ca2-1d0ba5514f9d",
+  "steam_appid": 1259420,
+  "name": "Days Gone",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cdaf97ef-e0c6-4868-8c6e-119b691e2235",
+  "steam_appid": 516750,
+  "name": "My Summer Car",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1e29dad2-8109-487d-b193-40fb4065b438",
+  "steam_appid": 356190,
+  "name": "Middle-earth: Shadow of War",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "683dd4ae-d9b6-41a2-b20a-d586b0ea03f7",
+  "steam_appid": 418460,
+  "name": "Rising Storm 2: Vietnam",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c45f5ce-9011-4816-bce9-eb8632e53ad1",
+  "steam_appid": 552500,
+  "name": "Warhammer: Vermintide 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9d4b46e3-a220-45bc-8e26-8fa5038d7349",
+  "steam_appid": 214950,
+  "name": "Total War: ROME II - Emperor Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "62afbee3-fd91-4fae-b74f-fc878cf34b76",
+  "steam_appid": 9480,
+  "name": "Saints Row 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "90432ccc-c33e-4150-ba0a-71dec700b92f",
+  "steam_appid": 728880,
+  "name": "Overcooked! 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6a884222-82d5-41b3-b349-1eeefb15891c",
+  "steam_appid": 439190,
+  "name": "Stories: The Path of Destinies",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3bea20e7-1582-4fed-988c-860ab5ee2fc2",
+  "steam_appid": 245170,
+  "name": "Skullgirls 2nd Encore",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4a1f4165-6d6b-4a33-b8cb-eac4ec70c679",
+  "steam_appid": 339610,
+  "name": "Freestyle 2: Street Basketball",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8db2faf6-3878-401d-a66d-22eebc98ae2d",
+  "steam_appid": 219150,
+  "name": "Hotline Miami",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d117d13-0acb-444f-b7cc-1644d680af9b",
+  "steam_appid": 1057090,
+  "name": "Ori and the Will of the Wisps",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c5dd8e38-c273-407d-8f63-b1c28239af7e",
+  "steam_appid": 35450,
+  "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3eaf1d0c-8fc6-4ed6-9839-65e9dc041e67",
+  "steam_appid": 298110,
+  "name": "Far Cry 4",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "20b05a7d-d7a5-45e9-829e-b9efe29216c2",
+  "steam_appid": 424370,
+  "name": "Wolcen: Lords of Mayhem",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1b90b481-3789-4fad-ac2c-24a63e5fa92e",
+  "steam_appid": 881020,
+  "name": "Granblue Fantasy: Relink",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6d1a73e8-7f41-438c-a5a0-b9babb96d8b5",
+  "steam_appid": 1056960,
+  "name": "Wolfenstein: Youngblood",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5b1e2907-0411-4509-b93b-55aadc8a0237",
+  "steam_appid": 232090,
+  "name": "Killing Floor 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "159b7742-a797-4dbc-bc47-4d74d065f1c1",
+  "steam_appid": 207610,
+  "name": "The Walking Dead",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6b5bc7fc-7bc5-4432-8bf6-e2b5624de1c9",
+  "steam_appid": 209080,
+  "name": "Guns of Icarus Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "06c1db16-8520-4331-89bd-715bc55bf6dc",
+  "steam_appid": 918570,
+  "name": "Century: Age of Ashes",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "11532fb9-1ccb-4580-8ef1-e03fa564e98e",
+  "steam_appid": 335240,
+  "name": "Transformice",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6bf41157-d0a6-42c3-850d-da3b5cd16dfa",
+  "steam_appid": 99900,
+  "name": "Spiral Knights",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "de7d9f73-51f6-4c5f-ad79-31b5095b3d38",
+  "steam_appid": 359320,
+  "name": "Elite Dangerous",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "41847eda-f8c3-43ce-b251-1c4067042a76",
+  "steam_appid": 1142710,
+  "name": "Total War: WARHAMMER III",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c12afcdd-e669-4dea-9cd2-0a21977ecbb3",
+  "steam_appid": 361420,
+  "name": "ASTRONEER",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e4a6d47-3750-464a-ba81-a65474418038",
+  "steam_appid": 50,
+  "name": "Half-Life: Opposing Force",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c6283715-d9af-486c-9917-8b66c95f39ef",
+  "steam_appid": 223710,
+  "name": "Cry of Fear",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b4132006-77f9-4fe0-b214-6b257578207d",
+  "steam_appid": 409710,
+  "name": "BioShock Remastered",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "57d98f9d-d544-446c-946e-3764ff5b7dff",
+  "steam_appid": 50130,
+  "name": "Mafia II (Classic)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ef4e885d-14eb-4d63-a02e-f56e44d56b87",
+  "steam_appid": 307780,
+  "name": "Mortal Kombat X",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3f65e473-ac9b-4e2a-974a-e230922597a5",
+  "steam_appid": 1289310,
+  "name": "Helltaker",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b09de884-f29e-4aa4-b8de-181995632c9d",
+  "steam_appid": 1203620,
+  "name": "Enshrouded",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "552d1f56-cf80-4efd-8d80-b8aa32c56e8f",
+  "steam_appid": 285900,
+  "name": "Gang Beasts",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f738cdc9-4771-4fa0-8c1e-82bdd9db9152",
+  "steam_appid": 582160,
+  "name": "Assassin's Creed Origins",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9e6622d9-9373-4fbe-b313-72ef81c8db31",
+  "steam_appid": 299360,
+  "name": "Block N Load",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "43ee7270-92a3-475a-9a02-d825164a0352",
+  "steam_appid": 880940,
+  "name": "Pummel Party",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e926d32a-b744-464c-8355-61585a586a14",
+  "steam_appid": 4560,
+  "name": "Company of Heroes - Legacy Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "afd29b31-820b-4f8f-8067-3d1490494786",
+  "steam_appid": 447040,
+  "name": "Watch_Dogs 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "aa7ee06a-e811-46c8-bad0-303011c91eac",
+  "steam_appid": 1454400,
+  "name": "Cookie Clicker",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a87a0b1c-8be1-4fad-93cc-4fc5e62971ff",
+  "steam_appid": 17410,
+  "name": "Mirror's Edge",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ed18a38c-b813-4643-9748-55be2f161cdf",
+  "steam_appid": 362890,
+  "name": "Black Mesa",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a6ebb282-3646-4dc6-8fd4-ed046c0294ef",
+  "steam_appid": 233130,
+  "name": "Shadow Warrior",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3cf0b0ce-6885-4b78-b67e-38af2e0c95a9",
+  "steam_appid": 224600,
+  "name": "Defiance",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6e392b52-27aa-434a-93ab-08e2c8c08dec",
+  "steam_appid": 379430,
+  "name": "Kingdom Come: Deliverance",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "04393130-2646-4e18-b8d7-586f4d6ce8d2",
+  "steam_appid": 976310,
+  "name": "Mortal Kombat 11",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1585d85b-acf5-4ab9-a0b9-f6f97d97def6",
+  "steam_appid": 460930,
+  "name": "Tom Clancy's Ghost Recon Wildlands",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6caa85f3-61d0-4af5-a9e5-c591a02f76d2",
+  "steam_appid": 247080,
+  "name": "Crypt of the NecroDancer",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7ec654c4-39b0-4829-9ade-b29e41818df6",
+  "steam_appid": 287700,
+  "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bb362294-e7bc-488e-ac17-b6cf7ceef695",
+  "steam_appid": 678950,
+  "name": "DRAGON BALL FighterZ",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "565cb7df-e4dd-4587-88cb-cb7d666467e6",
+  "steam_appid": 391720,
+  "name": "Layers of Fear (2016)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "853cf50c-e874-4567-9159-32346d83b5d2",
+  "steam_appid": 33230,
+  "name": "Assassin's Creed 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6dd18a5a-8d76-462c-927e-1147c1eebad6",
+  "steam_appid": 209870,
+  "name": "Blacklight: Retribution",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "353c7e89-bee4-4c50-8983-327b3d0579f4",
+  "steam_appid": 335300,
+  "name": "DARK SOULS II: Scholar of the First Sin",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e37beeca-8c25-485c-b1e3-114dbe266627",
+  "steam_appid": 274170,
+  "name": "Hotline Miami 2: Wrong Number",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0f2cf566-1c24-4885-9f76-a417df239f74",
+  "steam_appid": 113200,
+  "name": "The Binding of Isaac",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "064d31d0-6a9a-4a6c-a399-e4517fd5d527",
+  "steam_appid": 262410,
+  "name": "World of Guns: Gun Disassembly",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "de75662f-eb19-4bda-a0dd-54b3706c7eeb",
+  "steam_appid": 1361210,
+  "name": "Warhammer 40,000: Darktide",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1048cea8-580b-47f1-bd77-bb30f72e0099",
+  "steam_appid": 418370,
+  "name": "Resident Evil 7 Biohazard",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "19d343d8-f645-41dc-ab6a-ee304909ba49",
+  "steam_appid": 1942280,
+  "name": "Brotato",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1025a026-dfb4-4ec7-8d16-046e0f0ab31f",
+  "steam_appid": 291480,
+  "name": "Warface",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c305f41c-25eb-45bd-b77f-f2c4c53a5b10",
+  "steam_appid": 213670,
+  "name": "South Park: The Stick of Truth",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9ae085e1-2957-43eb-8bba-236f8a71ed15",
+  "steam_appid": 838350,
+  "name": "太吾绘卷 The Scroll Of Taiwu",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fcef3ef9-417b-42b3-b640-66ecb88b1380",
+  "steam_appid": 203140,
+  "name": "Hitman: Absolution",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2500434f-d790-49bf-8568-97a0b6c218e0",
+  "steam_appid": 282070,
+  "name": "This War of Mine",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "397262cc-efbc-46f7-a29f-9bc6f23e5df6",
+  "steam_appid": 767560,
+  "name": "War Robots",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5cc67ef2-b540-4490-9a20-13d181e55f20",
+  "steam_appid": 585690,
+  "name": "Minimalism",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3a243253-d602-416a-ba9a-30fb48d07b13",
+  "steam_appid": 1158310,
+  "name": "Crusader Kings III",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "88775e43-aabe-43b2-95e7-b03fe6ba0b4c",
+  "steam_appid": 265930,
+  "name": "Goat Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "84c29df1-aa03-476e-9b6e-60dfcb427121",
+  "steam_appid": 905370,
+  "name": "Conqueror's Blade",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "379c615c-b0fa-4fab-bb9f-8a3953c49e69",
+  "steam_appid": 12100,
+  "name": "Grand Theft Auto III",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "58e51756-4996-430f-83b6-d4548d35a691",
+  "steam_appid": 438740,
+  "name": "Friday the 13th: The Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c4a92a5b-0a3a-4a9b-ac8b-d9a69e557f40",
+  "steam_appid": 1943950,
+  "name": "Escape the Backrooms",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dcbe6c6b-f0f2-49c9-8e40-72714a3ec1b7",
+  "steam_appid": 214490,
+  "name": "Alien: Isolation",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ab6f1404-291b-4b42-a28d-513bb7de0c9c",
+  "steam_appid": 204880,
+  "name": "Sins of a Solar Empire: Rebellion",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0590a6f3-9348-468d-b4a9-36430679ae57",
+  "steam_appid": 617290,
+  "name": "Remnant: From the Ashes",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d0330f8a-dd73-46e6-95b7-3435dbb522cc",
+  "steam_appid": 289650,
+  "name": "Assassin's Creed Unity",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e0928271-5d08-40bb-bed8-ec412b8063c5",
+  "steam_appid": 436150,
+  "name": "Governor of Poker 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0de35d95-c86f-4108-8eb7-f1f1e8e9f76c",
+  "steam_appid": 269210,
+  "name": "Hero Siege",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "45af9411-f8df-4f90-b924-f11262695207",
+  "steam_appid": 312660,
+  "name": "Sniper Elite 4",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a48532cc-15ae-4d40-a4f3-5b8bf3269466",
+  "steam_appid": 412020,
+  "name": "Metro Exodus",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2ba9ce0b-60f1-44ed-b61f-219c3cb1d65b",
+  "steam_appid": 1371980,
+  "name": "No Rest for the Wicked",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2b479abb-5de6-4058-b3f1-93cf7eadd972",
+  "steam_appid": 282440,
+  "name": "Quake Live",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eeed5ea3-c187-4e2e-85fb-9674b8f5f384",
+  "steam_appid": 372000,
+  "name": "Tree of Savior (English Ver.)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c867b15b-4fc5-4cb9-81fa-bbd86ff59ab5",
+  "steam_appid": 686810,
+  "name": "Hell Let Loose",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0b753ddb-f299-4ee9-a45e-165193a1e9f2",
+  "steam_appid": 1056640,
+  "name": "Phantasy Star Online 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "be429e7a-e901-4d24-9b6f-025828c6f19c",
+  "steam_appid": 65800,
+  "name": "Dungeon Defenders",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "898d4bdc-a1c5-4d2e-a1c3-56afa1f199e6",
+  "steam_appid": 387290,
+  "name": "Ori and the Blind Forest: Definitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b2467eda-c84f-47a1-bc18-4b79a6b8c587",
+  "steam_appid": 646910,
+  "name": "The Crew 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5e904d8e-107b-49d3-9018-b3837089b286",
+  "steam_appid": 331470,
+  "name": "Everlasting Summer",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7ca9b262-7fe1-476d-9ca2-078c391528f7",
+  "steam_appid": 233860,
+  "name": "Kenshi",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3aacbb63-28e6-467c-9cec-1e5ce66ab51d",
+  "steam_appid": 400,
+  "name": "Portal",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2991a203-bba7-4e49-b13a-daa302b32363",
+  "steam_appid": 239030,
+  "name": "Papers, Please",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5e0f731e-d880-4364-9cdf-eb17e674016c",
+  "steam_appid": 364360,
+  "name": "Total War: WARHAMMER",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "55fba043-3789-46d2-8741-36a424057b34",
+  "steam_appid": 992300,
+  "name": "嗜血印 Bloody Spell",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d406b2b0-79e2-4c56-8d9f-3e3faef47218",
+  "steam_appid": 235460,
+  "name": "METAL GEAR RISING: REVENGEANCE",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e0601b8c-0ba7-4134-8535-3ef98b2933f4",
+  "steam_appid": 2670630,
+  "name": "Supermarket Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ba883739-fc6e-49ce-8f96-0e7deec0c59b",
+  "steam_appid": 219740,
+  "name": "Don't Starve",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "99430c26-2884-451c-a617-166b55447f36",
+  "steam_appid": 967050,
+  "name": "Pacify",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fbaee926-7a07-4d2e-8889-789e81975a05",
+  "steam_appid": 367500,
+  "name": "Dragon's Dogma: Dark Arisen",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c61c9b21-c50c-4033-a23b-7bbd0314a8c9",
+  "steam_appid": 1363080,
+  "name": "Manor Lords",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "00dfdcfb-a1a3-48bc-afad-9fc30780576c",
+  "steam_appid": 286690,
+  "name": "Metro 2033 Redux",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4b9c606d-3787-441a-8d99-86112eb28b4d",
+  "steam_appid": 1372880,
+  "name": "The Day Before",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d4300834-e880-4aba-9b0f-6e468aa38fa2",
+  "steam_appid": 1366800,
+  "name": "Crosshair X",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "060b0c08-008a-4f1a-8654-dc7e6df840f5",
+  "steam_appid": 2567870,
+  "name": "Chained Together",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f71edccc-a854-49a9-81d0-a381ec6d5dc3",
+  "steam_appid": 845070,
+  "name": "The Awesome Adventures of Captain Spirit",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ce8046d-0810-41c7-a8bb-8ed67e31f4af",
+  "steam_appid": 246620,
+  "name": "Plague Inc: Evolved",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9d02547d-b8da-4efa-9462-3feeaf35f23a",
+  "steam_appid": 55230,
+  "name": "Saints Row: The Third",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b1601548-1c8c-4002-b5b4-079c9f6f7ca7",
+  "steam_appid": 703080,
+  "name": "Planet Zoo",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ba66673-34dc-4fb1-8d79-8baba3385d87",
+  "steam_appid": 550900,
+  "name": "Metin2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3bdf2d9a-ec71-4f67-862b-90883cb63abc",
+  "steam_appid": 648350,
+  "name": "Jurassic World Evolution",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f4fc8299-d543-4c4b-8f37-ad1c8a3d01bb",
+  "steam_appid": 287390,
+  "name": "Metro: Last Light Redux",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "652fa91b-aab2-49bb-b263-088f51924e37",
+  "steam_appid": 407530,
+  "name": "ARK: Survival Of The Fittest",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "18635a14-f763-4dbf-b87e-d7ebefff9039",
+  "steam_appid": 242720,
+  "name": "GunZ 2: The Second Duel",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5bdf3283-d8c4-4df3-afa9-7ef793f00f6a",
+  "steam_appid": 581320,
+  "name": "Insurgency: Sandstorm",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "42715025-9943-41c1-8173-1989021b015b",
+  "steam_appid": 316010,
+  "name": "Magic Duels",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "74bc6c29-b032-4a7f-800d-d9b5fc0b9080",
+  "steam_appid": 1172380,
+  "name": "STAR WARS Jedi: Fallen Order",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9e03b298-48f8-4311-b6a4-46dd6427f61c",
+  "steam_appid": 11020,
+  "name": "TrackMania Nations Forever",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0f44076c-2d9c-4cc4-9fee-6dfe34020792",
+  "steam_appid": 47870,
+  "name": "Need For Speed: Hot Pursuit",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e11c6d2c-103a-4f84-8063-075514390e60",
+  "steam_appid": 305620,
+  "name": "The Long Dark",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8c66d1fc-e348-4aeb-b369-c8b700f3a107",
+  "steam_appid": 1274570,
+  "name": "DEVOUR",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8a11bb0a-6aa6-43cc-bea5-b12cf0beaeac",
+  "steam_appid": 3097560,
+  "name": "Liar's Bar",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e5132a1a-8e2e-4a1b-8d25-26c2619ffff8",
+  "steam_appid": 221040,
+  "name": "Resident Evil 6",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b9579432-640d-44af-af8e-ccf897be0613",
+  "steam_appid": 427730,
+  "name": "Who's Your Daddy?!",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2556a276-f708-40dc-b3a0-af1418bee60c",
+  "steam_appid": 105450,
+  "name": "Age of Empires III (2007)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9d817302-4262-4a18-9d0b-5a001dbd84c0",
+  "steam_appid": 8850,
+  "name": "BioShock 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a7850b84-c742-48b7-9615-f906c2c7621d",
+  "steam_appid": 24200,
+  "name": "DC Universe Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "aad0a0a9-4a8e-4f23-9dae-0bee8d2b530a",
+  "steam_appid": 248570,
+  "name": "Toribash",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "417ea10e-4fd2-4e75-8e04-5a66b127f906",
+  "steam_appid": 286570,
+  "name": "F1 2015",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "289da4d2-724c-4f46-9d50-64b4f91cc7ed",
+  "steam_appid": 203290,
+  "name": "America's Army: Proving Grounds",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d4c4c5f0-fa9e-4714-8973-0014c3ebc479",
+  "steam_appid": 641990,
+  "name": "The Escapists 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "738f0d14-7867-4df3-b798-2261f3eecf15",
+  "steam_appid": 238090,
+  "name": "Sniper Elite 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e9851ac6-bd59-44a5-8663-c56ab0a63e39",
+  "steam_appid": 221910,
+  "name": "The Stanley Parable",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "80b0eb3c-91e5-4978-b1e2-9fdba0bf27c7",
+  "steam_appid": 286940,
+  "name": "S.K.I.L.L. - Special Force 2 (Shooter)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "505672e5-40b2-4889-a5c7-69fba48ba114",
+  "steam_appid": 207140,
+  "name": "SpeedRunners",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "09ad94eb-1de4-4d71-9428-d663c4ba6161",
+  "steam_appid": 201790,
+  "name": "Orcs Must Die! 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f6e397c5-e76c-4c5d-8886-929b60d2b7da",
+  "steam_appid": 107100,
+  "name": "Bastion",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9937d950-e8aa-4f16-a2ee-8b531fa49346",
+  "steam_appid": 295110,
+  "name": "Just Survive",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "12ed2c9b-1625-4ff3-85cf-c7fd57286466",
+  "steam_appid": 524220,
+  "name": "NieR:Automata",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a06eea8c-5c28-43e0-b0cf-c25097a22d90",
+  "steam_appid": 530700,
+  "name": "Argo",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b7fd5adb-4257-430f-9faa-4177b07ab874",
+  "steam_appid": 279720,
+  "name": "The I of the Dragon",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c277ef8f-f367-4611-bd3e-5d65025caf05",
+  "steam_appid": 209000,
+  "name": "Batman: Arkham Origins",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f127831e-11ce-4edc-99ab-105fd1947059",
+  "steam_appid": 439700,
+  "name": "Z1 Battle Royale: Test Server",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b1e8a573-002e-4567-9a70-2fcb893650b8",
+  "steam_appid": 848450,
+  "name": "Subnautica: Below Zero",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2a6deba6-91d8-43d5-88a4-a2ff6375181a",
+  "steam_appid": 12200,
+  "name": "Bully: Scholarship Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bfa17fce-f462-4c5f-b80c-801bc94ee0a9",
+  "steam_appid": 55100,
+  "name": "Homefront",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e0cc7629-bb38-4997-af33-ce44f67f31ba",
+  "steam_appid": 644930,
+  "name": "They Are Billions",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "829f8d38-5210-4ecd-a044-f439211ba8fe",
+  "steam_appid": 1515950,
+  "name": "Capcom Arcade Stadium",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "53f23dc2-759e-4236-823a-de2d3382f379",
+  "steam_appid": 434650,
+  "name": "Lost Castle / 失落城堡",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4f7a75c2-fe93-437e-9ff7-bd0975e69343",
+  "steam_appid": 1254120,
+  "name": "Bless Unleashed",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fad9007e-bbd4-49c7-84b2-79a30d35f35c",
+  "steam_appid": 17390,
+  "name": "SPORE",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dd433b78-59f5-4402-986f-9c9f13ddae34",
+  "steam_appid": 1092790,
+  "name": "Inscryption",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "52f5b6d5-b138-4706-afb5-beb00856d417",
+  "steam_appid": 881100,
+  "name": "Noita",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "23411239-cf03-4d44-965c-c5e57da8275e",
+  "steam_appid": 644560,
+  "name": "Mirror",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3ef7c14b-3eb7-408b-b93e-555aadc452ad",
+  "steam_appid": 1304930,
+  "name": "The Outlast Trials",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f221ac7d-be92-43d5-a91a-1526db5c2a56",
+  "steam_appid": 1250410,
+  "name": "Microsoft Flight Simulator 40th Anniversary Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "03d7b472-7ac9-4a35-a597-6c210c954dee",
+  "steam_appid": 420,
+  "name": "Half-Life 2: Episode Two",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "25d935c2-ffd6-497d-9af0-a638f01d1956",
+  "steam_appid": 261570,
+  "name": "Ori and the Blind Forest",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "86b95348-e26c-4bf8-b798-c74bf69579ad",
+  "steam_appid": 2379780,
+  "name": "Balatro",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "acfc7378-458f-4b4e-b8a1-31b4cb1486b4",
+  "steam_appid": 19680,
+  "name": "Alice: Madness Returns",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9e34439e-e508-4a76-a097-b9803a423124",
+  "steam_appid": 431240,
+  "name": "Golf With Your Friends",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2bc1b54a-5d43-4341-b6fe-e4bd75395a20",
+  "steam_appid": 1569040,
+  "name": "Football Manager 2022",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1e67141f-acea-4959-ad18-e2f6a1654cc5",
+  "steam_appid": 787860,
+  "name": "Farming Simulator 19",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8dd22ef1-1a94-4937-976f-887cd8787a9c",
+  "steam_appid": 33900,
+  "name": "Arma 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "deae2a2e-3ded-421e-b07e-24aa4d06a9c7",
+  "steam_appid": 1167630,
+  "name": "Teardown",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8dad88f4-8c63-450b-81e4-a699580c67fd",
+  "steam_appid": 1217060,
+  "name": "Gunfire Reborn",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "95abb882-f33a-4c5e-add4-53dc24a202c7",
+  "steam_appid": 42700,
+  "name": "Call of Duty: Black Ops",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d55a4c44-f411-4ea0-a466-c87b7a8def2e",
+  "steam_appid": 201810,
+  "name": "Wolfenstein: The New Order",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c83581be-8d5f-410e-b044-dba6b2bab60c",
+  "steam_appid": 391460,
+  "name": "WARMODE",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3ea6343f-148a-4730-b895-b9dcfbeb9b63",
+  "steam_appid": 211420,
+  "name": "DARK SOULS: Prepare To Die Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "efadc4d1-92ec-4dee-85ca-4adc432f71bd",
+  "steam_appid": 1520470,
+  "name": "封灵档案",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1332f00d-1c10-41cd-aea7-3f3ec0f91fe7",
+  "steam_appid": 437900,
+  "name": "Party Jousting",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "325225db-9068-40a6-8157-bffd0bf8fd1e",
+  "steam_appid": 433340,
+  "name": "Slime Rancher",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4c794d04-9242-452f-a495-425a706f7af1",
+  "steam_appid": 253980,
+  "name": "Enclave",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "83c27b22-53a4-4935-ae29-d74abf8315db",
+  "steam_appid": 841370,
+  "name": "NBA 2K19",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "74938384-205d-44f7-9c2e-01a296ed8755",
+  "steam_appid": 740130,
+  "name": "Tales of Arise",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ec8258d4-60fb-4a5c-b46e-30426381e9aa",
+  "steam_appid": 1263850,
+  "name": "Football Manager 2021",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9f253aaa-cdfc-400e-bb5f-afbf1879eaf8",
+  "steam_appid": 414340,
+  "name": "Hellblade: Senua's Sacrifice",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2bc55374-7e90-4179-992e-2ec62cc8a75f",
+  "steam_appid": 259080,
+  "name": "Just Cause 2: Multiplayer Mod",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "47a93a52-187c-4980-8661-bce9b319448f",
+  "steam_appid": 506540,
+  "name": "Last Man Standing",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "67d9c9b4-015f-4901-b3b4-287c66deb0e5",
+  "steam_appid": 1248130,
+  "name": "Farming Simulator 22",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e769ebec-017b-4f85-92e7-0a884c168b1e",
+  "steam_appid": 12220,
+  "name": "Grand Theft Auto: Episodes from Liberty City",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ab31093-f491-4494-a782-82a3db0c27d5",
+  "steam_appid": 674020,
+  "name": "World War 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "53995b2e-8159-4e1a-9482-47b36c21a6bf",
+  "steam_appid": 310950,
+  "name": "Street Fighter V",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4a26611a-1d28-4aa1-a9e9-349b4e23363c",
+  "steam_appid": 1466860,
+  "name": "Age of Empires IV: Anniversary Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3bf02a44-cd13-4e20-9c3c-c20121e0ef00",
+  "steam_appid": 1222700,
+  "name": "A Way Out",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "97604d96-fd64-42bd-82bd-17e21c8c0960",
+  "steam_appid": 310560,
+  "name": "DiRT Rally",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ae0e73ee-72c6-46ef-81f7-2b589b26b6f2",
+  "steam_appid": 570940,
+  "name": "DARK SOULS: REMASTERED",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "68516a5d-aeac-4f5f-8816-85a689625849",
+  "steam_appid": 774171,
+  "name": "Muse Dash",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "41c55978-fe3f-46f0-a4a9-1bee53f09cb0",
+  "steam_appid": 12110,
+  "name": "Grand Theft Auto: Vice City",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "edf70e8e-f163-4694-8cc7-a802b8e25796",
+  "steam_appid": 1888160,
+  "name": "ARMORED CORE VI FIRES OF RUBICON",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0cf069e0-88aa-4433-a9c4-dae435b38bb1",
+  "steam_appid": 470220,
+  "name": "UNO",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2a994e60-715a-4940-bf02-074b19fd92b2",
+  "steam_appid": 200260,
+  "name": "Batman: Arkham City - Game of the Year Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c7e9c56-b3b9-41c0-8ad9-6fbe35bd3879",
+  "steam_appid": 280,
+  "name": "Half-Life: Source",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "949e8bff-2671-44a6-b409-8a16e1ee128d",
+  "steam_appid": 319510,
+  "name": "Five Nights at Freddy's",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8a4929e5-f17c-4557-860d-b8535e9d55da",
+  "steam_appid": 242920,
+  "name": "Banished",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5cd44bfe-7693-4a04-acad-deac107ca6b8",
+  "steam_appid": 388410,
+  "name": "Darksiders II Deathinitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3e99fe85-ae36-4ff6-9c0a-2d1ab43df0e1",
+  "steam_appid": 1313140,
+  "name": "Cult of the Lamb",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5f4ea78c-d0b8-43b4-90e1-30c7e5f8503b",
+  "steam_appid": 325610,
+  "name": "Total War: ATTILA",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "51a45df8-07e3-4e0d-bcac-fe9696db9180",
+  "steam_appid": 236110,
+  "name": "Dungeon Defenders II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "333a4492-b566-4f5b-b668-35f937b967f4",
+  "steam_appid": 346010,
+  "name": "Besiege",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "23613a2d-7b2b-4817-8dd9-8eb8dafc0b37",
+  "steam_appid": 254700,
+  "name": "Resident Evil 4 (2005)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8705a565-6aee-4445-bee1-eb01f97219a0",
+  "steam_appid": 40800,
+  "name": "Super Meat Boy",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f829d250-3d33-47b2-827b-02f3ad3994a2",
+  "steam_appid": 50300,
+  "name": "Spec Ops: The Line",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b59e2e81-6f6c-41b6-82c3-f002eec5d460",
+  "steam_appid": 212070,
+  "name": "Star Conflict",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b9b99b72-bcac-423e-ac5d-c25b31d4cb08",
+  "steam_appid": 210770,
+  "name": "Sanctum 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e3a20215-56d8-40b1-9f82-bd4b106d5ae6",
+  "steam_appid": 303390,
+  "name": "Dead Bits",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bd18b24d-f344-40d9-92a2-fa33a1fe891d",
+  "steam_appid": 35700,
+  "name": "Trine Enchanted Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ca88e179-fd5c-44ed-9300-7ebbe892c16c",
+  "steam_appid": 1030840,
+  "name": "Mafia: Definitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "866223b6-5991-4caf-b1e9-81cdb7e4d663",
+  "steam_appid": 1408720,
+  "name": "Krunker",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b0204e64-f3a1-4b90-850b-eab6b5f5fc78",
+  "steam_appid": 2322010,
+  "name": "God of War Ragnarök",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e5052b7c-cd5d-426b-98be-5c85a3eb2680",
+  "steam_appid": 225260,
+  "name": "Brutal Legend",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "00f5a2cf-0f4f-4d19-9a3b-fdce9d766362",
+  "steam_appid": 1904540,
+  "name": "Football Manager 2023",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1e03dcfe-b133-4c2a-b1b1-df32bc76a2d9",
+  "steam_appid": 9900,
+  "name": "Star Trek Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8e9774e2-afe7-4263-b4b0-7d1aac56f3a2",
+  "steam_appid": 216150,
+  "name": "MapleStory",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3217a48a-cc5b-46d0-811a-5ed6f9a382e5",
+  "steam_appid": 244450,
+  "name": "Men of War: Assault Squad 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a4fb5086-fead-4f64-bee2-675dda16581f",
+  "steam_appid": 611500,
+  "name": "Quake Champions",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c09d7770-a5a3-451e-9676-a60d61846503",
+  "steam_appid": 323580,
+  "name": "Jotun: Valhalla Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d6475922-5696-404d-8109-7accd9e197ac",
+  "steam_appid": 502500,
+  "name": "ACE COMBAT 7: SKIES UNKNOWN",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "56d83934-888a-4933-bf3b-62d40111a2c9",
+  "steam_appid": 464920,
+  "name": "Surviving Mars",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fa6a57f6-eecd-4753-af4f-69cd842dd472",
+  "steam_appid": 1643320,
+  "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d4cd8a52-d1c4-4889-b99f-d41c96346159",
+  "steam_appid": 268420,
+  "name": "Aura Kingdom",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "80046a0d-90f0-44e9-813e-b1a9b59bb15e",
+  "steam_appid": 1840,
+  "name": "Source Filmmaker",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "00fcb3e9-e8c9-427e-8e08-f9ea18b1694c",
+  "steam_appid": 265590,
+  "name": "The Red Solstice",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3b6edf3f-98a0-4b55-9b9b-f0dc3d4d8a47",
+  "steam_appid": 7940,
+  "name": "Call of Duty 4: Modern Warfare (2007)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "65602c8b-5e5f-4a40-8d7f-d6d8075e757a",
+  "steam_appid": 282140,
+  "name": "SOMA",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a210b2f6-7085-4280-a175-c437d9c0ccbc",
+  "steam_appid": 204300,
+  "name": "Awesomenauts - the 2D moba",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1f8fde5b-3a83-41ee-985b-a944e638fff5",
+  "steam_appid": 22370,
+  "name": "Fallout 3: Game of the Year Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "952aa45c-5b21-466b-9587-d83371b444fc",
+  "steam_appid": 952060,
+  "name": "Resident Evil 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5771506b-789f-4f79-83c9-8a7952d58eb2",
+  "steam_appid": 1610430,
+  "name": "OPG: Clan Wars",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3f65d501-3f5e-4680-a3b5-fcbb33af8608",
+  "steam_appid": 1284210,
+  "name": "Guild Wars 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "98d3d4a4-693f-462d-9fd9-04b1d8b9defc",
+  "steam_appid": 206210,
+  "name": "Gotham City Impostors Free to Play",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "22ebb60e-ceb4-4839-a469-e76f7913688f",
+  "steam_appid": 1399780,
+  "name": "Spellbreak",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "08a5c54d-2336-47bc-97b6-d20c7bd0fb70",
+  "steam_appid": 815370,
+  "name": "Green Hell",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d5fd673-d7f9-4e87-95f0-8a31f3bd584c",
+  "steam_appid": 632470,
+  "name": "Disco Elysium - The Final Cut",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "111f040b-9461-47e8-b6c0-e7fb0a30ee2c",
+  "steam_appid": 493340,
+  "name": "Planet Coaster",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "78c16617-7375-4bae-b72e-49ef08e3341e",
+  "steam_appid": 949230,
+  "name": "Cities: Skylines II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7fce987f-67cd-4cfa-80c3-a0deee2026a8",
+  "steam_appid": 823130,
+  "name": "Totally Accurate Battlegrounds",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c8c8728-2035-4b3d-a34e-a50a4ac09840",
+  "steam_appid": 204450,
+  "name": "Call of Juarez: Gunslinger",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "597ed76e-caa6-4b9f-812f-f58372371300",
+  "steam_appid": 47780,
+  "name": "Dead Space 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9fe73c34-fb55-4aae-b4b5-ba38d5286b1e",
+  "steam_appid": 394510,
+  "name": "HELLDIVERS Dive Harder Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d2a57592-1a77-49bb-90d0-8536b4cd0c26",
+  "steam_appid": 640820,
+  "name": "Pathfinder: Kingmaker — Enhanced Plus Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9b2fd59c-f3fb-4e3d-b7da-36fecc84a867",
+  "steam_appid": 50620,
+  "name": "Darksiders",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "663fe2a7-96de-40c2-8828-b061a02ea490",
+  "steam_appid": 15620,
+  "name": "Warhammer 40,000: Dawn of War II - Anniversary Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "22f16878-7a4b-4015-b71c-586ee1e221e1",
+  "steam_appid": 1128810,
+  "name": "RISK: Global Domination",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d9240c01-ef4e-416a-add6-f659ea807a23",
+  "steam_appid": 204100,
+  "name": "Max Payne 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ec930639-7d95-48cb-869c-a2e755cd2f94",
+  "steam_appid": 1845910,
+  "name": "Dragon Age: The Veilguard",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d1b6e2a-d153-4b6b-a9e2-814d740ba034",
+  "steam_appid": 238010,
+  "name": "Deus Ex: Human Revolution - Director's Cut",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "338ab6e2-1a19-4aad-a74c-25a4964c4a5a",
+  "steam_appid": 414700,
+  "name": "Outlast 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a6a9016e-6489-4b04-8ef9-51d56a08ac7d",
+  "steam_appid": 330020,
+  "name": "Children of Morta",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "972e840c-5ab5-4183-a57d-e9b5894cb9ed",
+  "steam_appid": 2054970,
+  "name": "Dragon's Dogma 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "226629ba-0ff5-403d-bead-07fd53253157",
+  "steam_appid": 1522820,
+  "name": "Orcs Must Die! 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e8bfe5f7-f517-4f9f-93a1-24bc460d5b59",
+  "steam_appid": 35140,
+  "name": "Batman: Arkham Asylum Game of the Year Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "db71206b-0257-4ac2-8dff-36c7affbe672",
+  "steam_appid": 47890,
+  "name": "The Sims 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a7de7aaa-e6db-460b-8ee9-ff7946db6ff6",
+  "steam_appid": 393380,
+  "name": "Squad",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "454cae26-2ed2-4f45-a2e8-eb731372b2b4",
+  "steam_appid": 337000,
+  "name": "Deus Ex: Mankind Divided",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fde5dbb3-af06-4cd4-8cde-98848a0f7f5e",
+  "steam_appid": 389570,
+  "name": "Mitos.is: The Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4a1b526e-9f4c-452e-a0a0-52f62373008e",
+  "steam_appid": 39120,
+  "name": "RIFT",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eeb90f4e-95e8-4a58-a7f0-178d30a8973d",
+  "steam_appid": 1029690,
+  "name": "Sniper Elite 5",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cf14c140-6506-4077-b6e5-5541058be1ec",
+  "steam_appid": 482730,
+  "name": "Football Manager 2017",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4169a3d3-dc17-440f-b270-4aefa2b74f46",
+  "steam_appid": 266840,
+  "name": "Age of Mythology: Extended Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2316b0b7-b565-45ed-9742-6890a83a34ea",
+  "steam_appid": 200710,
+  "name": "Torchlight II",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "31107256-3d82-4548-b33b-ab23a5043d88",
+  "steam_appid": 307690,
+  "name": "Sleeping Dogs: Definitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fe69edfc-2702-4642-ad19-6439bae89152",
+  "steam_appid": 645630,
+  "name": "Car Mechanic Simulator 2018",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d9e6d5fd-0e50-4948-be5b-a6d0780867d2",
+  "steam_appid": 1790600,
+  "name": "DRAGON BALL: Sparking! ZERO",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e0c175db-af59-40a4-bd23-a8c944cfd249",
+  "steam_appid": 1151640,
+  "name": "Horizon Zero Dawn Complete Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b813cfe9-79f9-4086-8b1d-46b0f6ffa92e",
+  "steam_appid": 65930,
+  "name": "The Bureau: XCOM Declassified",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "71ebdaf1-1ec3-4101-9ec8-c6c433db66de",
+  "steam_appid": 1272080,
+  "name": "PAYDAY 3",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eead7b46-5a47-4c15-9d3f-0b7c735c63a7",
+  "steam_appid": 383870,
+  "name": "Firewatch",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7d272d80-acce-4ec9-ba40-a28bd223bbc7",
+  "steam_appid": 204340,
+  "name": "Serious Sam 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fdae7c0f-79ee-4d9e-bbce-7c79435e1b89",
+  "steam_appid": 454650,
+  "name": "DRAGON BALL XENOVERSE 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dc699fd1-8fab-40e6-891c-04d37c8e5570",
+  "steam_appid": 38400,
+  "name": "Fallout: A Post Nuclear Role Playing Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c63cb63c-8640-42e2-9368-1275bfac7735",
+  "steam_appid": 460950,
+  "name": "Katana ZERO",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1c4e04b5-7b59-4422-8f1b-5133a461d944",
+  "steam_appid": 41700,
+  "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d0c20e23-de10-4ef9-a673-41bb7a1063ec",
+  "steam_appid": 1637320,
+  "name": "Dome Keeper",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ae23cad-e374-44c6-b567-6393ff64e90e",
+  "steam_appid": 368260,
+  "name": "Marvel's Midnight Suns",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "358b9b89-72bd-4056-8b4e-d4ce8fc7a119",
+  "steam_appid": 368230,
+  "name": "Kingdom: Classic",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d04ed88a-f68b-4912-8f88-f711684c1c25",
+  "steam_appid": 606150,
+  "name": "Moonlighter",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "70c1bcda-2f26-424f-8cf7-9a19e184f32f",
+  "steam_appid": 900883,
+  "name": "The Elder Scrolls IV: Oblivion Game of the Year Edition Deluxe (2009)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8bff50fb-e805-4f0e-b7d1-5ded4d5316af",
+  "steam_appid": 342200,
+  "name": "MechWarrior Online Solaris 7",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "152f643b-f9f8-409f-86c9-2dc2238f123a",
+  "steam_appid": 3830,
+  "name": "Psychonauts",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "89ff2d8d-2e05-456d-89f0-25d0303db2bc",
+  "steam_appid": 975370,
+  "name": "Dwarf Fortress",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "212a9065-b583-4800-ab0d-0b18411e9415",
+  "steam_appid": 308040,
+  "name": "Back to Bed",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d7e02275-36b9-4ecb-af69-36c3d1682f11",
+  "steam_appid": 738060,
+  "name": "Freddy Fazbear's Pizzeria Simulator",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b59bf33e-884c-4bbc-b74a-2d2530b0e6e6",
+  "steam_appid": 1277400,
+  "name": "Monster Hunter Stories 2: Wings of Ruin",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b06e47fb-58e0-41d1-a083-fa87d0605de6",
+  "steam_appid": 317360,
+  "name": "Double Action: Boogaloo",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dde4f7ce-59b6-4350-a597-b18149c319fb",
+  "steam_appid": 395170,
+  "name": "DISTRAINT: Deluxe Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5d7745cd-5d27-417d-b7fa-25c4626a3d47",
+  "steam_appid": 629520,
+  "name": "Soundpad",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0eb5beeb-6866-4733-91a7-34cd920eec59",
+  "steam_appid": 637650,
+  "name": "FINAL FANTASY XV WINDOWS EDITION",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "af5f115a-abd3-4bda-ac05-a9e70ed9b12a",
+  "steam_appid": 40990,
+  "name": "Mafia",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fb6df2e5-19b5-46eb-ad26-d034b719de5f",
+  "steam_appid": 403640,
+  "name": "Dishonored 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8d4d6860-56cc-4cc5-af68-0fb9c19e1453",
+  "steam_appid": 1364780,
+  "name": "Street Fighter 6",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0234911c-93b1-4789-9dc4-274b784a6b67",
+  "steam_appid": 630100,
+  "name": "SoulWorker - Anime Action MMO",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "776a5cb8-767e-46df-a042-834fb2fca429",
+  "steam_appid": 312530,
+  "name": "Duck Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "516467b7-be01-4263-91c5-b25dcccf134d",
+  "steam_appid": 485510,
+  "name": "Nioh: Complete Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cd37dce1-b5e9-449f-915d-2baec6a804f9",
+  "steam_appid": 436520,
+  "name": "Line of Sight",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1fb98a55-67a9-4677-9dfa-36f96a877aec",
+  "steam_appid": 234650,
+  "name": "Shadowrun Returns",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d615dcf5-dc13-4f77-8a58-9001463a3967",
+  "steam_appid": 736590,
+  "name": "Operation: Harsh Doorstop",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5f8cc879-9c56-432b-96cf-c57dc745ddd0",
+  "steam_appid": 17470,
+  "name": "Dead Space (2008)",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "27a1a957-55f1-480b-88f7-c8f73f881851",
+  "steam_appid": 544810,
+  "name": "KARDS - The WWII Card Game",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9701379d-afdc-4164-828c-4efdf44a50c5",
+  "steam_appid": 788100,
+  "name": "Neon Abyss",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a6c98dc7-85cc-41a6-9827-ec2c67e6219b",
+  "steam_appid": 409720,
+  "name": "BioShock 2 Remastered",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "712054c0-5284-480e-a548-4389a1cd01e0",
+  "steam_appid": 893520,
+  "name": "Creative Destruction",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a9175d78-b94b-46f3-b244-d458b34dea59",
+  "steam_appid": 480490,
+  "name": "Prey",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "16c74f19-d6b7-4cc0-8edb-971b46613fc3",
+  "steam_appid": 200510,
+  "name": "XCOM: Enemy Unknown",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6dffc264-83e5-44ae-bc6e-4553e70e3393",
+  "steam_appid": 1139900,
+  "name": "Ghostrunner",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "10dda256-ab10-479a-87db-28cd7c52c209",
+  "steam_appid": 1824220,
+  "name": "Chivalry 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1e83c812-4a7d-4650-a2bb-5c43033802cd",
+  "steam_appid": 349040,
+  "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "459feb8e-acd3-4594-b00a-5092e87c54b5",
+  "steam_appid": 287290,
+  "name": "Resident Evil Revelations 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9bd0f7c9-bc9f-4e8f-9c5e-450cc001f90a",
+  "steam_appid": 750920,
+  "name": "Shadow of the Tomb Raider: Definitive Edition",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "26de7f04-a46c-4142-9706-8f5ebf0335bd",
+  "steam_appid": 13520,
+  "name": "Far Cry",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "12aeb9dc-fad4-4133-855c-09b5b43606f3",
+  "steam_appid": 563560,
+  "name": "Alien Swarm: Reactive Drop",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "03670529-2f33-43e6-a9f3-03f2d0ff639a",
+  "steam_appid": 2479810,
+  "name": "Gray Zone Warfare",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ea43825f-070e-4578-8dba-dd065461bb18",
+  "steam_appid": 680420,
+  "name": "OUTRIDERS",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "541398e5-0e71-45e1-92f9-a67241dbed21",
+  "steam_appid": 2186680,
+  "name": "Warhammer 40,000: Rogue Trader",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "84168270-940a-41b2-9587-bf2704756139",
+  "steam_appid": 2310,
+  "name": "Quake",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b982b544-a1c1-4fa6-90a9-00fb29718ba8",
+  "steam_appid": 8980,
+  "name": "Borderlands Game of the Year",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "278cd5b7-62e3-4110-98bc-ac532f492f91",
+  "steam_appid": 858820,
+  "name": "Tribes of Midgard",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ead64eb7-c8e1-45bb-8013-43ec38222322",
+  "steam_appid": 633230,
+  "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f4897082-d1ef-4e4b-895f-8da0cc4f8753",
+  "steam_appid": 24960,
+  "name": "Battlefield: Bad Company 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "98c3d945-7e6b-4347-87d2-a5da65659023",
+  "steam_appid": 1343400,
+  "name": "RuneScape ",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a4eb7f5a-8923-4ed0-9f5a-8db48adcf3b3",
+  "steam_appid": 783770,
+  "name": "Ironsight",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e1af34d2-0ca6-4bf4-a389-d59eab7d7e46",
+  "steam_appid": 206440,
+  "name": "To the Moon",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d0a45463-0368-47c1-809d-8746a2f9fccc",
+  "steam_appid": 212160,
+  "name": "Vindictus",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5f389498-8e9d-4ea4-99a3-6b67bce6f143",
+  "steam_appid": 113020,
+  "name": "Monaco: What's Yours Is Mine",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a91313ea-91ca-40a6-8853-e0acfa2bde18",
+  "steam_appid": 368500,
+  "name": "Assassin's Creed Syndicate",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ca529831-3a97-4dd5-931e-584b90a3119a",
+  "steam_appid": 389430,
+  "name": "Knight Online",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fc88ee58-eb50-4d66-85bb-bc1ebdcd8c75",
+  "steam_appid": 453480,
+  "name": "Shadowverse CCG",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "90efd87e-2592-43e2-9611-594bdb308a02",
+  "steam_appid": 238370,
+  "name": "Magicka 2",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0d9d36fe-bc22-44cc-9bf7-04e9b0b7cb28",
+  "steam_appid": 1619450,
+  "name": "Heart of a Warrior",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d6cd8c7f-fd33-4cec-b232-c37d84d08c32",
+  "steam_appid": 21690,
+  "name": "Resident Evil 5",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "99581245-09bf-416b-bf49-b0fbfe7cb706",
+  "steam_appid": 365450,
+  "name": "Hacknet",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "103cd77f-7e15-485d-83de-65a3bd457ce3",
+  "steam_appid": 268050,
+  "name": "The Evil Within",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e652c8ea-0800-4564-b2e1-d67cc9b3436d",
+  "steam_appid": 2835570,
+  "name": "Buckshot Roulette",
+  "owners": "2,000,000 .. 5,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d96dbe68-d2b5-4c4e-bc3a-b31a2d082962",
+  "steam_appid": 57690,
+  "name": "Tropico 4",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c7af492f-71f2-4c93-a76f-2a1db76480c7",
+  "steam_appid": 872790,
+  "name": "Football Manager 2019",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "064c39b4-ee34-4da0-9b87-d22b0cdec197",
+  "steam_appid": 977950,
+  "name": "A Dance of Fire and Ice",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "104d4f47-6fc9-497d-a66b-a4b53d188138",
+  "steam_appid": 289130,
+  "name": "ENDLESS Legend",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ede4eb14-67f9-40b8-bd92-89b0b1971b12",
+  "steam_appid": 349700,
+  "name": "Romero's Aftermath",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eda753e8-6701-443f-8cc8-ad93aee1083f",
+  "steam_appid": 22330,
+  "name": "The Elder Scrolls IV: Oblivion Game of the Year Edition (2009)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a4efa715-d737-4516-a8cf-17f26242cad1",
+  "steam_appid": 10500,
+  "name": "Total War: EMPIRE – Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5276a474-6ce2-4d12-939b-7adb8965e7ea",
+  "steam_appid": 678960,
+  "name": "CODE VEIN",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4a2986cd-608c-44dc-8271-53da46f2d18a",
+  "steam_appid": 206500,
+  "name": "AirMech Strike",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "25355f43-66f3-490b-9fbd-73558633a5d9",
+  "steam_appid": 6860,
+  "name": "Hitman: Blood Money",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "21c8e18e-8d95-4790-9744-aa223844b23e",
+  "steam_appid": 355180,
+  "name": "Codename CURE",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "06147b26-04ac-498d-b7c9-3502682828c0",
+  "steam_appid": 2399830,
+  "name": "ARK: Survival Ascended",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e4a05056-b73b-42e3-a17a-0376fd207c99",
+  "steam_appid": 412220,
+  "name": "DDraceNetwork",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bf134263-3025-45f5-bd4e-a452bfb8ee71",
+  "steam_appid": 302510,
+  "name": "Ryse: Son of Rome",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8a374d7b-f6c8-433c-afea-211276add554",
+  "steam_appid": 360970,
+  "name": "Heaven Forest NIGHTS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "87126e09-cfab-4f89-9d39-cb869af9feb5",
+  "steam_appid": 1536610,
+  "name": "OpenTTD",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5e43f8c6-da0b-42b2-bb2c-d21575e643f0",
+  "steam_appid": 319830,
+  "name": "AX:EL - Air XenoDawn",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7655d170-680f-4fdd-9337-e79695bbf9ad",
+  "steam_appid": 1404210,
+  "name": "Red Dead Online",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e08f2e14-6a49-4a26-9a57-997da43e06cb",
+  "steam_appid": 274940,
+  "name": "Depth",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ae67c0e8-4d8a-41aa-8d4b-0a3c9c69c087",
+  "steam_appid": 606280,
+  "name": "Darksiders III",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4406773f-8af8-4ab9-a57c-6d899ea852cf",
+  "steam_appid": 602960,
+  "name": "Barotrauma",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0f688937-c1ba-492c-a35b-bf4287f06193",
+  "steam_appid": 488790,
+  "name": "South Park: The Fractured But Whole",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7956b6df-4ba2-4b14-8c86-3ead2239b729",
+  "steam_appid": 311560,
+  "name": "Assassin’s Creed Rogue",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "83fd7a60-85d3-49cd-8b3c-b6cce504f696",
+  "steam_appid": 291650,
+  "name": "Pillars of Eternity",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e5ff279f-6cb2-4e66-9721-d131e4644053",
+  "steam_appid": 130,
+  "name": "Half-Life: Blue Shift",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "97d816d6-e9aa-487d-9713-fa07a79a9821",
+  "steam_appid": 683320,
+  "name": "GRIS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ce7c54fd-7c4e-44e1-9309-d5f3da8bae5a",
+  "steam_appid": 2215430,
+  "name": "Ghost of Tsushima DIRECTOR'S CUT",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "abfb2b0d-7cb6-4ef5-8b18-404935ce18b7",
+  "steam_appid": 476600,
+  "name": "Call of Duty: WWII",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a43bfd87-c51f-4189-a083-cf70c558c567",
+  "steam_appid": 236870,
+  "name": "HITMAN",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0a9a9a37-c8f0-42ea-a75a-45cf1825d87d",
+  "steam_appid": 239820,
+  "name": "Game Dev Tycoon",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "997375a5-b1e6-48fe-badd-a32d67ba17f2",
+  "steam_appid": 386940,
+  "name": "Ultimate Chicken Horse",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9054e131-3fef-405b-be4f-da652ddcd266",
+  "steam_appid": 17330,
+  "name": "Crysis Warhead",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5f5d251e-b639-4b9c-a294-fbdb30ee88d6",
+  "steam_appid": 493520,
+  "name": "GTFO",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ae56bc89-0edc-4257-9aa7-a652be5d359c",
+  "steam_appid": 113420,
+  "name": "Fallen Earth Free2Play",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2e637d3d-5ad0-4f1f-9e96-27e2cbd216f5",
+  "steam_appid": 1509960,
+  "name": "PICO PARK",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fded1c5b-ded8-4e0b-9c78-4315a5997e05",
+  "steam_appid": 1549970,
+  "name": "Aliens: Fireteam Elite",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "49a9a5f9-e6ba-4e25-8db2-85c8c23759a3",
+  "steam_appid": 2280,
+  "name": "DOOM + DOOM II",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c21c9231-8d86-47be-8d66-28e388550f81",
+  "steam_appid": 706990,
+  "name": "BLOCKPOST",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d0e3e2c6-7631-40fe-ae7e-0ebffe686e6d",
+  "steam_appid": 1627140,
+  "name": "Sabre Team",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f1c45cf2-aa44-4e26-b1f7-fd24f2d6c029",
+  "steam_appid": 442080,
+  "name": "Riders of Icarus",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c8ad779a-05c5-4036-8b6c-67da718515cb",
+  "steam_appid": 1659040,
+  "name": "HITMAN World of Assassination",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2284cecd-f39e-40c9-b1d3-377927d69121",
+  "steam_appid": 1058020,
+  "name": "STAR WARS Battlefront (Classic, 2004)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2f82ce59-9e8b-4640-ba15-a92fe46ff881",
+  "steam_appid": 1611910,
+  "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "692734a8-6e8b-4663-bddd-e32a08363dd4",
+  "steam_appid": 612880,
+  "name": "Wolfenstein II: The New Colossus",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b952f563-b7fd-4df8-97c8-e41313f31026",
+  "steam_appid": 1466640,
+  "name": "Road 96 ",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "84b20a8f-78c2-4cea-8ebc-ae3b8552fcd0",
+  "steam_appid": 228280,
+  "name": "Baldur's Gate: Enhanced Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f9cc8d41-62ea-4d43-805b-00b66c955c4e",
+  "steam_appid": 327690,
+  "name": "Gigantic",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8bcaca51-7261-4252-8954-7ad5ed1932aa",
+  "steam_appid": 239160,
+  "name": "Thief",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ac8c9fb5-3d0f-4d7a-9529-83cec5531796",
+  "steam_appid": 924970,
+  "name": "Back 4 Blood",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9639855a-1bd0-4aa0-91ff-07ff40a7167f",
+  "steam_appid": 32370,
+  "name": "STAR WARS Knights of the Old Republic",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c114f5a2-cd75-4100-be02-5eba24b49c05",
+  "steam_appid": 417860,
+  "name": "Emily is Away",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9b9aca3b-25b3-4da7-b82e-014b0d59bbe7",
+  "steam_appid": 24740,
+  "name": "Burnout Paradise: The Ultimate Box",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e2cf2165-ba31-4119-a18e-9c95b5039111",
+  "steam_appid": 569480,
+  "name": "Kingdoms and Castles",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e86c8a9f-4aa0-4a16-80c5-f7e24e27e428",
+  "steam_appid": 110800,
+  "name": "L.A. Noire",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2bfade20-675c-4c3d-be97-7df0e731aeed",
+  "steam_appid": 228380,
+  "name": "Wreckfest",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "376f55af-b121-47bf-a3f9-3ee9898a8d10",
+  "steam_appid": 492720,
+  "name": "Tropico 6",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "810a3c4f-2fc1-4dd7-babf-171ae49d493d",
+  "steam_appid": 638970,
+  "name": "Yakuza 0",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "96dd7a55-f6b2-46b1-b9ce-474f02af1ee1",
+  "steam_appid": 471710,
+  "name": "Rec Room",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "512412e0-ffec-462b-98c3-a8ea9412b488",
+  "steam_appid": 537180,
+  "name": "Digimon Masters Online",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "417f203f-1960-4192-bb14-3e30c00698a4",
+  "steam_appid": 248820,
+  "name": "Risk of Rain (2013)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3b224c2d-c362-42cc-bbd1-231701fafb5a",
+  "steam_appid": 1213210,
+  "name": "Command & Conquer Remastered Collection",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b92d2bec-f5c8-496b-83a7-ec13bf2808ae",
+  "steam_appid": 447820,
+  "name": "Day of Infamy",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "99fe2f6c-1964-437c-b266-95426b9034d1",
+  "steam_appid": 627690,
+  "name": "Idle Champions of the Forgotten Realms",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2431db01-ead6-4922-8409-36ddcbff7b78",
+  "steam_appid": 1687950,
+  "name": "Persona 5 Royal",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "78da737b-9236-48cb-9d3f-92b45923f9ad",
+  "steam_appid": 1557740,
+  "name": "ROUNDS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c425181b-093e-40f3-814d-e26ee327097c",
+  "steam_appid": 621060,
+  "name": "PC Building Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2a6c48a1-e4f4-4fdb-9476-7b91297b08d7",
+  "steam_appid": 242860,
+  "name": "Verdun",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2ae1039f-8341-49cc-a42f-058a3578b77d",
+  "steam_appid": 1286680,
+  "name": "Tiny Tina's Wonderlands",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f71090d8-aacb-4915-85b6-974b9cdbedea",
+  "steam_appid": 304670,
+  "name": "Aeon Command",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3d807108-ca15-4cd1-84ce-abbd3674df30",
+  "steam_appid": 9010,
+  "name": "Return to Castle Wolfenstein",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bc483f70-65a7-41b3-827c-b20c8eb5e876",
+  "steam_appid": 298240,
+  "name": "War Trigger 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e3852fd-29cc-4131-89db-2c10cda51dd7",
+  "steam_appid": 304240,
+  "name": "Resident Evil",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "857da906-68d4-47e3-a334-cb5c904274ec",
+  "steam_appid": 636480,
+  "name": "Ravenfield",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c83ee710-71e3-45bb-86a0-2c9d4a58bf9e",
+  "steam_appid": 47810,
+  "name": "Dragon Age: Origins - Ultimate Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7d150fbc-049a-4d0e-9b92-7c91ac9d4628",
+  "steam_appid": 202170,
+  "name": "Sleeping Dogs",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "29b4324e-d997-4871-9869-cb3f072237e6",
+  "steam_appid": 24980,
+  "name": "Mass Effect 2 (2010 Edition)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8fd230bc-9018-4386-bb8b-ef10ab094e45",
+  "steam_appid": 1533390,
+  "name": "Gorilla Tag",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2a7f85fc-5c99-47cc-9a2a-9916bf28d7d5",
+  "steam_appid": 39500,
+  "name": "Gothic 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5de2501d-cf94-4f19-8b27-29b89e372e51",
+  "steam_appid": 638070,
+  "name": "Murderous Pursuits",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "64b850a3-b26b-4d4d-805c-045cf91bff2a",
+  "steam_appid": 324800,
+  "name": "Shadow Warrior 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "897353f3-27d6-4072-8704-c560b92e78b8",
+  "steam_appid": 4500,
+  "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c8ac491d-3c0f-4fea-89c7-0aec63c583b5",
+  "steam_appid": 9340,
+  "name": "Company of Heroes: Opposing Fronts",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "013ee599-f332-4705-9b5b-520a26883172",
+  "steam_appid": 67370,
+  "name": "The Darkness II",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ef01454-6363-43ff-a39d-2fae39cafa75",
+  "steam_appid": 460790,
+  "name": "Bayonetta",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1a365bf7-1f9d-4b6f-8cae-ffb845fa2755",
+  "steam_appid": 287450,
+  "name": "Rise of Nations: Extended Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1934945b-8b57-4f72-89ca-77b29845e921",
+  "steam_appid": 582500,
+  "name": "We Were Here",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6f0e3e51-3761-43c6-972c-ba18fd59d899",
+  "steam_appid": 312520,
+  "name": "Rain World",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "60f9c3aa-4d1f-4be8-9065-fb22557aaece",
+  "steam_appid": 214420,
+  "name": "Gear Up",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "62961a61-df8d-422c-9e8e-693a93da85d8",
+  "steam_appid": 22320,
+  "name": "The Elder Scrolls III: Morrowind Game of the Year Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "26d8b9d3-3a0b-4822-aafc-894d5ea5a996",
+  "steam_appid": 1377580,
+  "name": "Soulworker",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2ed90f6b-0162-4e79-9c0a-cf720c378e41",
+  "steam_appid": 1049410,
+  "name": "Superliminal",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3c0f900b-4657-4c8d-bbfa-568704301ef3",
+  "steam_appid": 2100,
+  "name": "Dark Messiah of Might & Magic",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "84ed2634-e250-46f1-bdbb-b62c61eef737",
+  "steam_appid": 511470,
+  "name": "Glass Masquerade",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "22b24915-14a6-46d9-a639-58fcd51d3feb",
+  "steam_appid": 476480,
+  "name": "Heaven Forest - VR MMO",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "812a722f-dbd2-43d0-8b48-f16513b48781",
+  "steam_appid": 322500,
+  "name": "SUPERHOT",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "47f4922b-ab04-4f77-95f4-aa719bdc0b69",
+  "steam_appid": 232890,
+  "name": "Stronghold Crusader 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c4959f49-7cdd-4360-997d-933382188cb0",
+  "steam_appid": 491950,
+  "name": "Orwell: Keeping an Eye On You",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c820e37f-6550-4712-9a7c-a020cdf8bd66",
+  "steam_appid": 6000,
+  "name": "STAR WARS Republic Commando",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e399f4d0-e1ea-4ff4-891f-d3632dea7a9b",
+  "steam_appid": 629730,
+  "name": "Blade and Sorcery",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4459c3ac-03ff-42c7-90cb-f744376002a8",
+  "steam_appid": 1030830,
+  "name": "Mafia II: Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b7793498-6915-4759-976d-069135e74d5f",
+  "steam_appid": 34030,
+  "name": "Total War: NAPOLEON – Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0eeb17fb-0a8c-4674-b8b9-bc12c38cab37",
+  "steam_appid": 527230,
+  "name": "For The King",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ca9cfaa2-199c-447a-9dc0-436ec80bb45e",
+  "steam_appid": 1284410,
+  "name": "GWENT: The Witcher Card Game",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e60d6b73-24f8-4044-9486-839f6fadcec3",
+  "steam_appid": 1313860,
+  "name": "EA SPORTS FIFA 21",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b11afcf6-99f7-4668-ace6-d69e9e523122",
+  "steam_appid": 235600,
+  "name": "Tom Clancy’s Splinter Cell Blacklist",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6075d655-b641-49cb-a508-b913decda67c",
+  "steam_appid": 224540,
+  "name": "Ace of Spades: Battle Builder",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3b0e162c-7e6b-4556-af91-e99df402cc1d",
+  "steam_appid": 635260,
+  "name": "CarX Drift Racing Online",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4de4cb3c-f9c7-4c5e-b616-42d63ffe3fd7",
+  "steam_appid": 314160,
+  "name": "Microsoft Flight Simulator X: Steam Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2c3e3528-02e9-4ec5-bc5b-9bbda9251202",
+  "steam_appid": 809960,
+  "name": "Radical Heights",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fa34b99a-2df1-416e-9384-83cd04bd7c56",
+  "steam_appid": 438040,
+  "name": "Shakes and Fidget",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2479f73a-0529-478f-b966-f8c56011cf6d",
+  "steam_appid": 40100,
+  "name": "Supreme Commander 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3875224f-d5ef-4705-8f9b-19987c904f46",
+  "steam_appid": 48190,
+  "name": "Assassin’s Creed Brotherhood",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "653c99ac-9d32-4644-887b-c0450864fce9",
+  "steam_appid": 637090,
+  "name": "BATTLETECH",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2d3d927f-0031-4e79-af64-c688c954232a",
+  "steam_appid": 265210,
+  "name": "Viscera Cleanup Detail: Santa's Rampage",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "23a5983d-ad1b-4c51-9035-de64bf6780f0",
+  "steam_appid": 437920,
+  "name": "Tricky Towers",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b2caaa03-6f91-4602-842d-543a2e80d7bc",
+  "steam_appid": 285190,
+  "name": "Warhammer 40,000: Dawn of War III",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c87fc41b-0ba7-4dbe-ab70-8f51a7a907be",
+  "steam_appid": 214560,
+  "name": "Mark of the Ninja",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "38985d38-6061-4a58-b2f4-920173e259ed",
+  "steam_appid": 233720,
+  "name": "Surgeon Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2bde973f-68e1-4bbf-8ec5-7fc27b17414f",
+  "steam_appid": 24010,
+  "name": "Train Simulator Classic 2024",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f4243493-60c6-4898-9bd6-31c28b0c977d",
+  "steam_appid": 15100,
+  "name": "Assassin's Creed: Director's Cut Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c3466b5-070b-412b-93ec-df5c6655c1fb",
+  "steam_appid": 774861,
+  "name": "Project Winter",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c26b644-a158-4d44-ad40-6cec69b5ea9a",
+  "steam_appid": 527430,
+  "name": "Warhammer 40,000: Inquisitor - Martyr",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2aaaa67e-3469-44f9-b8ff-d275c1ecc6df",
+  "steam_appid": 4920,
+  "name": "Natural Selection 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "41372d87-ac88-4f72-96df-8876167c4bc2",
+  "steam_appid": 34270,
+  "name": "SEGA Mega Drive and Genesis Classics",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1bf1b390-b8c9-4e54-a204-b0706a080dbb",
+  "steam_appid": 690790,
+  "name": "DiRT Rally 2.0",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "79d48329-2f19-46ab-a1ba-b49fad733550",
+  "steam_appid": 225080,
+  "name": "Brothers - A Tale of Two Sons",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "900ebf67-3e8e-4ba7-a6d7-3a34cac135ac",
+  "steam_appid": 834910,
+  "name": "ATLAS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "35594d18-6657-421c-9b13-632853dbbab3",
+  "steam_appid": 704850,
+  "name": "Thief Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5b788090-8986-43a9-9fc1-d692239dee09",
+  "steam_appid": 692850,
+  "name": "Bloodstained: Ritual of the Night",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "40283b47-30a7-4e0e-bec1-ff4c5e3c6d65",
+  "steam_appid": 568220,
+  "name": "Lobotomy Corporation | Monster Management Simulation",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2276b37b-5ce8-4cfe-9922-8785ba470c9d",
+  "steam_appid": 870780,
+  "name": "Control Ultimate Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fd446e6d-d142-4648-945e-e74abd314757",
+  "steam_appid": 237930,
+  "name": "Transistor",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "749a5587-3baf-4761-8708-c8b5ae5e4fc3",
+  "steam_appid": 1238820,
+  "name": "Battlefield 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "acb5e98d-4763-4a64-9534-ae5aa5be1d47",
+  "steam_appid": 752590,
+  "name": "A Plague Tale: Innocence",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c8b5b611-1e4c-473d-8b35-e69d8a387eed",
+  "steam_appid": 341800,
+  "name": "Keep Talking and Nobody Explodes",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d665a9c8-ebb6-4538-ae87-324189aafd6f",
+  "steam_appid": 979690,
+  "name": "The Ascent",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8f285fa9-3c57-41b8-92a9-d276d62bde6f",
+  "steam_appid": 237310,
+  "name": "Elsword",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e47a1bdb-1d4c-4559-8560-738a18f4e447",
+  "steam_appid": 17080,
+  "name": "Tribes: Ascend",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bb1490f4-3107-4eb4-adc2-4739b4b1f1cc",
+  "steam_appid": 251060,
+  "name": "Wargame: Red Dragon",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9be999c1-365c-44f7-af58-bfe1f494527f",
+  "steam_appid": 311860,
+  "name": "Data Hacker: Initiation",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "97e3abc0-6a94-4e43-93f5-6abf34e3c87f",
+  "steam_appid": 1237950,
+  "name": "STAR WARS Battlefront II",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0e11ca0b-3df2-44fa-80e8-fdcea82a1219",
+  "steam_appid": 65980,
+  "name": "Sid Meier's Civilization: Beyond Earth",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c2f53e7-1caf-49ce-bf51-aa962cfcdb63",
+  "steam_appid": 41500,
+  "name": "Torchlight",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "13dff22d-f00d-414a-b89c-8a7cc7f33505",
+  "steam_appid": 1262350,
+  "name": "SIGNALIS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2fa2b8c6-13af-4c28-97ae-e15dd887af11",
+  "steam_appid": 1238860,
+  "name": "Battlefield 4",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3864fa6e-faa3-4e20-8271-423513ae67b2",
+  "steam_appid": 323470,
+  "name": "DRAGON BALL XENOVERSE",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8f1c22a7-1d16-4b1a-8428-cc087b1cdb04",
+  "steam_appid": 1282100,
+  "name": "REMNANT II",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f570391b-7a08-47db-a10c-6a7e1888e97d",
+  "steam_appid": 243470,
+  "name": "Watch_Dogs",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2ea7a3e6-3b59-48ff-abda-2d44c7728f4e",
+  "steam_appid": 1147560,
+  "name": "Skul: The Hero Slayer",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d05cd3f8-01c2-4d6d-9cd6-a615d882db34",
+  "steam_appid": 1061910,
+  "name": "Metal: Hellsinger",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0fe9ea04-5233-4fa2-8c0d-398cbc60dc84",
+  "steam_appid": 851850,
+  "name": "DRAGON BALL Z: KAKAROT",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1107c8eb-25fd-4315-a0c3-03e6e739b3c5",
+  "steam_appid": 6880,
+  "name": "Just Cause",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9dce5ccd-6a2a-4ca1-b20f-85592faf2996",
+  "steam_appid": 19900,
+  "name": "Far Cry 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0746e9f2-4608-4e41-b9df-cc1bc690f786",
+  "steam_appid": 1353950,
+  "name": "Ring of Fire: Prologue",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "71d5887a-8a7d-4f13-8c77-87f0240e4fca",
+  "steam_appid": 20570,
+  "name": "Warhammer 40,000: Dawn of War II Chaos Rising",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3818f91c-cf3d-4d86-a853-4b8198c71587",
+  "steam_appid": 459820,
+  "name": "Crush Crush",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ed697f9d-65cd-4c14-b315-0aff4a4398de",
+  "steam_appid": 218680,
+  "name": "Scribblenauts Unlimited",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "032ca018-a15e-413d-8c1a-934c174f1290",
+  "steam_appid": 942970,
+  "name": "Unheard - Voices of Crime",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ec2c2bd-4ae3-4100-9235-5c2255a54221",
+  "steam_appid": 2322560,
+  "name": "Love Is All Around",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7fcd62ff-071a-4000-92e0-361dbff6ca64",
+  "steam_appid": 4570,
+  "name": "Warhammer 40,000: Dawn of War - Anniversary Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3395a18d-395b-43ae-986e-46a4ba0fa32a",
+  "steam_appid": 1089090,
+  "name": "ONE PIECE: PIRATE WARRIORS 4",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "02b500fc-b98a-44d6-a47a-7f7708b0742d",
+  "steam_appid": 235540,
+  "name": "Warhammer: End Times - Vermintide",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6d528b4b-725f-4f44-b1df-094b87bd7f30",
+  "steam_appid": 207230,
+  "name": "ArcheBlade",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "78ba70b9-5a5c-4703-ba7d-4c3c5cab6339",
+  "steam_appid": 215080,
+  "name": "WAKFU",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8d32120c-ce37-4da4-9ece-b219534117f8",
+  "steam_appid": 332070,
+  "name": "School of Dragons",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6a8bca0a-d4e0-4ae9-818f-d28dd981b703",
+  "steam_appid": 378540,
+  "name": "The Surge",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "af2a4752-521f-44e5-9559-07e5675a58c3",
+  "steam_appid": 10680,
+  "name": "Aliens vs. Predator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1cb520de-e756-4ee3-9f98-46c9ce671027",
+  "steam_appid": 1483870,
+  "name": "Draw & Guess",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9451a663-2ef7-427b-b38a-70ba7436c428",
+  "steam_appid": 206480,
+  "name": "Dungeons & Dragons Online",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f8702355-cff3-4e81-bbc2-a1e1a19265b1",
+  "steam_appid": 704270,
+  "name": "Generation Zero",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e0dc014-b56e-45c0-ac71-45d48ee6ed86",
+  "steam_appid": 701160,
+  "name": "Kingdom Two Crowns",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ad20163-ae87-4997-bb5d-6dc79e552813",
+  "steam_appid": 65790,
+  "name": "ARMA: Cold War Assault",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5a1d6617-eb50-4a18-97b0-5c51de74d0a1",
+  "steam_appid": 437220,
+  "name": "The Culling",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7e8f92dc-7163-479b-bc0b-7dd2c5b3b26e",
+  "steam_appid": 224760,
+  "name": "FEZ",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5cadb667-2845-455f-9f61-51b3fc52d291",
+  "steam_appid": 373420,
+  "name": "Divinity: Original Sin - Enhanced Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b4949632-8b2a-4509-86b3-53dbca036179",
+  "steam_appid": 535930,
+  "name": "Two Point Hospital",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c895352e-7853-4b75-91bc-f68bb43ccc09",
+  "steam_appid": 17460,
+  "name": "Mass Effect (2007)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a13ab34a-7c79-4316-9b24-5206eac005cc",
+  "steam_appid": 1343370,
+  "name": "Old School RuneScape",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5d1333de-faa2-411b-b77d-ee15fdc6abc6",
+  "steam_appid": 443110,
+  "name": "Armored Warfare",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c01f8438-7cf4-4af3-add1-ac6ceee62412",
+  "steam_appid": 495420,
+  "name": "State of Decay 2: Juggernaut Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "10fe54d9-6f93-446a-8333-4c17ac7e32e3",
+  "steam_appid": 544730,
+  "name": "Catan Universe",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6cb3cc28-bccd-4d52-b77c-edddca39f33b",
+  "steam_appid": 1241100,
+  "name": "POLYGON: Multiplayer Shooter",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0c17908a-e09e-4547-bd47-3b99b2fe6b22",
+  "steam_appid": 510840,
+  "name": "Evolvation",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4081f245-9636-4b48-b1bc-44a1b0407596",
+  "steam_appid": 1089980,
+  "name": "The Henry Stickmin Collection",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7bfc7291-2ce6-4649-a1c4-b1dada97965b",
+  "steam_appid": 270150,
+  "name": "RUNNING WITH RIFLES",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4bf481be-122e-4cca-b1d6-f7af647e2f23",
+  "steam_appid": 933110,
+  "name": "Age of Empires III: Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9cd5e8a3-7be1-41ab-b832-6cb63e63fb53",
+  "steam_appid": 622650,
+  "name": "Bendy and the Ink Machine",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "915836bc-9ff8-4772-b687-55d710062200",
+  "steam_appid": 583950,
+  "name": "Artifact",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5fa04220-cc7b-4fa7-8d9e-1123ca889de4",
+  "steam_appid": 4700,
+  "name": "Total War: MEDIEVAL II – Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "364adcaa-0e92-4bc2-9729-61f87a02f5c0",
+  "steam_appid": 364470,
+  "name": "The Elder Scrolls: Legends",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "86d1ccde-9115-427d-8491-d8280d3d010e",
+  "steam_appid": 334230,
+  "name": "Town of Salem",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7411830b-ee22-4c3e-8e75-c56b309598c1",
+  "steam_appid": 228200,
+  "name": "Company of Heroes",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3a3949b2-f497-4e54-ad62-1b6b3f4f86fe",
+  "steam_appid": 292730,
+  "name": "Call of Duty: Infinite Warfare",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "17bb54b9-c074-4a4b-a046-c0dd51c445af",
+  "steam_appid": 3070070,
+  "name": "TCG Card Shop Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d38cb685-12ef-4e1a-a486-60347484efdb",
+  "steam_appid": 292910,
+  "name": "Deponia: The Complete Journey",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fadb6e3f-1c45-4df0-84cb-76672d638452",
+  "steam_appid": 723780,
+  "name": "Modern Combat Versus",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bb2fb861-85f5-4f51-a10f-d5bdca47cbb6",
+  "steam_appid": 657200,
+  "name": "Hand Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d4db71d9-9ba1-4ff8-9cc6-d28b2a3738df",
+  "steam_appid": 232050,
+  "name": "Eador. Masters of the Broken World",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "76a2cef7-734d-43ff-8452-561674781b9b",
+  "steam_appid": 1562430,
+  "name": "DREDGE",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "07ed4d3a-d53b-4b3d-91d3-5a0990a10aeb",
+  "steam_appid": 311340,
+  "name": "METAL GEAR SOLID V: GROUND ZEROES",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b0a96272-d735-4128-9563-61bdb4fce040",
+  "steam_appid": 427270,
+  "name": "Orcs Must Die! Unchained",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3670d551-45d0-4904-a79f-9b2cd293ad57",
+  "steam_appid": 1178830,
+  "name": "Bright Memory: Infinite",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "79993b14-e75a-44d3-b227-8e7f8e6103a3",
+  "steam_appid": 418240,
+  "name": "Shadow Tactics: Blades of the Shogun",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "877fe55b-26ca-4e8f-8e04-40cbbcbe056d",
+  "steam_appid": 263500,
+  "name": "Dragons and Titans",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "17bb386b-5d20-423d-b042-e81eb95695a3",
+  "steam_appid": 102500,
+  "name": "Kingdoms of Amalur: Reckoning",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3ca2812b-d46c-44ef-9c25-2e8441a5c206",
+  "steam_appid": 346330,
+  "name": "BrainBread 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4bf5a1bc-3190-4c6e-a91e-530c84c20b78",
+  "steam_appid": 1380400,
+  "name": "Saving Grace",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "722d95e4-4b2d-4868-9642-c22442c83568",
+  "steam_appid": 383150,
+  "name": "Dead Island Definitive Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "989442df-f435-46b6-ae49-0e1e842831a0",
+  "steam_appid": 1621690,
+  "name": "Core Keeper",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e3d2e818-1c5a-48a9-af39-7da70d6f9562",
+  "steam_appid": 56437,
+  "name": "Warhammer 40,000: Dawn of War II: Retribution",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a5880feb-f968-48d1-a6c1-35c9ca887262",
+  "steam_appid": 17300,
+  "name": "Crysis",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "343f5635-dba2-4ffd-b18a-786c0c974ec3",
+  "steam_appid": 39140,
+  "name": "FINAL FANTASY VII",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "72f3bb74-414a-4ce9-9b41-bc854a05c4e4",
+  "steam_appid": 3910,
+  "name": "Sid Meier's Civilization III Complete",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a4d0a641-7c2e-49af-bc73-ce123f8268db",
+  "steam_appid": 350640,
+  "name": "Sherlock Holmes: The Devil's Daughter",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3d988cd7-0f6f-4c72-8e69-c284bdf76e05",
+  "steam_appid": 475150,
+  "name": "Titan Quest Anniversary Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "92e8455a-8dd8-4fa3-b72b-00ffa724fb17",
+  "steam_appid": 1934680,
+  "name": "Age of Mythology: Retold",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "10633c5e-b391-4f03-91c9-dae3fd93c148",
+  "steam_appid": 921630,
+  "name": "音灵 INVAXION",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f0ef1e01-5fee-4825-a303-60a6e5642e2f",
+  "steam_appid": 418070,
+  "name": "Turbo Pug",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ebf6dbb2-fe05-4db5-96ad-2b950510f2f4",
+  "steam_appid": 1282730,
+  "name": "Loop Hero",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "73365b31-e7fa-4be8-a635-8fc530b5a3a4",
+  "steam_appid": 1476970,
+  "name": "Legends of IdleOn - Idle MMO",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "21bd1a73-0f39-40a4-8c1b-a65d71244306",
+  "steam_appid": 601430,
+  "name": "The Evil Within 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2f00fcab-8593-442d-b050-71ad0dd36e62",
+  "steam_appid": 298630,
+  "name": "The Escapists",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5a8a1b8f-9d66-41e4-85d0-f1513e6a661b",
+  "steam_appid": 220440,
+  "name": "DmC: Devil May Cry",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3aba66b0-d166-47e9-ac16-8d5c6f95e9ba",
+  "steam_appid": 1150690,
+  "name": "OMORI",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "394e129b-7379-48bf-960a-241a42517dbb",
+  "steam_appid": 297000,
+  "name": "Heroes of Might & Magic III - HD Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "75cbda67-baf6-48f4-92d7-75225673957c",
+  "steam_appid": 241600,
+  "name": "Rogue Legacy",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1e812c5f-a872-4941-be10-2723f5f392b6",
+  "steam_appid": 996470,
+  "name": "eFootball  PES 2020",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "61779522-7c18-4ad8-a671-16933c4ea59b",
+  "steam_appid": 32470,
+  "name": "STAR WARS Empire at War - Gold Pack",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f2643542-1ca4-4b9d-80d9-42ba4c6ec3ff",
+  "steam_appid": 108710,
+  "name": "Alan Wake",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c14e1a5a-2d05-4e30-ae89-b27e21b4d7a0",
+  "steam_appid": 1290000,
+  "name": "PowerWash Simulator",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "956d4717-c663-45d3-ac46-2615c464d9c0",
+  "steam_appid": 666220,
+  "name": "CS2D",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f8b13e46-8bff-43b6-bbf4-0ba3a0ddde0c",
+  "steam_appid": 2231450,
+  "name": "Pizza Tower",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "863f3561-9d3b-49d9-b72f-3e79846ec44f",
+  "steam_appid": 736220,
+  "name": "Squad 44",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b3ed039b-46f9-417d-85e6-e62450cfa986",
+  "steam_appid": 32430,
+  "name": "STAR WARS - The Force Unleashed Ultimate Sith Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "49ffd24a-46a1-4987-8de4-e6a8c5476f65",
+  "steam_appid": 613010,
+  "name": "Secret in Story",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "45873ea5-c130-4ea2-9a9d-077f8401a7a5",
+  "steam_appid": 599140,
+  "name": "Graveyard Keeper",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3bb3eb9f-8007-467a-bdaf-7ea50bf4b0bf",
+  "steam_appid": 447020,
+  "name": "Farming Simulator 17",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "70df8471-271e-45d5-9cec-40263b4ab275",
+  "steam_appid": 753640,
+  "name": "Outer Wilds",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4657f9a4-9e10-49a9-8f4b-8c8fdfc7cde5",
+  "steam_appid": 837470,
+  "name": "Untitled Goose Game",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "71a5dc60-cb2b-4aae-8f73-d5f87ba650f3",
+  "steam_appid": 209670,
+  "name": "Cortex Command",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f7aa194e-c229-4ce8-822c-0cefcb1d63ab",
+  "steam_appid": 245620,
+  "name": "Tropico 5",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fc6fcd78-e12e-414b-8397-8ca491010e86",
+  "steam_appid": 1384160,
+  "name": "GUILTY GEAR -STRIVE-",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4c72ca75-897a-4c10-af5b-3d3fd68f5f04",
+  "steam_appid": 899440,
+  "name": "GOD EATER 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3259d114-06dd-465e-acbe-913e582ec285",
+  "steam_appid": 805550,
+  "name": "Assetto Corsa Competizione",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d47ab765-154a-4b4c-8403-2b68c43155b2",
+  "steam_appid": 6020,
+  "name": "STAR WARS Jedi Knight - Jedi Academy",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d2798dab-c6ff-45c9-80df-94a85a62aae6",
+  "steam_appid": 4760,
+  "name": "Rome: Total War - Collection",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "831c2dba-7711-445c-a02d-8924808cff5f",
+  "steam_appid": 253900,
+  "name": "Knights and Merchants",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4fe85351-c256-4b18-bfda-2d6d6ed9a5cd",
+  "steam_appid": 445980,
+  "name": "Wizard of Legend",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1f0c23fb-5b07-4bdc-a2dc-72722eefcc45",
+  "steam_appid": 529340,
+  "name": "Victoria 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0a3587ce-1992-48dc-a505-48054e788d44",
+  "steam_appid": 1475810,
+  "name": "Ghostwire: Tokyo",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "aad9dd83-56bf-4991-8a5a-7bac36670261",
+  "steam_appid": 1016920,
+  "name": "Unrailed!",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ff50a8d5-57d5-4a88-9109-ac2e62cc71a9",
+  "steam_appid": 955050,
+  "name": "Bright Memory",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b535cad5-6bdc-4209-9051-3a062b92a626",
+  "steam_appid": 675010,
+  "name": "MudRunner",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f34d876e-b759-4416-aed1-d3b575231e36",
+  "steam_appid": 1113000,
+  "name": "Persona 4 Golden",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5128dfcd-b01f-4b87-911b-19a7b1f2823c",
+  "steam_appid": 223850,
+  "name": "3DMark",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5b1aa146-e019-4bc3-8367-e3a95cb1ac74",
+  "steam_appid": 444640,
+  "name": "Bloons TD Battles",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7ec273b9-f153-4308-9fa7-04fcba9fd150",
+  "steam_appid": 209160,
+  "name": "Call of Duty: Ghosts",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1fb09df4-4799-4ca5-9592-d51093253cc3",
+  "steam_appid": 474960,
+  "name": "Quantum Break",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "565021fe-4910-47c2-9da2-88e4c306bd43",
+  "steam_appid": 261110,
+  "name": "Killer is Dead - Nightmare Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "781330e1-8cd4-4167-bc39-73a5373894da",
+  "steam_appid": 302670,
+  "name": "Call to Arms",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e26aabd4-e218-474e-890c-68b4f957da4d",
+  "steam_appid": 301640,
+  "name": "Zombie Army Trilogy",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "da7885c3-73eb-444c-a2c0-f33c6955ac8d",
+  "steam_appid": 573100,
+  "name": "Battlefleet Gothic: Armada 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "53ce7e4d-3cd2-4f3c-bb2e-8a35916c8ff1",
+  "steam_appid": 41000,
+  "name": "Serious Sam HD: The First Encounter",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d9b1e902-66d0-485a-b7e7-3ef442b467f8",
+  "steam_appid": 1190000,
+  "name": "Car Mechanic Simulator 2021",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1c0fabe2-8263-4674-8e5f-ab3fe3b7981d",
+  "steam_appid": 337320,
+  "name": "Paint the Town Red",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2512815d-60a8-4b3e-b522-6d1d3c47e1ee",
+  "steam_appid": 410320,
+  "name": "EARTH DEFENSE FORCE 4.1 The Shadow of New Despair",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a96265f6-1e5a-4fbc-b475-73a122447082",
+  "steam_appid": 34870,
+  "name": "Sniper: Ghost Warrior 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1d987604-5635-4730-9dfe-79ce37464770",
+  "steam_appid": 334210,
+  "name": "Fortified",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "afbbce79-f182-40f6-8863-61b1bc73873d",
+  "steam_appid": 250400,
+  "name": "How to Survive",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cdb07428-0400-4152-977e-c50ea84018bb",
+  "steam_appid": 257510,
+  "name": "The Talos Principle",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b6fb0529-8359-4c65-9eb3-468430b203e0",
+  "steam_appid": 603850,
+  "name": "Age of History II",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "482e4b6e-3cf8-470c-80bf-54f5eb35bbaa",
+  "steam_appid": 1755910,
+  "name": "Capcom Arcade 2nd Stadium",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eb9cf46c-28ee-4655-b601-c2981232c768",
+  "steam_appid": 108800,
+  "name": "Crysis 2 - Maximum Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7f0eaa61-7147-40c3-8c2c-7236dd787634",
+  "steam_appid": 257350,
+  "name": "Baldur's Gate II: Enhanced Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e6ceba71-e5c4-4d98-8c42-913711f14202",
+  "steam_appid": 208580,
+  "name": "STAR WARS Knights of the Old Republic II - The Sith Lords",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "db26d3f1-5e7c-4c3f-9bad-c54d71815f8d",
+  "steam_appid": 1262580,
+  "name": "Need for Speed Payback",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8c280154-816c-46e3-be39-de9253accb2e",
+  "steam_appid": 843380,
+  "name": "Super Animal Royale",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "33f8a0df-af3e-4b5e-9fda-fa9315227b14",
+  "steam_appid": 55110,
+  "name": "Red Faction: Armageddon",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "948077ea-8b32-420d-b67c-c97d2e30c053",
+  "steam_appid": 1987080,
+  "name": "Inside the Backrooms",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "dff6fbb3-17b9-49e9-87f5-a172c05786b9",
+  "steam_appid": 252530,
+  "name": "OMSI 2: Steam Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a703094b-83f6-4492-8243-9be6d6854134",
+  "steam_appid": 231060,
+  "name": "Ragnarok Online 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e2db505a-d3d2-40b0-bb6e-53bec6f89c0d",
+  "steam_appid": 230290,
+  "name": "Universe Sandbox",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b1c710bd-d2b5-430c-8498-3dbed34fd917",
+  "steam_appid": 239350,
+  "name": "Spelunky",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2834f594-1c18-43b0-a96f-e92dd66bb490",
+  "steam_appid": 278080,
+  "name": "DYNASTY WARRIORS 8: Xtreme Legends Complete Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ed11441e-7421-49f6-b7bd-2956f8fab615",
+  "steam_appid": 3146520,
+  "name": "WEBFISHING",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0ef5f597-6f89-40ee-a196-92c70284ddeb",
+  "steam_appid": 939960,
+  "name": "Far Cry New Dawn",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d78971a2-32ba-43f5-a012-727f1db06c80",
+  "steam_appid": 24780,
+  "name": "SimCity 4 Deluxe Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d248c372-834e-49e9-9aee-d830711d1a73",
+  "steam_appid": 392160,
+  "name": "X4: Foundations",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "77b7c95c-c1eb-4a9f-9ff0-6493ea53e284",
+  "steam_appid": 323850,
+  "name": "Move or Die",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "c8632914-9ff6-42dc-95e2-7807f5fcb25a",
+  "steam_appid": 673950,
+  "name": "Farm Together",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2724162d-1fcb-4ad8-9221-6e8a1d8442bf",
+  "steam_appid": 17480,
+  "name": "Command & Conquer: Red Alert 3",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b6608a79-852b-4f3a-a4f7-2509b370b596",
+  "steam_appid": 673130,
+  "name": "AMID EVIL",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4da4a927-ed6e-4456-8ef6-12a120eb93c7",
+  "steam_appid": 22350,
+  "name": "BRINK",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0caef965-763b-45e9-81bf-d7b37284fd20",
+  "steam_appid": 462780,
+  "name": "Darksiders Warmastered Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "4f276968-ee43-4434-aff7-3597a9bff822",
+  "steam_appid": 26800,
+  "name": "Braid",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bfc69a88-97a6-4317-bfd6-002dce428b88",
+  "steam_appid": 515690,
+  "name": "Warriors of Vilvatikta",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e39d79ab-f0c4-4f4b-a366-ed96df385d83",
+  "steam_appid": 460920,
+  "name": "Steep",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "23291cf8-fe61-4ff2-ae47-5b37b9a3bcc3",
+  "steam_appid": 2096600,
+  "name": "Crysis 2 Remastered",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ffb653bd-baba-4f8f-a774-9b0c4b27ff64",
+  "steam_appid": 1094520,
+  "name": "Sands of Salzaar",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "751eba90-5646-43c5-9a0f-0c4486e7226d",
+  "steam_appid": 1388770,
+  "name": "Cruelty Squad",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "82e2938e-a161-4f6b-981f-cf2dbd7154bc",
+  "steam_appid": 475550,
+  "name": "Beholder",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "7f8394ac-1a70-424f-9ad8-90c41c958dd1",
+  "steam_appid": 552100,
+  "name": "Brick Rigs",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "9c529803-68e1-4caf-8821-447ec173cec3",
+  "steam_appid": 226840,
+  "name": "Age of Wonders III",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "98f4d21b-3269-412e-bbdd-d4bbe67cffa4",
+  "steam_appid": 239200,
+  "name": "Amnesia: A Machine for Pigs",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "1a614419-a6fd-4a67-9fdf-08f42a8db3e3",
+  "steam_appid": 590380,
+  "name": "Into the Breach",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "778b9875-572d-4123-94b7-ff790a3e9a5b",
+  "steam_appid": 20510,
+  "name": "S.T.A.L.K.E.R.: Clear Sky",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5bd50279-f863-4d4e-962a-e6d6ad0850e6",
+  "steam_appid": 246900,
+  "name": "Viscera Cleanup Detail",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "796a1fec-731c-4c72-bdf8-718c2ab89bd3",
+  "steam_appid": 450390,
+  "name": "The Lab",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "88390839-ad44-4694-814c-ef1353f5f077",
+  "steam_appid": 202750,
+  "name": "Alan Wake's American Nightmare",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fc261fcd-98b0-4869-a3f4-5ef3b47c91ac",
+  "steam_appid": 560130,
+  "name": "Pillars of Eternity II: Deadfire",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eaecc80c-d671-4f96-85c0-bdd6bb533d38",
+  "steam_appid": 1129580,
+  "name": "Medieval Dynasty",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6c36f9d8-85fa-4862-a1d9-bd79a841b1a0",
+  "steam_appid": 293540,
+  "name": "Guns and Robots",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6ea1b858-4ded-4817-9421-de6a4607b4c5",
+  "steam_appid": 374040,
+  "name": "Portal Knights",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d5ce810c-5ab1-47a1-9270-ae17570a37b4",
+  "steam_appid": 1929610,
+  "name": "Demonologist",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8885a14d-573c-4970-a3f5-83d71106a0c4",
+  "steam_appid": 7760,
+  "name": "X-COM: UFO Defense",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "bc6759b4-3538-486c-9841-abc728269881",
+  "steam_appid": 1296830,
+  "name": "暖雪 Warm Snow",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a4f03f26-cabf-462e-a705-c5f637621f15",
+  "steam_appid": 6910,
+  "name": "Deus Ex: Game of the Year Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "a0cbb8e1-0436-419e-bc58-06b9fcfa8467",
+  "steam_appid": 265550,
+  "name": "Dead Rising 3 Apocalypse Edition",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "24f1edd6-c5d2-4063-a3d0-c6c2e5db62c5",
+  "steam_appid": 1147550,
+  "name": "Not For Broadcast",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "06b79456-4296-4b6c-b3fd-644687004ac2",
+  "steam_appid": 747660,
+  "name": "Five Nights at Freddy's: Security Breach",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e5ce26d8-a3fc-4ea9-acc8-bb1f2f8da95f",
+  "steam_appid": 70000,
+  "name": "Dino D-Day",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "cd55e944-7f19-420e-b6c6-c5bd2a704a67",
+  "steam_appid": 823500,
+  "name": "BONEWORKS",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0c29227c-fe47-45a5-9e96-7d2c6c9bde04",
+  "steam_appid": 38420,
+  "name": "Fallout Tactics: Brotherhood of Steel",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "37cfbe9d-3729-4317-8145-ceffd8ea0ecf",
+  "steam_appid": 104900,
+  "name": "ORION: Prelude",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "5490e7e4-0816-4cf3-9e72-89a3d0322473",
+  "steam_appid": 681660,
+  "name": "Bless Online",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "ccd22b27-b9b6-4cd6-b19f-854f68cef8b7",
+  "steam_appid": 1676130,
+  "name": "Deadlink",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "37f98b44-9fc5-493c-913b-e7ef7c97b830",
+  "steam_appid": 261030,
+  "name": "The Walking Dead: Season Two",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e801573f-9025-4fe1-b2bb-e9566949fd02",
+  "steam_appid": 6900,
+  "name": "Hitman: Codename 47",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b7904d5c-46c6-4239-9647-f3ef19478bb6",
+  "steam_appid": 249130,
+  "name": "LEGO Marvel Super Heroes",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "941c0829-7635-4780-bbb4-b7d21a5024db",
+  "steam_appid": 544750,
+  "name": "SOULCALIBUR VI",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "eee6af94-db6d-4d4d-8425-f92c157509e3",
+  "steam_appid": 1017180,
+  "name": "The Long Drive",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8d900a6d-cacb-4b73-9dd0-f1ffcf815ca6",
+  "steam_appid": 242640,
+  "name": "Styx: Master of Shadows",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "94a820f9-66ff-4596-a49e-7479c0b571fe",
+  "steam_appid": 920210,
+  "name": "LEGO Star Wars: The Skywalker Saga",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e8d5d76c-d338-4b3a-a326-05c4e665fd8f",
+  "steam_appid": 1301720,
+  "name": "Escape Room - Der kranke Kollege",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "59103098-a055-483a-91f2-cab9e40096c3",
+  "steam_appid": 230230,
+  "name": "Divinity: Original Sin (Classic)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "821c2985-261a-4a9c-a6e4-47442abbe91c",
+  "steam_appid": 339280,
+  "name": "Strife",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "3a60b996-053f-408a-854a-f26414fe3607",
+  "steam_appid": 1846380,
+  "name": "Need for Speed Unbound",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "2913a4ef-f579-40d4-a951-9f94d24abb5c",
+  "steam_appid": 383080,
+  "name": "Sakura Clicker",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "614e0fe8-05ac-4ddd-a39c-04c45ab1297a",
+  "steam_appid": 640590,
+  "name": "The LEGO NINJAGO Movie Video Game",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "0d1b6fc0-408c-420b-9223-d1bbcd247a32",
+  "steam_appid": 490220,
+  "name": "Prismata",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "e412f59c-46f0-409c-bc77-4544fe0b1a66",
+  "steam_appid": 262280,
+  "name": "Dungeons 2",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "b4f0a97d-7856-46a6-a4f2-b18cb5b2aa54",
+  "steam_appid": 1266680,
+  "name": "Strobophagia | Rave Horror",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "f0bff323-767d-4cb0-837e-ef39867fb87d",
+  "steam_appid": 40970,
+  "name": "Stronghold Crusader HD (2012)",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "8ca7d387-d3e8-42a4-829b-37f92513afe4",
+  "steam_appid": 4580,
+  "name": "Warhammer 40,000: Dawn of War - Dark Crusade",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "fbd06d3e-a305-4737-9ad5-a63a66512165",
+  "steam_appid": 8230,
+  "name": "Sam & Max 104: Abe Lincoln Must Die!",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "d68b51db-be87-480e-a097-3908582072f3",
+  "steam_appid": 699130,
+  "name": "World War Z",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "6bd1deaa-0d05-4b0c-93d7-8617afef1e7b",
+  "steam_appid": 429470,
+  "name": "Space Pilgrim Episode I: Alpha Centauri",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+},
+{
+  "_id": "16914711-a99c-485c-9355-729b14319da8",
+  "steam_appid": 9450,
+  "name": "Warhammer 40,000: Dawn of War - Soulstorm",
+  "owners": "1,000,000 .. 2,000,000",
+  "tags": "{}"
+}]

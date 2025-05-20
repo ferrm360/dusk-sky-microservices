@@ -1,0 +1,104 @@
+[{
+  "_id": "6ababf5b-de8f-4c6b-a392-0ed6d9a771d8",
+  "name": "Action"
+},
+{
+  "_id": "5cf18f60-a7b8-4045-90ed-88745d42303f",
+  "name": "Strategy"
+},
+{
+  "_id": "586c23c7-5888-4ee5-8fd9-48f1ce0f9554",
+  "name": "Free To Play"
+},
+{
+  "_id": "a1932950-be79-444e-887b-4922b9f05ab7",
+  "name": "Экшены"
+},
+{
+  "_id": "f109299d-6f7c-4aa7-bbdb-012be5acf727",
+  "name": "Бесплатные"
+},
+{
+  "_id": "b0346b55-dc7c-455e-b2b6-4979c7818179",
+  "name": "Adventure"
+},
+{
+  "_id": "a5159740-d164-484e-a30f-d69c4ba2971c",
+  "name": "Massively Multiplayer"
+},
+{
+  "_id": "0ce82b45-5d52-4fe5-9284-5b5ac71cd600",
+  "name": "Indie"
+},
+{
+  "_id": "4cde6f59-abb8-4821-9527-d8b428e12718",
+  "name": "RPG"
+},
+{
+  "_id": "55605542-2d6b-4264-9926-3688c41c6b21",
+  "name": "Early Access"
+},
+{
+  "_id": "d7332719-2d84-4081-8225-bcb78ecd5d24",
+  "name": "Casual"
+},
+{
+  "_id": "eff4b639-c1ae-4d8f-b9e1-4616afe3a4c0",
+  "name": "Simulation"
+},
+{
+  "_id": "ad22a4a3-8e2e-442f-83d9-6eed52faf2bf",
+  "name": "Animation & Modeling"
+},
+{
+  "_id": "3656ab60-2488-459b-a96e-660117df325d",
+  "name": "Design & Illustration"
+},
+{
+  "_id": "7a15e0a4-db84-4af1-8b3c-164f8bc39d06",
+  "name": "Photo Editing"
+},
+{
+  "_id": "e23028ab-a635-490c-8a0f-ddab39ce025f",
+  "name": "Utilities"
+},
+{
+  "_id": "8d0bfa6c-8016-4ba5-8da9-25e13a2b5841",
+  "name": "Sports"
+},
+{
+  "_id": "747b1d0f-3284-485a-afa6-063b37d8851f",
+  "name": "Racing"
+},
+{
+  "_id": "8e992495-5d47-4b5b-a36a-a522913ed0a9",
+  "name": "Video Production"
+},
+{
+  "_id": "9eeeb060-412f-4a8d-9f17-ad5e5ed9db01",
+  "name": "Akcja"
+},
+{
+  "_id": "488f6400-6a40-4d9d-bdca-a63fd8bf5cd7",
+  "name": "Strategie"
+},
+{
+  "_id": "d7467202-346a-495e-9ece-8156dc477b36",
+  "name": "Education"
+},
+{
+  "_id": "7245c8f4-c3b0-40ee-b921-7455063a9b8e",
+  "name": "Game Development"
+},
+{
+  "_id": "8bbbc0db-987e-447b-8695-daca12769a1e",
+  "name": "Audio Production"
+},
+{
+  "_id": "230cc112-cff5-4da2-9b49-f5470948533a",
+  "name": "Violent"
+},
+{
+  "_id": "af0818e7-66da-4ce8-a64f-80d1e68782b9",
+  "name": "Gore"
+}]
