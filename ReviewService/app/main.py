@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import review_routes
+from app.routes import review_routes
 
 app = FastAPI(title="Review Service")
 

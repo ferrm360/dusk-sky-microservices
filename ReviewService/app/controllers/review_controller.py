@@ -1,6 +1,6 @@
 from typing import List, Optional
 from bson import ObjectId
-from database import db
+from app.database.database import db
 
 collection = db["reviews"]
 

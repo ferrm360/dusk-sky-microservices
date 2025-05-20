@@ -6,7 +6,7 @@ from fastapi.testclient import TestClient
 from datetime import datetime, timezone
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from main import app
+from app.main import app
 
 client = TestClient(app)
 

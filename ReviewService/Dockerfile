@@ -1,6 +1,6 @@
-FROM python:3.11-slim
+FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /app/review_service
 
 # Copia los archivos de dependencias
 COPY requirements.txt .
@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8000
 
 # Comando para correr el servidor con hot-reload (ideal para desarrollo)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException, status, Query
 from datetime import datetime, timezone
 from typing import List
 
-from models.review_model import Review
-from controllers import review_controller
+from app.models.review_model import Review
+from app.controllers import review_controller
 
 router = APIRouter()
 
