@@ -9,5 +9,6 @@ namespace ModerationService.Api.Repositories.Interfaces
         Task CreateAsync(Report report);
         Task<bool> UpdateStatusAsync(string id, string status);
         Task<bool> DeleteAsync(string id);
+        Task<bool> UpdateAsync(Report report);  
     }
 }

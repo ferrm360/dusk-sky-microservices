@@ -43,5 +43,20 @@ namespace ModerationService.Api.Repositories.Implementations
             _context.Reports.Remove(report);
             return await _context.SaveChangesAsync() > 0;
         }
+
+        public async Task<bool> UpdateStatusAsync(string id, string status)
+        {
+            var report = await _context.Reports.FindAsync(id);
+            if (report == null)
+                return false;
+
+            if (!Enum.TryParse(status, ignoreCase: true, out ReportStatus parsedStatus))
+                return false;
+
+            report.Status = parsedStatus;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
     }
 }
