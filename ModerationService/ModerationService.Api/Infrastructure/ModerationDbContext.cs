@@ -18,44 +18,46 @@ namespace ModerationService.Api.Infrastructure
             modelBuilder.Entity<Report>(entity =>
             {
                 entity.ToTable("Report");
-
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Id).HasColumnType("char(36)");
-
                 entity.Property(e => e.ReportedUserId).IsRequired().HasColumnType("char(36)");
+
                 entity.Property(e => e.ContentType)
-                      .HasConversion<string>()
-                      .IsRequired();
+                    .HasConversion<string>()
+                    .IsRequired();
+
                 entity.Property(e => e.Reason);
                 entity.Property(e => e.ReportedAt)
-                      .HasDefaultValueSql("CURRENT_TIMESTAMP");
+                    .HasColumnType("timestamptz")  // PostgreSQL tipo "timestamp with time zone"
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+
                 entity.Property(e => e.Status)
-                      .HasConversion<string>()
-                      .HasDefaultValue("pending");
+                    .HasConversion<string>(); 
             });
 
             modelBuilder.Entity<Sanction>(entity =>
             {
                 entity.ToTable("Sanction");
-
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Id).HasColumnType("char(36)");
-
                 entity.Property(e => e.ReportId).HasColumnType("char(36)");
                 entity.HasIndex(e => e.ReportId).IsUnique();
-
                 entity.Property(e => e.UserId).IsRequired().HasColumnType("char(36)");
+
                 entity.Property(e => e.Type)
-                      .HasConversion<string>()
-                      .IsRequired();
+                    .HasConversion<string>()
+                    .IsRequired();
+
                 entity.Property(e => e.StartDate).IsRequired();
                 entity.Property(e => e.EndDate);
                 entity.Property(e => e.Reason);
 
-                entity.HasOne<Report>()
-                      .WithOne()
-                      .HasForeignKey<Sanction>(s => s.ReportId)
-                      .OnDelete(DeleteBehavior.Cascade);
+                entity.HasOne(e => e.Report)
+                    .WithOne()
+                    .HasForeignKey<Sanction>(s => s.ReportId)
+                    .IsRequired(false)
+                    .OnDelete(DeleteBehavior.Cascade);
             });
         }
     }

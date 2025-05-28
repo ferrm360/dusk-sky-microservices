@@ -13,6 +13,9 @@ namespace ModerationService.Api.Models
         [Column("report_id", TypeName = "char(36)")]
         public string? ReportId { get; set; }
 
+        [ForeignKey("ReportId")]
+        public Report? Report { get; set; }  
+
         [Required]
         [Column("user_id", TypeName = "char(36)")]
         public string UserId { get; set; } = string.Empty;

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ModerationService.Api.Models;
 using ModerationService.Api.Repositories.Interfaces;
+using ModerationService.Api.Models.Enums;
 using ModerationService.Api.Infrastructure;
 
 

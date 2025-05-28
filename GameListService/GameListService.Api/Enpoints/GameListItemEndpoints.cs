@@ -19,26 +19,34 @@ namespace GameListService.Api.Endpoints
             .Produces<IEnumerable<GameListItem>>(StatusCodes.Status200OK)
             .WithOpenApi();
 
-            app.MapPost("/lists/items", async (IGameListManager manager, GameListItem item) =>
+            app.MapPost("/lists/{listId}/items", async (IGameListManager manager, string listId, GameListItem item) =>
             {
+                if (item.ListId != listId)
+                    return Results.BadRequest("ListId in URL and body do not match.");
+
                 var controller = new GameListItemController(manager);
                 return await controller.AddItemAsync(item);
             })
             .WithName("AddGameListItem")
             .Produces<GameListItem>(StatusCodes.Status201Created)
+            .Produces(StatusCodes.Status400BadRequest)
             .WithOpenApi();
 
-            app.MapPut("/lists/items", async (IGameListManager manager, GameListItem item) =>
+            app.MapPut("/lists/{listId}/items/{itemId}", async (IGameListManager manager, string listId, string itemId, GameListItem item) =>
             {
+                if (item.Id != itemId || item.ListId != listId)
+                    return Results.BadRequest("ItemId or ListId in URL and body do not match.");
+
                 var controller = new GameListItemController(manager);
                 return await controller.UpdateItemAsync(item);
             })
             .WithName("UpdateGameListItem")
             .Produces(StatusCodes.Status204NoContent)
+            .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
 
-            app.MapDelete("/lists/items/{itemId}", async (IGameListManager manager, string itemId) =>
+            app.MapDelete("/lists/{listId}/items/{itemId}", async (IGameListManager manager, string listId, string itemId) =>
             {
                 var controller = new GameListItemController(manager);
                 return await controller.DeleteItemAsync(itemId);
