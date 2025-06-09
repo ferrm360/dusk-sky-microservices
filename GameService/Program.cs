@@ -39,6 +39,12 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
+{
+    hostingContext.HostingEnvironment.EnvironmentName = "Development";
+});
+
+
 
 app.UseSwagger();
 app.UseSwaggerUI();

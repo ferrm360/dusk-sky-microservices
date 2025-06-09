@@ -36,10 +36,5 @@ namespace GameService.Repositories.Implementations
         {       
             await _images.InsertOneAsync(image);
         }
-
-        async Task<GameImage?> IImageRepository.GetByGameIdAsync(Guid gameId)
-        {
-            return await _images.Find(i => i.GameId == gameId).FirstOrDefaultAsync();
-        }
     }
 }

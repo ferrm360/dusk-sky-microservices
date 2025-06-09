@@ -4,7 +4,7 @@ using GameService.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api")]
 public class GameController : ControllerBase
 {
     private readonly IGameService _gameService;
@@ -54,6 +54,13 @@ public class GameController : ControllerBase
         });
     }
 
-    
+    [HttpGet("preview/{id}")]
+    public async Task<ActionResult<GamePreviewDTO>> GetPreviewById(Guid id)
+    {
+        var game = await _gameService.GetGamePreviewByIdAsync(id);
+        return game is not null ? Ok(game) : NotFound();
+    }
+
+
 
 }

@@ -18,7 +18,7 @@ services:
     volumes:
       - mongo_data:/data/db
       - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
-      - ./ScriptsMongo/init-gamelist-db.js:/docker-entrypoint-initdb.d/init-gamelist-db.js:ro
+      ##- ./ScriptsMongo/init-gamelist-db.js:/docker-entrypoint-initdb.d/init-gamelist-db.js:ro
     networks:
       - dusk_sky_shared_network
 
@@ -203,6 +203,24 @@ services:
       - mongodb
     networks:
       - dusk_sky_shared_network
+
+
+  user_game_tracking_service:
+    build:
+      context: ./UserGameTrackingService
+      dockerfile: Dockerfile
+    container_name: user_game_tracking_service
+    ports:
+      - "8005:8005"
+    env_file:
+      - .env  # 👈 
+    environment:
+      - MONGO_CONNECTION_STRING=${USER_GAME_TRACKING_MONGO_URI}
+      - MONGO_DATABASE=${USER_GAME_TRACKING_MONGO_DB}
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network 
 
   
   

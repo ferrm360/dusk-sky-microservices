@@ -32,6 +32,7 @@ namespace GameService.Services.Implementations
             {
                 var image = await _imageRepository.GetByGameIdAsync(game.Id);
 
+
                 previews.Add(new GamePreviewDTO
                 {
                     Id = game.Id,
@@ -76,6 +77,21 @@ namespace GameService.Services.Implementations
                 HeaderUrl = headerUrl,
                 RandomScreenshot = randomScreenshot,
                 AllScreenshots = screenshots
+            };
+        }
+
+        public async Task<GamePreviewDTO?> GetGamePreviewByIdAsync(Guid gameId)
+        {
+            var game = await _gameRepository.GetByIdAsync(gameId);
+            if (game == null) return null;
+
+            var image = await _imageRepository.GetByGameIdAsync(gameId);
+
+            return new GamePreviewDTO
+            {
+                Id = game.Id,
+                Name = game.Name,
+                HeaderUrl = image?.HeaderUrl ?? ""
             };
         }
 
