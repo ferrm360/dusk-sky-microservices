@@ -1,8 +1,8 @@
 db = db.getSiblingDB("CommentService");
 
 db.createUser({
-  user: "commentUser",
-  pwd: "commentUserPassword",
+  user: "commentuser",
+  pwd: "commentuserPassword",
   roles: [
     {
       role: "readWrite",
