@@ -32,6 +32,7 @@ namespace GameService.Services.Implementations
             {
                 var image = await _imageRepository.GetByGameIdAsync(game.Id);
 
+
                 previews.Add(new GamePreviewDTO
                 {
                     Id = game.Id,

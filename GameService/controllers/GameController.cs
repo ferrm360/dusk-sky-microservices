@@ -4,7 +4,7 @@ using GameService.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api")]
 public class GameController : ControllerBase
 {
     private readonly IGameService _gameService;

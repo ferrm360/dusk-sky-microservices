@@ -14,7 +14,7 @@ namespace GameService.Repositories.Implementations
         public ImageRepository(IOptions<MongoDbSettings> settings, IMongoClient client)
         {
             var database = client.GetDatabase(settings.Value.DatabaseName);
-            _images = database.GetCollection<GameImage>("images");
+            _images = database.GetCollection<GameImage>("game_images");
         }
 
         public async Task<GameImage?> GetByGameIdAsync(Guid gameId)
@@ -35,11 +35,6 @@ namespace GameService.Repositories.Implementations
         public async Task AddAsync(GameImage image)
         {       
             await _images.InsertOneAsync(image);
-        }
-
-        async Task<GameImage?> IImageRepository.GetByGameIdAsync(Guid gameId)
-        {
-            return await _images.Find(i => i.GameId == gameId).FirstOrDefaultAsync();
         }
     }
 }
