@@ -1,4 +1,6 @@
 from pydantic_settings import BaseSettings
+from pydantic import Field
+from pathlib import Path
 
 class Settings(BaseSettings):
     MONGODB_URI_AUTH: str
@@ -10,6 +12,16 @@ class Settings(BaseSettings):
     JWT_ALGORITHM_AUTH: str = "HS256"
 
     class Config:
-        env_file = ".env"
-        
+        # Ruta global del archivo .env (ej: desde el root del proyecto)
+        env_file = Path(__file__).resolve().parents[2] / ".env"
+        env_file_encoding = "utf-8"
+
+    @property
+    def database_url(self) -> str:
+        return (
+            f"mysql+aiomysql://{self.mysql_user}:{self.mysql_password}@"
+            f"{self.mysql_host}:{self.mysql_port}/{self.mysql_db}"
+        )
+
+# Instancia global
 settings = Settings()
