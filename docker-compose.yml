@@ -132,6 +132,8 @@ services:
       context: ./UserManagerService
       dockerfile: Dockerfile
     container_name: user_manager_service_app
+    volumes:
+      - ./UserManagerService/static_user_content:/app/static_user_content
     ports:
       - "8003:8003"
     environment:
@@ -147,6 +149,21 @@ services:
     depends_on:
       - mongodb
       - rabbitmq_server
+    networks:
+      - dusk_sky_shared_network   
+      
+  game_service:
+    build:
+      context: ./GameService
+      dockerfile: Dockerfile
+    container_name: game_service_app
+    ports:
+      - "8004:80"
+    environment:
+      MONGODB_URI_GAME: ${MONGODB_URI_GAME}
+      MONGODB_DB_GAME: ${MONGODB_DB_GAME}
+    depends_on:
+      - mongodb
     networks:
       - dusk_sky_shared_network   
   
