@@ -104,6 +104,7 @@ services:
  
 
   auth_service:
+    container_name: auth_service
     build:
       context: ./AuthService
       dockerfile: Dockerfile
@@ -168,6 +169,7 @@ services:
       - dusk_sky_shared_network   
   
   friendship_service:
+    container_name: friendshipservice
     build:
       context: ./FriendshipService
       dockerfile: Dockerfile
@@ -185,6 +187,7 @@ services:
       - dusk_sky_shared_network
 
   review_service:
+    container_name: reviewservice
     build:
       context: ./ReviewService
       dockerfile: Dockerfile
