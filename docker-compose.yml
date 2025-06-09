@@ -101,6 +101,92 @@ services:
     networks:
       - dusk_sky_shared_network
 
+ 
+
+  auth_service:
+    build:
+      context: ./AuthService
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./AuthService/app:/app/auth_service/app
+    environment:
+      MONGODB_URI_AUTH: ${MONGODB_URI_AUTH}
+      MONGODB_NAME_AUTH: ${MONGODB_NAME_AUTH}
+      RABBITMQ_URL_AUTH: ${RABBITMQ_URL_AUTH}
+
+      PYTHONUNBUFFERED: 1
+
+      JWT_SECRET_KEY_AUTH: ${JWT_SECRET_KEY_AUTH}
+      JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH: ${JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH}
+      JWT_ALGORITHM_AUTH: ${JWT_ALGORITHM_AUTH} 
+    depends_on:
+      - mongodb
+      - rabbitmq_server
+    networks:
+      - dusk_sky_shared_network
+
+  user_manager_service:
+    build:
+      context: ./UserManagerService
+      dockerfile: Dockerfile
+    container_name: user_manager_service_app
+    ports:
+      - "8003:8003"
+    environment:
+      MONGODB_URI_USER: ${MONGODB_URI_USER}
+      MONGODB_NAME_USER: ${MONGODB_NAME_USER}
+      RABBITMQ_URL_USER: ${RABBITMQ_URL_USER}
+      
+      PYTHONUNBUFFERED: 1
+
+      STATIC_CONTENT_BASE_URL_USER: ${STATIC_CONTENT_BASE_URL_USER}
+      JWT_SECRET_KEY_USER: "${JWT_SECRET_KEY_USER}"
+      JWT_ALGORITHM_USER: "${JWT_ALGORITHM_USER:-HS256}"
+    depends_on:
+      - mongodb
+      - rabbitmq_server
+    networks:
+      - dusk_sky_shared_network   
+  
+  friendship_service:
+    build:
+      context: ./FriendshipService
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8006:8006"
+    environment:
+      MONGO_URI: ${MONGO_URI}
+      MONGO_DB: ${MONGO_DB}
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  review_service:
+    build:
+      context: ./ReviewService
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8007:8007"
+    environment:
+      MONGO_URI: ${MONGO_REVIEW_URI}
+      MONGO_DB: ${MONGO_REVIEW_DB}
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  
+  
+
   nginx_gateway:
     image: nginx:latest
     container_name: nginx_gateway
@@ -117,6 +203,7 @@ services:
       - moderationservice
     networks:
       - dusk_sky_shared_network
+
       
 
 volumes:
