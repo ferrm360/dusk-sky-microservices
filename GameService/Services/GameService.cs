@@ -80,6 +80,21 @@ namespace GameService.Services.Implementations
             };
         }
 
+        public async Task<GamePreviewDTO?> GetGamePreviewByIdAsync(Guid gameId)
+        {
+            var game = await _gameRepository.GetByIdAsync(gameId);
+            if (game == null) return null;
+
+            var image = await _imageRepository.GetByGameIdAsync(gameId);
+
+            return new GamePreviewDTO
+            {
+                Id = game.Id,
+                Name = game.Name,
+                HeaderUrl = image?.HeaderUrl ?? ""
+            };
+        }
+
 
         public async Task<Guid?> ImportGameFromSteamAsync(int steamAppId)
         {

@@ -54,6 +54,13 @@ public class GameController : ControllerBase
         });
     }
 
-    
+    [HttpGet("preview/{id}")]
+    public async Task<ActionResult<GamePreviewDTO>> GetPreviewById(Guid id)
+    {
+        var game = await _gameService.GetGamePreviewByIdAsync(id);
+        return game is not null ? Ok(game) : NotFound();
+    }
+
+
 
 }

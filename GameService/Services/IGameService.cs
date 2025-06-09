@@ -10,6 +10,9 @@ namespace GameService.Services.Interfaces
         Task<Guid?> ImportGameFromSteamAsync(int steamAppId);
         Task<Game?> GetBySteamAppIdAsync(int steamAppId);
 
+        Task<GamePreviewDTO?> GetGamePreviewByIdAsync(Guid gameId);
+
+
 
     }
 }
