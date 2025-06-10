@@ -1,5 +1,5 @@
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Query
 
 from app.models import LoginRequest
 from app.models.ChangePasswordRequest import ChangePasswordRequest
@@ -61,3 +61,7 @@ async def change_password(user_id: str, change_password_request: ChangePasswordR
         return response
     except ValueError as e:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+    
+@router.get("/users/search")
+async def search_users(username: str = Query(..., min_length=1), db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    return await auth_controller.search_users_by_username(username, db)    

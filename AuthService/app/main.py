@@ -37,7 +37,6 @@ async def shutdown_event():
 
     print("INFO:     AuthService apagado.")
 
-# --- Incluir tus routers ---
 app.include_router(auth.router, prefix="/auth", tags=["Authentication"])
 
 @app.get("/health", tags=["Health Check"])

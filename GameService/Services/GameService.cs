@@ -161,5 +161,66 @@ namespace GameService.Services.Implementations
 
             return id;
         }
+
+        public async Task<List<GameDetailsDTO>> SearchGameDetailsByNameAsync(string name)
+        {
+            var games = await _gameRepository.SearchByNameAsync(name);
+            var result = new List<GameDetailsDTO>();
+
+            foreach (var game in games)
+            {
+                var details = await _detailsRepository.GetByGameIdAsync(game.Id);
+                var images = await _imageRepository.GetByGameIdAsync(game.Id);
+
+                if (details == null)
+                    continue;
+
+                var screenshots = images?.Screenshots ?? new List<string>();
+                var headerUrl = images?.HeaderUrl ?? "";
+                var randomScreenshot = screenshots.Count > 0
+                    ? screenshots[new Random().Next(screenshots.Count)]
+                    : null;
+
+                result.Add(new GameDetailsDTO
+                {
+                    Id = game.Id,
+                    Name = game.Name,
+                    Description = details.Description,
+                    Developer = details.Developer,
+                    Publisher = details.Publisher,
+                    ReleaseDate = details.ReleaseDate,
+                    Platforms = details.Platforms,
+                    Genres = details.Genres,
+                    HeaderUrl = headerUrl,
+                    RandomScreenshot = randomScreenshot,
+                    AllScreenshots = screenshots
+                });
+            }
+
+            return result;
+        }
+
+
+        public async Task<List<GamePreviewDTO>> SearchGamePreviewsByNameAsync(string name)
+        {
+            var games = await _gameRepository.SearchByNameAsync(name);
+            var previews = new List<GamePreviewDTO>();
+
+            foreach (var game in games)
+            {
+                var image = await _imageRepository.GetByGameIdAsync(game.Id);
+
+                previews.Add(new GamePreviewDTO
+                {
+                    Id = game.Id,
+                    Name = game.Name,
+                    HeaderUrl = image?.HeaderUrl ?? ""
+                });
+            }
+
+            return previews;
+        }
+
+
     }
 }
