@@ -44,4 +44,28 @@ public class GameListController
         var deleted = await _manager.DeleteListAsync(id);
         return deleted ? Results.NoContent() : Results.NotFound();
     }
+
+    public async Task<IResult> GetMostRecentListsAsync()
+    {
+        var lists = await _manager.GetMostRecentListsAsync();
+        return Results.Ok(lists);
+    }
+
+    public async Task<IResult> GetMostLikedListsAsync()
+    {
+        var lists = await _manager.GetMostLikedListsAsync();
+        return Results.Ok(lists);
+    }
+
+    public async Task<IResult> LikeListAsync(string id)
+    {
+        var success = await _manager.LikeListAsync(id);
+        return success ? Results.NoContent() : Results.NotFound();
+    }
+
+    public async Task<IResult> UnlikeListAsync(string id)
+    {
+        var success = await _manager.UnlikeListAsync(id);
+        return success ? Results.NoContent() : Results.NotFound();
+    }
 }

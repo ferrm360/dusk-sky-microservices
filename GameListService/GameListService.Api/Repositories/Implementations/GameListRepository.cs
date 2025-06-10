@@ -48,5 +48,45 @@ namespace GameListService.Api.Repositories.Implementations
             return result.ModifiedCount > 0;
         }
 
+        public async Task<bool> IncrementLikesAsync(string id)
+        {
+            Console.WriteLine($"IncrementLikesAsync called for ID: {id}");
+
+            var filter = Builders<GameList>.Filter.Eq(g => g.Id, id);
+            var update = Builders<GameList>.Update.Inc(g => g.Likes, 1);
+            var result = await _collection.UpdateOneAsync(filter, update);
+
+            Console.WriteLine($"Matched: {result.MatchedCount}, Modified: {result.ModifiedCount}");
+
+            return result.ModifiedCount > 0;
+        }
+
+
+        public async Task<bool> DecrementLikesAsync(string id)
+        {
+            var filter = Builders<GameList>.Filter.Eq(g => g.Id, id);
+            var update = Builders<GameList>.Update.Inc(g => g.Likes, -1);
+            var result = await _collection.UpdateOneAsync(filter, update);
+            return result.ModifiedCount > 0;
+        }
+
+        public async Task<IEnumerable<GameList>> GetMostLikedAsync(int limit = 10)
+        {
+            return await _collection
+                .Find(_ => true)
+                .SortByDescending(g => g.Likes)
+                .Limit(limit)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<GameList>> GetMostRecentAsync(int limit = 10)
+        {
+            return await _collection
+                .Find(_ => true)
+                .SortByDescending(g => g.CreatedAt)
+                .Limit(limit)
+                .ToListAsync();
+        }
+
     }
 }
