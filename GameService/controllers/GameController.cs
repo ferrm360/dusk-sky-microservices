@@ -61,6 +61,17 @@ public class GameController : ControllerBase
         return game is not null ? Ok(game) : NotFound();
     }
 
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchByName([FromQuery] string name)
+    {
+        var games = await _gameService.SearchGameDetailsByNameAsync(name);
+        return Ok(games);
+    }
 
-
+    [HttpGet("search/preview")]
+    public async Task<ActionResult<List<GamePreviewDTO>>> SearchPreviewsByName([FromQuery] string name)
+    {
+        var previews = await _gameService.SearchGamePreviewsByNameAsync(name);
+        return Ok(previews);
+    }
 }

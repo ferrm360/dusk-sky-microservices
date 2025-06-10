@@ -36,5 +36,12 @@ namespace GameService.Repositories.Implementations
         {
             await _games.InsertOneAsync(game);
         }
+
+        public async Task<List<Game>> SearchByNameAsync(string partialName)
+        {
+            var filter = Builders<Game>.Filter.Regex(g => g.Name, new MongoDB.Bson.BsonRegularExpression(partialName, "i"));
+            return await _games.Find(filter).ToListAsync();
+        }
+
     }
 }

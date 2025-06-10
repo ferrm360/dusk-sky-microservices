@@ -8,7 +8,9 @@ namespace GameService.Repositories.Interfaces
         Task<List<Game>> GetAllAsync();
         Task<Game?> GetByIdAsync(Guid id);
         Task<Game?> GetBySteamAppIdAsync(int steamAppId);
-        Task AddAsync(Game game);    
+        Task AddAsync(Game game);  
+        Task<List<Game>> SearchByNameAsync(string partialName);
+  
                                
     }
 }

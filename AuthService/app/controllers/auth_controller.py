@@ -150,3 +150,20 @@ async def update_email(user_id: str, new_email: str, db: AsyncIOMotorDatabase):
         raise ValueError("User not found")
 
     return {"message": "Email updated successfully"}
+
+async def search_users_by_username(query: str, db: AsyncIOMotorDatabase):
+    users_collection = db.users
+    regex = {"$regex": query, "$options": "i"}  # búsqueda insensible a mayúsculas
+
+    cursor = users_collection.find({"username": regex})
+
+    users = []
+    async for user in cursor:
+        users.append({
+            "id": str(user["_id"]),
+            "username": user["username"],
+            "email": user["email"],
+            "role": user.get("role", "player"),
+            "status": user.get("status", "active")
+        })
+    return users
