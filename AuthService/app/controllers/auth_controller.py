@@ -167,3 +167,19 @@ async def search_users_by_username(query: str, db: AsyncIOMotorDatabase):
             "status": user.get("status", "active")
         })
     return users
+
+async def get_user_by_id(user_id: str, db: AsyncIOMotorDatabase):
+    users_collection = db.users
+    user = await users_collection.find_one({"_id": ObjectId(user_id)})
+    if not user:
+        raise ValueError("User not found")
+
+    user["_id"] = str(user["_id"])
+    return {
+        "id": user["_id"],
+        "username": user["username"],
+        "email": user["email"],
+        "role": user.get("role", "player"),
+        "status": user.get("status", "active"),
+        "created_at": user["created_at"]
+    }
