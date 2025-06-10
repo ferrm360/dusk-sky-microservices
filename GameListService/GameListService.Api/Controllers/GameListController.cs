@@ -44,4 +44,10 @@ public class GameListController
         var deleted = await _manager.DeleteListAsync(id);
         return deleted ? Results.NoContent() : Results.NotFound();
     }
+
+     public async Task<IResult> GetRecentListsAsync()
+    {
+        var recentLists = await _manager.GetRecentListsAsync();
+        return Results.Ok(recentLists);
+    }
 }

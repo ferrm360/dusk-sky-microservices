@@ -81,6 +81,23 @@ services:
       - mongodb
     networks:
       - dusk_sky_shared_network
+  
+  gamelistitemservice:
+    container_name: gamelistitemservice  
+    build:
+      context: ./GameListService/GameListService.Api
+      dockerfile: Dockerfile
+    environment:
+      - GAMELIST_MONGO_DATABASE=${GAMELIST_MONGO_DATABASE}
+      - GAMELIST_MONGO_USER=${GAMELIST_MONGO_USER}
+      - GAMELIST_MONGO_PASSWORD=${GAMELIST_MONGO_PASSWORD}
+      - MONGO_HOST=mongodb
+    ports:
+      - "8010:80"
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
 
     
   moderationservice:
@@ -194,7 +211,7 @@ services:
     env_file:
       - .env
     ports:
-      - "8007:8007"
+      - "8007:8000"
     environment:
       MONGO_URI: ${MONGO_REVIEW_URI}
       MONGO_DB: ${MONGO_REVIEW_DB}

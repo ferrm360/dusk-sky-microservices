@@ -48,5 +48,15 @@ namespace GameListService.Api.Repositories.Implementations
             return result.ModifiedCount > 0;
         }
 
+        public async Task<List<GameList>> GetRecentListsAsync()
+        {
+            var sort = Builders<GameList>.Sort.Descending(g => g.CreatedAt);
+            return await _collection.Find(_ => true)
+                                    .Sort(sort)
+                                    .Limit(10)
+                                    .ToListAsync();
+        }
+
+        
     }
 }

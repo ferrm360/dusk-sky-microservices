@@ -10,5 +10,7 @@ namespace GameListService.Api.Repositories.Interfaces
         Task<bool> DeleteAsync(string id);
         Task<bool> UpdateAsync(GameList list);
 
+        Task<List<GameList?>> GetRecentListsAsync();
+
     }
 }

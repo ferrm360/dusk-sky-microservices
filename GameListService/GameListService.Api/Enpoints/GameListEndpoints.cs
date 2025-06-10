@@ -58,6 +58,17 @@ namespace GameListService.Api.Endpoints
             .Produces(StatusCodes.Status204NoContent)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
+
+            
+            app.MapGet("/lists/recent", async (IGameListManager manager) =>
+            {
+                var controller = new GameListController(manager);
+                return await controller.GetRecentListsAsync();
+            })
+            .WithName("GetRecentGameLists")
+            .Produces<IEnumerable<GameList>>(StatusCodes.Status200OK)
+            .WithOpenApi();
+
         }
     }
 }
