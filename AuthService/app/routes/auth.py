@@ -65,3 +65,10 @@ async def change_password(user_id: str, change_password_request: ChangePasswordR
 @router.get("/users/search")
 async def search_users(username: str = Query(..., min_length=1), db: AsyncIOMotorDatabase = Depends(database.get_database)):
     return await auth_controller.search_users_by_username(username, db)    
+
+@router.get("/users/{user_id}")
+async def get_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        return await auth_controller.get_user_by_id(user_id, db)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
