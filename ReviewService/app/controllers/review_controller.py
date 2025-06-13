@@ -55,3 +55,9 @@ async def get_reviews_from_users(user_ids: List[str], limit: int = 10, game_id: 
     cursor = collection.find(query).sort("createdAt", -1).limit(limit)
     return [serialize_review(doc) async for doc in cursor]
 
+async def get_review_by_id(review_id: str):
+    doc = await collection.find_one({"_id": ObjectId(review_id)})
+    if not doc:
+        return None
+    return serialize_review(doc)
+

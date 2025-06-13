@@ -59,3 +59,10 @@ async def get_top_reviews_by_game(game_id: str, limit: int = 10):
 @router.get("/game/{game_id}/friends")
 async def get_friends_reviews_by_game(game_id: str, friend_ids: List[str] = Query(...), limit: int = 10):
     return await review_controller.get_reviews_from_users(friend_ids, limit, game_id)
+
+@router.get("/{review_id}")
+async def get_review(review_id: str):
+    review = await review_controller.get_review_by_id(review_id)
+    if not review:
+        raise HTTPException(status_code=404, detail="Review not found")
+    return review

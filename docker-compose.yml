@@ -52,10 +52,10 @@ services:
     build:
       context: ./CommentService/CommentService.Api
       dockerfile: Dockerfile
+    env_file:
+      - .env
     environment:
-      - COMMENT_MONGO_DATABASE=${COMMENT_MONGO_DATABASE}
-      - COMMENT_MONGO_USER=${COMMENT_MONGO_USER}
-      - COMMENT_MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD}
+      - COMMENT_MONGO_CONNECTION=${COMMENT_MONGO_CONNECTION}
       - MONGO_HOST=mongodb
     ports:
       - "8008:80"
@@ -63,6 +63,7 @@ services:
       - mongodb
     networks:
       - dusk_sky_shared_network
+
 
 
   gamelistservice:
@@ -212,7 +213,7 @@ services:
       dockerfile: Dockerfile
     container_name: user_game_tracking_service
     ports:
-      - "8005:8005"
+      - "8005:8000"
     env_file:
       - .env  # 👈 
     environment:
