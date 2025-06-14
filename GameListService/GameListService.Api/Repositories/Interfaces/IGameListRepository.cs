@@ -14,7 +14,7 @@ namespace GameListService.Api.Repositories.Interfaces
         Task<IEnumerable<GameList>> GetMostLikedAsync(int limit = 10);
         Task<IEnumerable<GameList>> GetMostRecentAsync(int limit = 10);
 
-        Task<List<GameList?>> GetRecentListsAsync();
+        
 
     }
 }

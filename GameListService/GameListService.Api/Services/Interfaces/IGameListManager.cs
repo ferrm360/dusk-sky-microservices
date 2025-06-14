@@ -6,7 +6,7 @@ namespace GameListService.Api.Services.Interfaces
     {
         Task<IEnumerable<GameList>> GetUserListsAsync(string userId);
         Task<GameList?> GetListByIdAsync(string listId);
-        Task CreateListAsync(GameList list);
+        Task<GameList> CreateListAsync(GameList list);
         Task<bool> UpdateListAsync(GameList list);
         Task<bool> DeleteListAsync(string listId);
 

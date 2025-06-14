@@ -28,9 +28,14 @@ namespace GameListService.Api.Services.Implementations
         public async Task<GameList?> GetListByIdAsync(string listId)
             => await _listRepository.GetByIdAsync(listId);
 
-        public async Task CreateListAsync(GameList list)
-            => await _listRepository.CreateAsync(list);
+        public async Task<GameList> CreateListAsync(GameList list)
+        {
+            list.Id = Guid.NewGuid().ToString(); // Genera ID
+            list.CreatedAt = DateTime.UtcNow;
 
+            await _listRepository.CreateAsync(list);
+            return list;
+        }
         public async Task<bool> UpdateListAsync(GameList list)
             => await _listRepository.UpdateAsync(list);
 
