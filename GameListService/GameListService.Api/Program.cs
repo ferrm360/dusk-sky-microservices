@@ -12,7 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 🔥 Configuración de Logging detallado
 builder.Logging.ClearProviders();           // Opcional: limpia los proveedores por defecto
-builder.Logging.AddConsole();               // Habilita logs a consola
+builder.Logging.AddConsole();
+builder.Logging.AddDebug(); 
+builder.Logging.AddEventSourceLogger();            // Habilita logs a consola
 builder.Logging.SetMinimumLevel(LogLevel.Debug); // Nivel de detalle (puedes cambiar a Information si quieres menos ruido)
 
 // Configurar URLs (no cambiar)

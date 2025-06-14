@@ -49,7 +49,16 @@ namespace GameListService.Api.Services.Implementations
         public async Task<bool> DeleteItemAsync(string itemId)
             => await _itemRepository.DeleteItemAsync(itemId);
 
-        public async Task<List<GameList?>> GetRecentListsAsync()
-            => await _listRepository.GetRecentListsAsync();
+        public async Task<IEnumerable<GameList>> GetMostRecentListsAsync()
+            => await _listRepository.GetMostRecentAsync();
+
+        public async Task<IEnumerable<GameList>> GetMostLikedListsAsync()
+            => await _listRepository.GetMostLikedAsync();
+
+        public async Task<bool> LikeListAsync(string listId)
+            => await _listRepository.IncrementLikesAsync(listId);
+
+        public async Task<bool> UnlikeListAsync(string listId)
+            => await _listRepository.DecrementLikesAsync(listId);
     }
 }

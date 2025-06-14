@@ -59,14 +59,43 @@ namespace GameListService.Api.Endpoints
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
 
-            
             app.MapGet("/lists/recent", async (IGameListManager manager) =>
             {
                 var controller = new GameListController(manager);
-                return await controller.GetRecentListsAsync();
+                return await controller.GetMostRecentListsAsync();
             })
-            .WithName("GetRecentGameLists")
+            .WithName("GetMostRecentLists")
             .Produces<IEnumerable<GameList>>(StatusCodes.Status200OK)
+            .WithOpenApi();
+
+            app.MapGet("/lists/popular", async (IGameListManager manager) =>
+            {
+                var controller = new GameListController(manager);
+                return await controller.GetMostLikedListsAsync();
+            })
+            .WithName("GetMostLikedLists")
+            .Produces<IEnumerable<GameList>>(StatusCodes.Status200OK)
+            .WithOpenApi();
+
+            app.MapPut("/lists/like/{id}", async (IGameListManager manager, string id) =>
+            {
+                var controller = new GameListController(manager);
+                return await controller.LikeListAsync(id);
+            })
+            .WithName("LikeGameList")
+            .Produces(StatusCodes.Status204NoContent)
+            .Produces(StatusCodes.Status404NotFound)
+            .WithOpenApi();
+
+
+            app.MapPut("/lists/unlike/{id}", async (IGameListManager manager, string id) =>
+            {
+                var controller = new GameListController(manager);
+                return await controller.UnlikeListAsync(id);
+            })
+            .WithName("UnlikeGameList")
+            .Produces(StatusCodes.Status204NoContent)
+            .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
 
         }

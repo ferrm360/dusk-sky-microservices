@@ -14,6 +14,10 @@ namespace GameListService.Api.Services.Interfaces
         Task AddItemToListAsync(GameListItem item);
         Task<bool> UpdateItemAsync(GameListItem item);
         Task<bool> DeleteItemAsync(string itemId);
-        Task<List<GameList?>> GetRecentListsAsync();
+        
+        Task<IEnumerable<GameList>> GetMostRecentListsAsync();
+        Task<IEnumerable<GameList>> GetMostLikedListsAsync();
+        Task<bool> LikeListAsync(string listId);
+        Task<bool> UnlikeListAsync(string listId);
     }
 }
