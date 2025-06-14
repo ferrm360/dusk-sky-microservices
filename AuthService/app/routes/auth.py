@@ -1,4 +1,4 @@
-
+# routes/auth.py
 from fastapi import APIRouter, Depends, HTTPException, status, Query
 
 from app.models import LoginRequest
@@ -72,3 +72,20 @@ async def get_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get
         return await auth_controller.get_user_by_id(user_id, db)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
+    
+
+@router.put("/promote/{user_id}", response_model=user.UserInDB)
+async def promote_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        updated_user = await auth_controller.promote_user(user_id, db)
+        return updated_user
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+
+@router.put("/demote/{user_id}", response_model=user.UserInDB)
+async def demote_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        updated_user = await auth_controller.demote_user(user_id, db)
+        return updated_user
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))    
