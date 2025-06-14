@@ -17,7 +17,7 @@ services:
       - "27023:27017"
     volumes:
       - mongo_data:/data/db
-      - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+     ## - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
       ##- ./ScriptsMongo/init-gamelist-db.js:/docker-entrypoint-initdb.d/init-gamelist-db.js:ro
     networks:
       - dusk_sky_shared_network
@@ -194,7 +194,7 @@ services:
     env_file:
       - .env
     ports:
-      - "8007:8007"
+      - "8007:8000"
     environment:
       MONGO_URI: ${MONGO_REVIEW_URI}
       MONGO_DB: ${MONGO_REVIEW_DB}
