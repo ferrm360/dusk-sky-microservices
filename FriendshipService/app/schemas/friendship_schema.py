@@ -5,8 +5,8 @@ from datetime import datetime
 
 
 class FriendshipRequest(BaseModel):
-    sender_id: UUID
-    receiver_id: UUID
+    sender_id: str
+    receiver_id: str
 
     @model_validator(mode="after")
     def no_self_friend_request(self) -> "FriendshipRequest":
@@ -17,8 +17,8 @@ class FriendshipRequest(BaseModel):
 
 class FriendshipResponse(BaseModel):
     id: str
-    sender_id: UUID
-    receiver_id: UUID
+    sender_id: str
+    receiver_id: str
     status: str = "pending"
     requested_at: Optional[datetime] = None
 

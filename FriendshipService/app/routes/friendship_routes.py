@@ -1,4 +1,7 @@
-from fastapi import APIRouter
+from uuid import UUID
+from fastapi import APIRouter, HTTPException
+
+from app.dto.friendship_dto import FriendshipRequestDTO  # ✅ cambio aquí
 from app.controllers import friendship_controller
 from app.schemas.friendship_schema import FriendshipRequest
 
@@ -6,10 +9,16 @@ router = APIRouter(prefix="/friendships")
 
 
 @router.post("/")
-async def send_request(friendship_request: FriendshipRequest):
+async def send_request(dto: FriendshipRequestDTO):
+    try:
+        sender_uuid = dto.sender_id
+        receiver_uuid = dto.receiver_id
+    except ValueError:
+        raise HTTPException(status_code=400, detail="IDs deben ser UUID válidos")
+
     return await friendship_controller.send_request(
-        str(friendship_request.sender_id),
-        str(friendship_request.receiver_id)
+        str(sender_uuid),
+        str(receiver_uuid)
     )
 
 
