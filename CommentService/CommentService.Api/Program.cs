@@ -38,8 +38,9 @@ builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =
 });
 
 // Configuración MongoDB
-var mongoSettings = builder.Configuration.GetSection("MongoSettings");
-string? dbName = mongoSettings["DatabaseName"];
+//var mongoSettings = builder.Configuration.GetSection("MongoSettings");
+//string? dbName = mongoSettings["DatabaseName"];
+string? dbName = Environment.GetEnvironmentVariable("COMMENT_MONGO_DATABASE"); // <-- ¡NUEVA LÍNEA CLAVE!
 string? user = Environment.GetEnvironmentVariable("COMMENT_MONGO_USER");
 string? password = Environment.GetEnvironmentVariable("COMMENT_MONGO_PASSWORD");
 string? host = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb";
@@ -50,7 +51,7 @@ if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || stri
     throw new InvalidOperationException("Faltan variables de entorno para conectar con MongoDB.");
 }
 
-string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource={dbName}";
+string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource=admin"; // <<-- ¡LÍNEA CORREGIDA!
 Console.WriteLine($"🔗 Conectando a MongoDB en {connStr}...");
 var connector = new MongoConnector();
 var database = await connector.ConnectWithRetriesAsync(connStr, dbName);

@@ -55,8 +55,10 @@ services:
     env_file:
       - .env
     environment:
-      - COMMENT_MONGO_CONNECTION=${COMMENT_MONGO_CONNECTION}
       - MONGO_HOST=mongodb
+      - COMMENT_MONGO_USER=${COMMENT_MONGO_USER}         # Añadida/Confirmada
+      - COMMENT_MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD} # Añadida/Confirmada
+      - COMMENT_MONGO_DATABASE=${COMMENT_MONGO_DATABASE} # <-- ¡Nueva variable para el nombre de la DB!
     ports:
       - "8008:80"
     depends_on:

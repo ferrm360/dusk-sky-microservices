@@ -46,7 +46,7 @@ namespace ModerationService.Api.Endpoints
                 return updated ? Results.NoContent() : Results.NotFound();
             })
             .WithName("UpdateReport")
-            .Produces(StatusCodes.Status204NoContent)
+            .Produces(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
