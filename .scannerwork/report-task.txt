@@ -1,0 +1,6 @@
+projectKey=dusk-sky-microservices
+serverUrl=http://localhost:9000
+serverVersion=25.5.0.107428
+dashboardUrl=http://localhost:9000/dashboard?id=dusk-sky-microservices
+ceTaskId=fdcf3862-6441-4432-979e-3f6fc902d20c
+ceTaskUrl=http://localhost:9000/api/ce/task?id=fdcf3862-6441-4432-979e-3f6fc902d20c

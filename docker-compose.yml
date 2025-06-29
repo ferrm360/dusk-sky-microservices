@@ -46,6 +46,11 @@ services:
       - rabbitmq_shared_data:/var/lib/rabbitmq 
     networks: 
       - dusk_sky_shared_network
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5  
 
   commentservice:
     container_name: commentservice  
@@ -114,8 +119,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8001:8000"
-    volumes:
-      - ./AuthService/app:/app/auth_service/app
+    env_file:
+      - .env 
     environment:
       MONGODB_URI_AUTH: ${MONGODB_URI_AUTH}
       MONGODB_NAME_AUTH: ${MONGODB_NAME_AUTH}
@@ -128,6 +133,7 @@ services:
       JWT_ALGORITHM_AUTH: ${JWT_ALGORITHM_AUTH} 
     depends_on:
       - mongodb
+      - user_manager_service
       - rabbitmq_server
     networks:
       - dusk_sky_shared_network
