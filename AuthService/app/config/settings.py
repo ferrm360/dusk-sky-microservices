@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     MONGODB_URI_AUTH: str
     MONGODB_NAME_AUTH: str = "auth_db"
     RABBITMQ_URL_AUTH: str
+    ADMIN_EMAIL: str
+    ADMIN_PASSWORD: str
     
     JWT_ACCESS_TOKEN_EXPIRE_MINUTES_AUTH: int = 30
     JWT_SECRET_KEY_AUTH: str
