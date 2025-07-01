@@ -8,7 +8,6 @@ from app.utils.database import close_user_manager_mongo_connection
 from app.utils.database import get_database
 from app.consumers.user_event_consumer import consume_user_events
 
-print("✅ main.py: archivo ejecutado")
 
 app = FastAPI(
     title="UserManagerService",
@@ -16,7 +15,7 @@ app = FastAPI(
     description="Microservicio para gestionar perfiles públicos de usuarios."
 )
 
-STATIC_DIR = Path(__file__).parent / "static_user_content"
+STATIC_DIR = Path(__file__).parent.parent / "static_user_content"
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 @app.on_event("startup")

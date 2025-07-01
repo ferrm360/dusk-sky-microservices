@@ -16,6 +16,6 @@ namespace GameListService.Api.Models
         public string GameId { get; set; } = string.Empty;
 
         [BsonElement("comment")]
-        public string Comment { get; set; } = string.Empty;
+        public string Comment { get; set; } = string.Empty; 
     }
 }

@@ -12,3 +12,4 @@ async def handle(payload, db):
         return
 
     await create_profile_with_custom_id(user_id, db)
+    print(f"[SUCCESS] Perfil creado correctamente para user_id: {user_id}")

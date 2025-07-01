@@ -6,45 +6,80 @@ using CommentService.Api.Services.Interfaces;
 using CommentService.Api.Services.Implementations;
 using CommentService.Api.Endpoints;
 using MongoDB.Driver;
+using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 🔥 Logging detallado
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.SetMinimumLevel(LogLevel.Debug);
+
+// Configurar para escuchar en 0.0.0.0:80
 builder.WebHost.UseUrls("http://0.0.0.0:80");
 
+// Endpoints y Swagger
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var mongoSettings = builder.Configuration.GetSection("MongoSettings");
-string? databaseName = mongoSettings.GetValue<string?>("DatabaseName");
-
-string? mongoUser = Environment.GetEnvironmentVariable("COMMENT_MONGO_USER");
-string? mongoPassword = Environment.GetEnvironmentVariable("COMMENT_MONGO_PASSWORD");
-string? mongoHost = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb"; 
-string connectionString = $"mongodb://{mongoUser}:{mongoPassword}@{mongoHost}:27017/{databaseName}?authSource={databaseName}";
-
-if (string.IsNullOrWhiteSpace(connectionString) || string.IsNullOrWhiteSpace(databaseName))
+builder.Services.AddSwaggerGen(options =>
 {
-    throw new InvalidOperationException("Faltan variables de entorno o configuración de Mongo.");
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Comment Service API",
+        Version = "v1"
+    });
+    options.AddServer(new OpenApiServer { Url = "/comments" });
+});
+
+// Configuración JSON
+builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =>
+{
+    options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
+});
+
+// Configuración MongoDB
+//var mongoSettings = builder.Configuration.GetSection("MongoSettings");
+//string? dbName = mongoSettings["DatabaseName"];
+string? dbName = Environment.GetEnvironmentVariable("COMMENT_MONGO_DATABASE"); // <-- ¡NUEVA LÍNEA CLAVE!
+string? user = Environment.GetEnvironmentVariable("COMMENT_MONGO_USER");
+string? password = Environment.GetEnvironmentVariable("COMMENT_MONGO_PASSWORD");
+string? host = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb";
+
+if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(password))
+{
+    Console.WriteLine("❌ Faltan variables de entorno para MongoDB. Revisa COMMENT_MONGO_DATABASE, USER, PASSWORD.");
+    throw new InvalidOperationException("Faltan variables de entorno para conectar con MongoDB.");
 }
 
-var mongoConnector = new MongoConnector();
-var database = await mongoConnector.ConnectWithRetriesAsync(connectionString, databaseName);
+string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource=admin"; // <<-- ¡LÍNEA CORREGIDA!
+Console.WriteLine($"🔗 Conectando a MongoDB en {connStr}...");
+var connector = new MongoConnector();
+var database = await connector.ConnectWithRetriesAsync(connStr, dbName);
+Console.WriteLine("✅ Conexión exitosa a MongoDB.");
 
 builder.Services.AddSingleton<IMongoDatabase>(database);
 builder.Services.AddSingleton<ICommentRepository, CommentRepository>();
 builder.Services.AddSingleton<ICommentManager, CommentManager>();
 
-builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =>
-{
-    options.SerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
-});
-
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+// 🔥 Activar página de errores en modo dev (opcional: quítalo en prod)
+app.UseDeveloperExceptionPage();
 
-app.MapGet("/", () => "CommentService API is running!");
+// Swagger y UI
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/comments/swagger/v1/swagger.json", "Comment Service API v1");
+    options.RoutePrefix = "swagger";  // ✅ Cambiado a "comments/swagger"
+});
+
+// Endpoint simple de prueba
+app.MapGet("/", () => "CommentService is running!");
+
+// Endpoints CRUD
 app.MapCommentEndpoints();
+
+Console.WriteLine("🚀 CommentService iniciado y esperando conexiones...");
 
 app.Run();

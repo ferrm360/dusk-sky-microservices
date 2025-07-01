@@ -1,4 +1,6 @@
+# auth_controller.py
 from datetime import datetime, timedelta
+from fastapi import HTTPException
 from motor.motor_asyncio import AsyncIOMotorDatabase
 from ..publishers.user_event_publisher import UserEventPublisher
 from app.config import settings
@@ -150,3 +152,98 @@ async def update_email(user_id: str, new_email: str, db: AsyncIOMotorDatabase):
         raise ValueError("User not found")
 
     return {"message": "Email updated successfully"}
+
+async def search_users_by_username(query: str, db: AsyncIOMotorDatabase):
+    users_collection = db.users
+    regex = {"$regex": query, "$options": "i"}  # búsqueda insensible a mayúsculas
+
+    cursor = users_collection.find({"username": regex})
+
+    users = []
+    async for user in cursor:
+        users.append({
+            "id": str(user["_id"]),
+            "username": user["username"],
+            "email": user["email"],
+            "role": user.get("role", "player"),
+            "status": user.get("status", "active")
+        })
+    return users
+
+async def get_user_by_id(user_id: str, db: AsyncIOMotorDatabase):
+    users_collection = db.users
+    user = await users_collection.find_one({"_id": ObjectId(user_id)})
+    if not user:
+        raise ValueError("User not found")
+
+    user["_id"] = str(user["_id"])
+    return {
+        "id": user["_id"],
+        "username": user["username"],
+        "email": user["email"],
+        "role": user.get("role", "player"),
+        "status": user.get("status", "active"),
+        "created_at": user["created_at"]
+    }
+
+async def promote_user(user_id: str, db: AsyncIOMotorDatabase) -> user.UserInDB:
+    users_collection = db.users
+
+    # Convertir el user_id de str a ObjectId
+    user_oid = ObjectId(user_id) # Renamed variable
+
+    # Verificar si el usuario existe
+    user_data = await users_collection.find_one({"_id": user_oid}) # Renamed variable
+    if not user_data:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    # Verificar si ya es moderador
+    if user_data.get("role") == "moderator":
+        raise HTTPException(status_code=400, detail="User is already a moderator")
+
+    # Promover a moderador
+    result = await users_collection.update_one(
+        {"_id": user_oid},
+        {"$set": {"role": "moderator"}}
+    )
+
+    if result.matched_count == 0:
+        raise HTTPException(status_code=400, detail="Failed to promote user")
+
+    # Obtener el usuario actualizado
+    updated_user_data = await users_collection.find_one({"_id": user_oid}) # Renamed variable
+
+    # Asegurarnos de convertir el _id de ObjectId a string
+    if updated_user_data:
+        updated_user_data["_id"] = str(updated_user_data["_id"])
+    
+    # Devuelve solo lo necesario sin el ObjectId de MongoDB
+    return user.UserInDB(**updated_user_data) # Correctly using the imported 'user' module
+
+
+async def demote_user(user_id: str, db: AsyncIOMotorDatabase) -> user.UserInDB:
+    users_collection = db.users
+
+    user_oid = ObjectId(user_id) 
+
+    user_data = await users_collection.find_one({"_id": user_oid}) # Renamed variable
+    if not user_data:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    if user_data.get("role") == "player":
+        raise HTTPException(status_code=400, detail="User is already a player")
+
+    result = await users_collection.update_one(
+        {"_id": user_oid},
+        {"$set": {"role": "player"}}
+    )
+
+    if result.matched_count == 0:
+        raise HTTPException(status_code=400, detail="Failed to demote user")
+
+    updated_user_data = await users_collection.find_one({"_id": user_oid}) # Renamed variable
+
+    if updated_user_data:
+        updated_user_data["_id"] = str(updated_user_data["_id"])
+    
+    return user.UserInDB(**updated_user_data) 

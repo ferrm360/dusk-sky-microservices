@@ -113,6 +113,21 @@ namespace CommentService.Api.Endpoints
             .Produces(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound)
             .WithOpenApi();
+
+            /// <summary>
+            /// GET /comments/review/{reviewId}
+            /// Retrieves all comments for a given review.
+            /// </summary>
+            app.MapGet("/comments/review/{reviewId}", async (ICommentManager commentService, string reviewId) =>
+            {
+                var comments = await commentService.GetCommentsByReviewIdAsync(reviewId);
+                return Results.Ok(comments);
+            })
+            .WithName("GetCommentsByReviewId")
+            .Produces<IEnumerable<Comment>>(StatusCodes.Status200OK)
+            .WithOpenApi();
+
         }
+        
     }
 }

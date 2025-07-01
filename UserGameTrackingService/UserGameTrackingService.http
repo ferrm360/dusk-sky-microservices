@@ -1,0 +1,6 @@
+@UserGameTrackingService_HostAddress = http://localhost:5128
+
+GET {{UserGameTrackingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

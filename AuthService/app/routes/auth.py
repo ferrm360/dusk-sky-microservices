@@ -1,5 +1,5 @@
-
-from fastapi import APIRouter, Depends, HTTPException, status
+# routes/auth.py
+from fastapi import APIRouter, Depends, HTTPException, status, Query
 
 from app.models import LoginRequest
 from app.models.ChangePasswordRequest import ChangePasswordRequest
@@ -61,3 +61,31 @@ async def change_password(user_id: str, change_password_request: ChangePasswordR
         return response
     except ValueError as e:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+    
+@router.get("/users/search")
+async def search_users(username: str = Query(..., min_length=1), db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    return await auth_controller.search_users_by_username(username, db)    
+
+@router.get("/users/{user_id}")
+async def get_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        return await auth_controller.get_user_by_id(user_id, db)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    
+
+@router.put("/promote/{user_id}", response_model=user.UserInDB)
+async def promote_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        updated_user = await auth_controller.promote_user(user_id, db)
+        return updated_user
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+
+@router.put("/demote/{user_id}", response_model=user.UserInDB)
+async def demote_user(user_id: str, db: AsyncIOMotorDatabase = Depends(database.get_database)):
+    try:
+        updated_user = await auth_controller.demote_user(user_id, db)
+        return updated_user
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))    

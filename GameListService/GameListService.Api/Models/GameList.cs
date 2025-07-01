@@ -24,5 +24,7 @@ namespace GameListService.Api.Models
 
         [BsonElement("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        [BsonElement("likes")]
+         public int Likes { get; set; } = 0;
     }
 }

@@ -1,6 +1,11 @@
 version: '3.8'
 
 services:
+
+ 
+
+  
+
   mongodb:
     image: mongo:latest
     container_name: mongodb
@@ -12,10 +17,25 @@ services:
       - "27023:27017"
     volumes:
       - mongo_data:/data/db
-      - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+     ## - ./ScriptsMongo/init-comment-db.js:/docker-entrypoint-initdb.d/init-comment-db.js:ro
+      ##- ./ScriptsMongo/init-gamelist-db.js:/docker-entrypoint-initdb.d/init-gamelist-db.js:ro
     networks:
       - dusk_sky_shared_network
 
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=supersecret
+      - POSTGRES_DB=moderationdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - dusk_sky_shared_network
+      
   rabbitmq_server:
     image: rabbitmq:3-management
     container_name: shared_rabbitmq_server 
@@ -26,16 +46,24 @@ services:
       - rabbitmq_shared_data:/var/lib/rabbitmq 
     networks: 
       - dusk_sky_shared_network
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5  
 
   commentservice:
+    container_name: commentservice  
     build:
       context: ./CommentService/CommentService.Api
       dockerfile: Dockerfile
+    env_file:
+      - .env
     environment:
-      - COMMENT_MONGO_DATABASE=${COMMENT_MONGO_DATABASE}
-      - COMMENT_MONGO_USER=${COMMENT_MONGO_USER}
-      - COMMENT_MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD}
       - MONGO_HOST=mongodb
+      - COMMENT_MONGO_USER=${COMMENT_MONGO_USER}         # Añadida/Confirmada
+      - COMMENT_MONGO_PASSWORD=${COMMENT_MONGO_PASSWORD} # Añadida/Confirmada
+      - COMMENT_MONGO_DATABASE=${COMMENT_MONGO_DATABASE} # <-- ¡Nueva variable para el nombre de la DB!
     ports:
       - "8008:80"
     depends_on:
@@ -43,14 +71,56 @@ services:
     networks:
       - dusk_sky_shared_network
 
+
+
+  gamelistservice:
+    container_name: gamelistservice  
+    build:
+      context: ./GameListService/GameListService.Api
+      dockerfile: Dockerfile
+    environment:
+      - GAMELIST_MONGO_DATABASE=${GAMELIST_MONGO_DATABASE}
+      - GAMELIST_MONGO_USER=${GAMELIST_MONGO_USER}
+      - GAMELIST_MONGO_PASSWORD=${GAMELIST_MONGO_PASSWORD}
+      - MONGO_HOST=mongodb
+    ports:
+      - "8010:80"
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+  
+
+    
+  moderationservice:
+    container_name: moderationservice
+    build:
+      context: ./ModerationService/ModerationService.Api
+      dockerfile: Dockerfile
+    environment:
+      - MODERATION_DB_HOST=postgres
+      - MODERATION_DB_PORT=5432
+      - MODERATION_DB_NAME=moderationdb
+      - MODERATION_DB_USER=postgres
+      - MODERATION_DB_PASSWORD=supersecret
+    ports:
+      - "8009:80"
+    depends_on:
+      - postgres
+    networks:
+      - dusk_sky_shared_network
+
+ 
+
   auth_service:
+    container_name: auth_service
     build:
       context: ./AuthService
       dockerfile: Dockerfile
     ports:
       - "8001:8000"
-    volumes:
-      - ./AuthService/app:/app/auth_service/app
+    env_file:
+      - .env 
     environment:
       MONGODB_URI_AUTH: ${MONGODB_URI_AUTH}
       MONGODB_NAME_AUTH: ${MONGODB_NAME_AUTH}
@@ -63,6 +133,7 @@ services:
       JWT_ALGORITHM_AUTH: ${JWT_ALGORITHM_AUTH} 
     depends_on:
       - mongodb
+      - user_manager_service
       - rabbitmq_server
     networks:
       - dusk_sky_shared_network
@@ -72,8 +143,10 @@ services:
       context: ./UserManagerService
       dockerfile: Dockerfile
     container_name: user_manager_service_app
+    volumes:
+      - ./UserManagerService/static_user_content:/app/static_user_content
     ports:
-      - "8003:8003"
+      - "8003:8000"
     environment:
       MONGODB_URI_USER: ${MONGODB_URI_USER}
       MONGODB_NAME_USER: ${MONGODB_NAME_USER}
@@ -89,7 +162,78 @@ services:
       - rabbitmq_server
     networks:
       - dusk_sky_shared_network   
-    
+      
+  game_service:
+    build:
+      context: ./GameService
+      dockerfile: Dockerfile
+    container_name: game_service_app
+    ports:
+      - "8004:80"
+    environment:
+      MONGODB_URI_GAME: ${MONGODB_URI_GAME}
+      MONGODB_DB_GAME: ${MONGODB_DB_GAME}
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network   
+  
+  friendship_service:
+    container_name: friendshipservice
+    build:
+      context: ./FriendshipService
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8006:8006"
+    environment:
+      MONGO_URI: ${MONGO_URI}
+      MONGO_DB: ${MONGO_DB}
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+  review_service:
+    container_name: reviewservice
+    build:
+      context: ./ReviewService
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8007:8000"
+    environment:
+      MONGO_URI: ${MONGO_REVIEW_URI}
+      MONGO_DB: ${MONGO_REVIEW_DB}
+      PYTHONUNBUFFERED: 1
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
+
+  user_game_tracking_service:
+    build:
+      context: ./UserGameTrackingService
+      dockerfile: Dockerfile
+    container_name: user_game_tracking_service
+    ports:
+      - "8005:8000"
+    env_file:
+      - .env  # 👈 
+    environment:
+      - MONGO_CONNECTION_STRING=${USER_GAME_TRACKING_MONGO_URI}
+      - MONGO_DATABASE=${USER_GAME_TRACKING_MONGO_DB}
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network 
+
+  
+  
 
   nginx_gateway:
     image: nginx:latest
@@ -99,17 +243,22 @@ services:
       - "443:443"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro 
       - ./nginx/certs:/etc/nginx/certs:ro
     depends_on:
       - commentservice
+      - gamelistservice
+      - moderationservice
     networks:
       - dusk_sky_shared_network
+
       
 
 volumes:
   mongo_data:
   rabbitmq_shared_data:
-
+  postgres_data:
+  
 networks:
   dusk_sky_shared_network:
     driver: bridge
