@@ -33,15 +33,15 @@ async def delete(review_id: str, user_id: str):
     return
 
 @router.get("/recent")
-async def get_recent_reviews(limit: int = 10):
+async def get_recent_reviews(limit: int = 30):
     return await review_controller.get_reviews_sorted("createdAt", -1, limit)
 
 @router.get("/top")
-async def get_top_reviews(limit: int = 10):
+async def get_top_reviews(limit: int = 30):
     return await review_controller.get_reviews_sorted("likes", -1, limit)
 
 @router.get("/friends")
-async def get_friends_reviews(friend_ids: List[str] = Query(...), limit: int = 10):
+async def get_friends_reviews(friend_ids: List[str] = Query(...), limit: int = 30):
     return await review_controller.get_reviews_from_users(friend_ids, limit)
 
 @router.get("/game/{game_id}")
@@ -49,15 +49,15 @@ async def get_reviews_by_game(game_id: str):
     return await review_controller.get_reviews_sorted("createdAt", -1, game_id=game_id)
 
 @router.get("/game/{game_id}/recent")
-async def get_recent_reviews_by_game(game_id: str, limit: int = 10):
+async def get_recent_reviews_by_game(game_id: str, limit: int = 30):
     return await review_controller.get_reviews_sorted("createdAt", -1, limit, game_id)
 
 @router.get("/game/{game_id}/top")
-async def get_top_reviews_by_game(game_id: str, limit: int = 10):
+async def get_top_reviews_by_game(game_id: str, limit: int = 30):
     return await review_controller.get_reviews_sorted("likes", -1, limit, game_id)
 
 @router.get("/game/{game_id}/friends")
-async def get_friends_reviews_by_game(game_id: str, friend_ids: List[str] = Query(...), limit: int = 10):
+async def get_friends_reviews_by_game(game_id: str, friend_ids: List[str] = Query(...), limit: int = 30):
     return await review_controller.get_reviews_from_users(friend_ids, limit, game_id)
 
 @router.get("/{review_id}")

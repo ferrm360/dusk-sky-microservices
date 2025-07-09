@@ -232,6 +232,23 @@ services:
     networks:
       - dusk_sky_shared_network 
 
+  sales_service:
+    container_name: sales_service
+    build:
+      context: ./SalesService
+      dockerfile: Dockerfile
+    ports:
+      - "8011:8000"  # Externo:Interno
+    env_file:
+      - .env
+    environment:
+      - MONGO_CONNECTION_STRING=${MONGO_SALES_URI}
+      - MONGO_DATABASE=${MONGO_SALES_DB}
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
+
   
   
 
