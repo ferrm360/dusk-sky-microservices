@@ -38,11 +38,9 @@ builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =
 });
 
 // Configuración MongoDB
-//var mongoSettings = builder.Configuration.GetSection("MongoSettings");
-//string? dbName = mongoSettings["DatabaseName"];
-string? dbName = Environment.GetEnvironmentVariable("COMMENT_MONGO_DATABASE"); // <-- ¡NUEVA LÍNEA CLAVE!
-string? user = Environment.GetEnvironmentVariable("COMMENT_MONGO_USER");
-string? password = Environment.GetEnvironmentVariable("COMMENT_MONGO_PASSWORD");
+string? dbName = Environment.GetEnvironmentVariable("COMMENT_MONGO_DATABASE"); // CommentService
+string? user = Environment.GetEnvironmentVariable("COMMENT_MONGO_USER");        // commentuser
+string? password = Environment.GetEnvironmentVariable("COMMENT_MONGO_PASSWORD");  // commentuserPassword
 string? host = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb";
 
 if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(password))
@@ -51,7 +49,12 @@ if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || stri
     throw new InvalidOperationException("Faltan variables de entorno para conectar con MongoDB.");
 }
 
-string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource=admin"; // <<-- ¡LÍNEA CORREGIDA!
+// 🎯 CAMBIO CLAVE 1: Usar dbName como authSource.
+string authSource = dbName; 
+
+// 🎯 CAMBIO CLAVE 2: Forzar el mecanismo de autenticación SCRAM-SHA-256.
+string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource={authSource}&authMechanism=SCRAM-SHA-256";
+
 Console.WriteLine($"🔗 Conectando a MongoDB en {connStr}...");
 var connector = new MongoConnector();
 var database = await connector.ConnectWithRetriesAsync(connStr, dbName);

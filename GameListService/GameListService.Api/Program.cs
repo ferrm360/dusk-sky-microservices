@@ -1,8 +1,9 @@
 using GameListService.Api.Infrastructure;
-using GameListService.Api.Repositories.Interfaces;
+using GameListService.Api.Models;
 using GameListService.Api.Repositories.Implementations;
-using GameListService.Api.Services.Interfaces;
+using GameListService.Api.Repositories.Interfaces;
 using GameListService.Api.Services.Implementations;
+using GameListService.Api.Services.Interfaces;
 using GameListService.Api.Endpoints;
 using MongoDB.Driver;
 using Microsoft.OpenApi.Models;
@@ -10,14 +11,12 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔥 Configuración de Logging detallado
-builder.Logging.ClearProviders();           // Opcional: limpia los proveedores por defecto
+// 🔥 Logging detallado
+builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
-builder.Logging.AddDebug(); 
-builder.Logging.AddEventSourceLogger();            // Habilita logs a consola
-builder.Logging.SetMinimumLevel(LogLevel.Debug); // Nivel de detalle (puedes cambiar a Information si quieres menos ruido)
+builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
-// Configurar URLs (no cambiar)
+// Configurar para escuchar en 0.0.0.0:80
 builder.WebHost.UseUrls("http://0.0.0.0:80");
 
 // Endpoints y Swagger
@@ -29,7 +28,7 @@ builder.Services.AddSwaggerGen(options =>
         Title = "GameList Service API",
         Version = "v1"
     });
-    options.AddServer(new OpenApiServer { Url = "/" });
+    options.AddServer(new OpenApiServer { Url = "/lists" });
 });
 
 // Configuración JSON
@@ -38,12 +37,10 @@ builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =
     options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
 
-// Configuración MongoDB con Logging explícito
-//var mongoSettings = builder.Configuration.GetSection("MongoSettings");
-//string? dbName = mongoSettings["DatabaseName"];
-string? dbName = Environment.GetEnvironmentVariable("GAMELIST_MONGO_DATABASE"); // <<-- ¡NUEVA LÍNEA CLAVE!
-string? user = Environment.GetEnvironmentVariable("GAMELIST_MONGO_USER");
-string? password = Environment.GetEnvironmentVariable("GAMELIST_MONGO_PASSWORD");
+// Configuración MongoDB
+string? dbName = Environment.GetEnvironmentVariable("GAMELIST_MONGO_DATABASE"); // GameListService
+string? user = Environment.GetEnvironmentVariable("GAMELIST_MONGO_USER");        // gamelistuser
+string? password = Environment.GetEnvironmentVariable("GAMELIST_MONGO_PASSWORD");  // securepassword456
 string? host = Environment.GetEnvironmentVariable("MONGO_HOST") ?? "mongodb";
 
 if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(password))
@@ -52,44 +49,41 @@ if (string.IsNullOrWhiteSpace(dbName) || string.IsNullOrWhiteSpace(user) || stri
     throw new InvalidOperationException("Faltan variables de entorno para conectar con MongoDB.");
 }
 
-string connectionString = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource=admin"; // <<-- ¡LÍNEA CORREGIDA!
-Console.WriteLine($"🔗 Conectando a MongoDB en {connectionString}...");
-var connector = new MongoConnector();
-var database = await connector.ConnectWithRetriesAsync(connectionString, dbName);
-Console.WriteLine("✅ Conexión exitosa a MongoDB.");
-builder.Services.AddSingleton<IMongoDatabase>(database);
+// 🎯 CAMBIO CLAVE 1: Usar dbName como authSource.
+string authSource = dbName; 
 
-// Repositorios y servicios
-builder.Services.AddScoped<IGameListRepository, GameListRepository>();
-builder.Services.AddScoped<IGameListItemRepository, GameListItemRepository>();
-builder.Services.AddScoped<IGameListManager, GameListManager>();
+// 🎯 CAMBIO CLAVE 2: Forzar el mecanismo de autenticación SCRAM-SHA-256.
+string connStr = $"mongodb://{user}:{password}@{host}:27017/{dbName}?authSource={authSource}&authMechanism=SCRAM-SHA-256";
+
+Console.WriteLine($"🔗 Conectando a MongoDB en {connStr}...");
+var connector = new MongoConnector();
+var database = await connector.ConnectWithRetriesAsync(connStr, dbName);
+Console.WriteLine("✅ Conexión exitosa a MongoDB.");
+
+builder.Services.AddSingleton<IMongoDatabase>(database);
+builder.Services.AddSingleton<IGameListRepository, GameListRepository>();
+builder.Services.AddSingleton<IGameListItemRepository, GameListItemRepository>();
+builder.Services.AddSingleton<IGameListManager, GameListManager>();
 
 var app = builder.Build();
 
-// 🔥 Habilitar DeveloperExceptionPage para ver errores detallados
-if (app.Environment.IsDevelopment() || true) // O usa solo "if (true)" para forzar siempre
-{
-    app.UseDeveloperExceptionPage();
-}
+// 🔥 Activar página de errores en modo dev (opcional: quítalo en prod)
+app.UseDeveloperExceptionPage();
 
-// Habilitar Swagger
+// Swagger y UI
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
     options.SwaggerEndpoint("/lists/swagger/v1/swagger.json", "GameList Service API v1");
-    options.RoutePrefix = "swagger";
+    options.RoutePrefix = "swagger"; 
 });
 
-// Endpoint de prueba
-app.MapGet("/", () => "GameListService is running (root)");
-// Endpoint simple para verificar servicio
-app.MapGet("/lists", () => "GameListService is running!");
+// Endpoint simple de prueba
+app.MapGet("/", () => "GameListService is running!");
 
-
-// Mapear Endpoints
+// Endpoints CRUD
 app.MapGameListEndpoints();
-app.MapGameListItemEndpoints();
 
-Console.WriteLine("🚀 GameList Service iniciado y esperando conexiones...");
+Console.WriteLine("🚀 GameListService iniciado y esperando conexiones...");
 
 app.Run();
