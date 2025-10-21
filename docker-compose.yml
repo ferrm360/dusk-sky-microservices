@@ -213,19 +213,26 @@ services:
       - mongodb
     networks:
       - dusk_sky_shared_network 
-  
 
-  video_service:
-    build: 
-      context: ./VideoService
+  sales_service:
+    container_name: sales_service
+    build:
+      context: ./SalesService
       dockerfile: Dockerfile
-    container_name: video_service
-    ports: 
-      - "8012:8000"
+    ports:
+      - "8011:8000"  # Externo:Interno
     env_file:
-     - .env
+      - .env
+    environment:
+      - MONGO_CONNECTION_STRING=${MONGO_SALES_URI}
+      - MONGO_DATABASE=${MONGO_SALES_DB}
+    depends_on:
+      - mongodb
+    networks:
+      - dusk_sky_shared_network
 
-
+  
+  
 
   nginx_gateway:
     image: nginx:latest
